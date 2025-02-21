@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!--Great Person Classes-->
+		<Row Type="GREAT_PERSON_CLASS_FOLC" Kind="KIND_GREAT_PERSON_CLASS"/>
+
+		<!--Germania Great Person Individuals-->
+		<!-- Commander abilities -->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!-- Diplomatic -->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!-- Resouces -->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!-- Units -->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+
+
+	</Types>
+	<GreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" Name="LOC_UNIT_FOLC_NAME" UnitType="UNIT_FOLC" ConstructibleType="BUILDING_PALACE" AvailableInTimeline="true" GenerateDuplicateIndividuals="true" PseudoYieldType="PSEUDOYIELD_STANDING_ARMY_COMMANDER" IconString="unitflag_folc" ActionIcon="action_greatperson"/>
+	</GreatPersonClasses>
+	<GreatPersonIndividuals>
+		<!--Germania-->
+		<!-- Commander abilities -->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="M" ActionCharges="1" ActionRequiresOnUnitType="UNIT_ARMY_COMMANDER" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_TEUTOBOD"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="M" ActionCharges="1" ActionRequiresOnUnitType="UNIT_ARMY_COMMANDER" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_ARMINIUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="M" ActionCharges="1" ActionRequiresOnUnitType="UNIT_ARMY_COMMANDER" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_VIBILIUS"/>
+		<!-- Diplomatic -->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="M" ActionCharges="1" ActionRequiresCompletedConstructibleType="BUILDING_BARRACKS" ActionRequiresCompletedDistrictType="DISTRICT_URBAN" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_CIVILIS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="F" ActionCharges="1" ActionRequiresCompletedConstructibleType="BUILDING_VILLA" ActionRequiresCompletedDistrictType="DISTRICT_URBAN" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_VELEDA"/>
+		<!-- Resouces -->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="F" ActionCharges="1" ActionRequiresCompletedConstructibleType="BUILDING_LIGHTHOUSE" ActionRequiresCompletedDistrictType="DISTRICT_URBAN"  ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_PIPARA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="M" ActionCharges="1" ActionRequiresCompletedConstructibleType="BUILDING_CITY_HALL" ActionRequiresCompletedDistrictType="DISTRICT_URBAN"  ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_RAICUNDA"/>
+		<!-- Units -->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="M" ActionRequiresCompletedConstructibleType="BUILDING_SAW_PIT" ActionRequiresCompletedDistrictType="DISTRICT_URBAN"  ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_HERMANAFRID"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="M" ActionRequiresCompletedConstructibleType="BUILDING_VILLA" ActionRequiresCompletedDistrictType="DISTRICT_URBAN"  ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_BOIORIX"/>
+
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<!-- Commander abilities -->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD" ModifierId="GREATPERSON_RENAME_COMMANDER_TEUTOBOD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_COMMANDER_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD" ModifierId="GREATPERSON_COMMANDER_HIGH_COMBAT_TEUTOBOD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_COMMANDER_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS" ModifierId="GREATPERSON_RENAME_COMMANDER_ARMINIUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_COMMANDER_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS" ModifierId="GREATPERSON_COMMANDER_HIGH_COMBAT_ARMINIUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_COMMANDER_IN_TILE"/>
+		<!-- Diplomatic -->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS" ModifierId="GREAT_PERSON_TRADITION_CIVILIS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA" ModifierId="GREAT_PERSON_TRADITION_VELEDA" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<!-- Resouces -->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA" ModifierId="GREAT_PERSON_TRADITION_PIPARA" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA" ModifierId="GREAT_PERSON_HAPPINESS_RESOURCES_RAICUNDA" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<!-- Units -->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID" ModifierId="GREAT_PERSON_GRANT_RANGED_HERMANAFRID" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX" ModifierId="GREAT_PERSON_GRANT_SIEGE_BOIORIX" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		
+
+	</GreatPersonIndividualActionModifiers>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_TEUTOBOD" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_TEUTOBOD_COMBAT" Inactive="true"/>
+	
+		<Row UnitAbilityType="ABILITY_ARMINIUS" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ARMINIUS_COMBAT" Inactive="true"/>
+
+		<Row UnitAbilityType="ABILITY_VIBILIUS" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_VIBILIUS_COMBAT" Inactive="true"/>
+
+		<Row UnitAbilityType="ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH" Inactive="true" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_NAME" Description="LOC_ABILITY_HERMANAFRID_CAVALRY_COMBAT_STRENGTH_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH" Inactive="true" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_NAME" Description="LOC_ABILITY_BOIORIX_CAVALRY_COMBAT_STRENGTH_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_TEUTOBOD" UnitClassType="UNIT_CLASS_ARMY_COMMANDER"/>
+		<Row UnitAbilityType="ABILITY_TEUTOBOD_COMBAT" UnitClassType="UNIT_CLASS_COMBAT"/>
+
+		<Row UnitAbilityType="ABILITY_ARMINIUS" UnitClassType="UNIT_CLASS_ARMY_COMMANDER"/>
+		<Row UnitAbilityType="ABILITY_ARMINIUS_COMBAT" UnitClassType="UNIT_CLASS_COMBAT"/>
+
+		<Row UnitAbilityType="ABILITY_VIBILIUS" UnitClassType="UNIT_CLASS_ARMY_COMMANDER"/>
+		<Row UnitAbilityType="ABILITY_VIBILIUS_COMBAT" UnitClassType="UNIT_CLASS_COMBAT"/>
+
+		<Row UnitAbilityType="ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH" UnitClassType="UNIT_CLASS_RANGED"/>
+		<Row UnitAbilityType="ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH" UnitClassType="UNIT_CLASS_SIEGE"/>
+	</UnitClass_Abilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_TEUTOBOD" ModifierId="TEUTOBOD_COMMANDER_ABILITY"/>
+		<Row UnitAbilityType="ABILITY_TEUTOBOD_COMBAT" ModifierId="TEUTOBOD_COMBAT_STRENGTH"/>
+		<Row UnitAbilityType="ABILITY_ARMINIUS" ModifierId="ARMINIUS_COMMANDER_ABILITY"/>
+		<Row UnitAbilityType="ABILITY_ARMINIUS_COMBAT" ModifierId="ARMINIUS_COMBAT_STRENGTH"/>
+		<Row UnitAbilityType="ABILITY_VIBILIUS" ModifierId="VIBILIUS_COMMANDER_ABILITY"/>
+		<Row UnitAbilityType="ABILITY_VIBILIUS_COMBAT" ModifierId="VIBILIUS_COMBAT_STRENGTH"/>
+
+		<Row UnitAbilityType="ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH" ModifierId="HERMANAFRID_RANGED_COMBAT_STRENGTH"/>
+		<Row UnitAbilityType="ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH" ModifierId="BOIORIX_SIEGE_COMBAT_STRENGTH"/>
+	</UnitAbilityModifiers>
+</Database>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_GERMANIA_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- Test End -->
+
+	<Civilizations>
+		<!--Full Civs -->
+		<Row CivilizationType="CIVILIZATION_GERMANIA" Name="LOC_CIVILIZATION_GERMANIA_NAME" FullName="LOC_CIVILIZATION_GERMANIA_FULLNAME" Description="LOC_CIVILIZATION_GERMANIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_GERMANIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_GERMANIA" CapitalName="LOC_CITY_NAME_GERMANIA1" RandomCityNameDepth="10" />	
+	</Civilizations>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" FavoredWonderType="WONDER_MAUSOLEUM_OF_THEODORIC" FavoredWonderName="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_NAME"/>
+	</CivilizationFavoredWonders>
+	<Modifiers/>
+	<ModifierArguments/>
+	<ModifierStrings/>
+	<Traits>
+		<Row TraitType="TRAIT_GERMANIA_ABILITY" Name="LOC_TRAIT_GERMANIA_ABILITY_NAME" Description="LOC_TRAIT_GERMANIA_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_GERMANIA_ABILITY" ModifierId="TRAIT_MOD_FUROR_TEUTONICUS_HAPPINESS_ON_UNIT_DEFEAT"/>
+		<Row TraitType="TRAIT_GERMANIA_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_GERMANIA"/>
+
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" TraitType="TRAIT_ANTIQUITY_CIV"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" TraitType="TRAIT_GERMANIA"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" TraitType="TRAIT_GERMANIA_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+	</CivilizationTraits>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_CATHERINE" Civilization="CIVILIZATION_GERMANIA" Priority="2"/>
+		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_GERMANIA" Priority="2"/>
+		<Row Leader="LEADER_FRIEDRICH" Civilization="CIVILIZATION_GERMANIA" Priority="2"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--Germania-->
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA1"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA2"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA3"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA4"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA5"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA6"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA7"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA8"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA9"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA10"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA11"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA12"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA13"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA14"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA15"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA16"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA17"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA18"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA19"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA20"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA21"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA22"/>
+	</CityNames>
+	<StartBiasBiomes>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" BiomeType="BIOME_TUNDRA" Score="5"/>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+
+	</StartBiasTerrains>
+	<StartBiasFeatureClasses>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="5"/>
+	</StartBiasFeatureClasses>
+	<StartBiasRivers>
+	</StartBiasRivers>
+	<StartBiasAdjacentToCoasts>
+	</StartBiasAdjacentToCoasts>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" BuildingCulture="BUILDING_CULTURE_NEU"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" BuildingCulture="MOD_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" UnitCulture="Euro"/>
+	</VisArt_CivilizationUnitCultures>
+</Database>

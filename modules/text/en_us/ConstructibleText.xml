@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<Database>
+	<EnglishText>
+			<!-- Civ Unique Improvements -->
+		<Row Tag="LOC_BUILDING_HERRENHOFE_NAME">
+			<Text>Herrenhöfe</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HERRENHOFE_DESCRIPTION">
+			<Text>+1[icon:YIELD_GOLD] Gold. +2[icon:YIELD_GOLD] Gold for eaach Warehouse building. Germania Unique Building. Ageless. Must be placed on Flat Terrain.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HERRENHOFE_TOOLTIP">
+			<Text>Germania Unique Building. Ageless. Must be placed on Flat Terrain.</Text>
+		</Row>
+	</EnglishText>
+</Database>

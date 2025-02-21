@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiComponents>
+	</AiComponents>
+	<AiDefinitions>
+	</AiDefinitions>
+	<OpTeamRequirements>
+	</OpTeamRequirements>
+	<PseudoYields>
+	</PseudoYields>
+	<AiListTypes>
+		<!-- Germania -->
+		<Row ListType="Germania Unit Biases"/>
+		<Row ListType="Germania Government Bias"/>
+		<Row ListType="Germania Constructibles Biases" />
+		<Row ListType="Germania Budget Biases" />
+		<Row ListType="Germania PseudoYield Biases" />
+	</AiListTypes>
+	<AiLists>
+		<!-- Germania -->
+		<Row ListType="Germania Unit Biases" LeaderType="TRAIT_GERMANIA" System="UnitBiases"/>
+		<Row ListType="Germania Government Bias" LeaderType="TRAIT_GERMANIA" System="GovernmentBiases"/>
+		<Row ListType="Germania Constructibles Biases" LeaderType="TRAIT_GERMANIA" System="ConstructibleBiases" />	
+		<Row ListType="Germania Budget Biases" LeaderType="TRAIT_GERMANIA" System="AiBudgetBiases"/>	
+		<Row ListType="Germania PseudoYield Biases" LeaderType="TRAIT_GERMANIA" System="PseudoYieldBiases"/>	
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Germania -->
+		<Row ListType="Germania Budget Biases" Item="AI_BUDGET_STANDING_ARMY" Value="50"/>
+		<Row ListType="Germania Budget Biases" Item="AI_BUDGET_EXPANSION" Value="50"/>
+		<Row ListType="Germania PseudoYield Biases" Item="PSEUDOYIELD_BUILD_QUEUE_IN_CITY" Value="-25"/>
+		<Row ListType="Germania PseudoYield Biases" Item="PSEUDOYIELD_NEW_CITY" Value="50"/>
+		<Row ListType="Germania Government Bias" Item="GOVERNMENT_OLIGARCHY" Value="50"/>
+		<Row ListType="Germania Constructibles Biases" Item="BUILDING_FISHING_QUAY" Value="200" />
+		<Row ListType="Germania Constructibles Biases" Item="BUILDING_HERRENHOFE" Value="200" />
+		<Row ListType="Germania Constructibles Biases" Item="WONDER_MAUSOLEUM_OF_THEODORIC" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_2" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_3" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_FOLC" Value="50"/>
+	</AiFavoredItems>
+	<!-- City Strategies -->
+	<Strategies>
+	</Strategies>
+	<StrategyConditions>
+	</StrategyConditions>
+	<Strategy_Priorities>
+	</Strategy_Priorities>
+	<AiListTypes>
+	</AiListTypes>
+	<AiLists>
+	</AiLists>
+	<AiFavoredItems>
+	</AiFavoredItems>
+</Database>

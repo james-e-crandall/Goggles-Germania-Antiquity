@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+		<!-- ==================================================	-->
+		<!--	Germania							-->
+		<!-- ==================================================	-->
+		<Row Tag="LOC_TREE_CIVICS_AQ_GERMANIA_NAME">
+			<Text>Germania Civics</Text>
+		</Row>
+
+		<!--Germania Civic Description-->
+		<!-- CODANUS -->
+		<Row Tag="LOC_CIVIC_GERMANIA_CODANUS_NAME">
+			<Text>Codanus</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GERMANIA_CODANUS_QUOTE">
+			<Text>"enormous bay lying beyond the Elbe"</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GERMANIA_CODANUS_QUOTE_AUTHOR">
+			<Text>Pliny the Elder </Text>
+		</Row>
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_CODANUS_NAVAL_WATER_DESCRIPTION">
+			<Text>Gain an Naval Unit when you construct a Water Building.</Text>
+		</Row>
+
+		<!-- BARBARICUM -->
+		<Row Tag="LOC_CIVIC_GERMANIA_BARBARICUM_NAME">
+			<Text>Barbaricum</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GERMANIA_BARBARICUM_QUOTE">
+			<Text>In this place I am a barbarian, because men do not understand me.</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GERMANIA_BARBARICUM_QUOTE_AUTHOR">
+			<Text>Ovid</Text>
+		</Row>
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_TOWN_INFANTRY_PRODUCTION_DESCRIPTION">
+			<Text>+100% [icon:YIELD_GOLD]Gold to buying Infantry Units in each town specialized as a Farm/Fishing town.</Text>
+		</Row>
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_RESOURCE_CAP_DESCRIPTION">
+			<Text>+2 Resouce Capacity each town specialized as a Farm/Fishing town.</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVIC_GERMANIA_MIDGARD_NAME">
+			<Text>Midgard</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GERMANIA_MIDGARD_QUOTE">
+			<Text>"The most rune-skilled men in Middle Earth,"</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GERMANIA_MIDGARD_QUOTE_AUTHOR">
+			<Text>Hásteinn (and) Holmstein, brothers</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVIC_GERMANIA_WULFAZ_NAME">
+			<Text>Wullfaz</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GERMANIA_WULFAZ_QUOTE">
+			<Text> Live like, when you die, you will wish to have lived.</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GERMANIA_WULFAZ_QUOTE_AUTHOR">
+			<Text>Christian Fürchtegott</Text>
+		</Row>
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_MIGRATION_ENEMY_TERRITORY_COMMANDER_XP_DESCRIPTION">
+			<Text>+20% Commander experience in Enemy Territory.</Text>
+		</Row>
+
+		<!--Germania Unique Traditions-->
+		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_NAME">
+			<Text>Codannovia</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_DESCRIPTION">
+			<Text>+100% [icon:YIELD_GOLD]Gold twords purchasing Warehouse buildings.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_NAME">
+			<Text>All Men</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION">
+			<Text>+20% [icon:YIELD_HAPPINESS]Happiness to all Farming Towns.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_GALSTAR_NAME">
+			<Text>Galstar</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_GALSTAR_DESCRIPTION">
+			<Text>[icon:YIELD_HAPPINESS]Happiness buidlings have a minor adjacency with Tundra.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_BARBARIAN_INVASION_NAME">
+			<Text>Barbarian Invasion</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_BARBARIAN_INVASION_DESCRIPTION">
+			<Text>Gain [icon:YIELD_HAPPINESS]Happiness per Age upon capturing a Settlement for the first time.</Text>
+		</Row>
+
+</EnglishText>
+</Database>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Civ Unique Military -->
+		<Row Type="UNIT_SUEBI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SUEBI_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SUEBI_3" Kind="KIND_UNIT"/>
+		<!-- Civ Unique Civilian -->
+		<Row Type="UNIT_FOLC" Kind="KIND_UNIT"/>
+		<!-- Commander -->
+		<Row Type="UNIT_FOLC_TEUTOBOD" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_ARMINIUS" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_VIBILIUS" Kind="KIND_UNIT"/>
+
+		<!-- Diplomatic -->
+		<Row Type="UNIT_FOLC_CIVILIS" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_VELEDA" Kind="KIND_UNIT"/>
+
+		<!-- Resouces -->
+		<Row Type="UNIT_FOLC_PIPARA" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_RAICUNDA" Kind="KIND_UNIT"/>
+
+		<!-- Units -->
+		<Row Type="UNIT_FOLC_HERMANAFRID" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_BOIORIX" Kind="KIND_UNIT"/>
+
+		<!-- Victory Units -->
+		<!-- Generic Abilities -->
+		<!-- Unique Abilities -->
+		<Row Type="ABILITY_SUEBI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GERMANIA_MIGRATION_UNIT_FOREIGN_TERRITORY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CIVIC_GERMANIA_BARBARIAN_INVASION_XP" Kind="KIND_ABILITY"/>
+		<!-- Crisis Abilities -->
+
+	</Types>
+	<Units>
+
+		<!-- Tier 1 -->
+
+		<!-- Tier 2 -->
+
+		<!-- Tier 3 -->
+
+		<!-- Civ Unique Military -->
+
+		<Row UnitType="UNIT_SUEBI" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA"/>
+		<Row UnitType="UNIT_SUEBI_2" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_2_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA"/>
+		<Row UnitType="UNIT_SUEBI_3" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_3_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA"/>
+		
+		<!-- Civ Unique Civilian -->
+
+		<!-- Great People.  There is a 'base' definition, and definitions for indivduals. The individual's unit definition must also be specified in the GreatPersonIndivdual definition. -->
+		<!-- This does allow for Individuals to have custom Unit properties, but they usually mirro the base version. -->
+		<!-- Note that the Individual entries are set to not allow the user to directly train/purchase, only the base is, then the code picks an individual. -->
+
+		<!--Germania-->
+		<Row UnitType="UNIT_FOLC" Name="LOC_UNIT_FOLC_NAME" Description="LOC_UNIT_FOLC_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA"/>
+		<Row UnitType="UNIT_FOLC_TEUTOBOD" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME" Description="LOC_UNIT_FOLC_TEUTOBOD_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_ARMINIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_NAME" Description="LOC_UNIT_FOLC_ARMINIUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_VIBILIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_NAME" Description="LOC_UNIT_FOLC_VIBILIUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA" CanTrain="false" CanPurchase="false"/>
+
+		<Row UnitType="UNIT_FOLC_CIVILIS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_NAME" Description="LOC_UNIT_FOLC_CIVILIS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_VELEDA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_NAME" Description="LOC_UNIT_FOLC_VELEDA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA" CanTrain="false" CanPurchase="false"/>
+		
+		<Row UnitType="UNIT_FOLC_PIPARA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_NAME" Description="LOC_UNIT_FOLC_PIPARA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_RAICUNDA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_NAME" Description="LOC_UNIT_FOLC_RAICUNDA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA" CanTrain="false" CanPurchase="false"/>
+
+		<Row UnitType="UNIT_FOLC_HERMANAFRID" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_NAME" Description="LOC_UNIT_FOLC_HERMANAFRID_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_BOIORIX" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_NAME" Description="LOC_UNIT_FOLC_BOIORIX_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA" CanTrain="false" CanPurchase="false"/>
+
+	</Units>
+	<Unit_Stats>
+		<Row UnitType="UNIT_SUEBI" Combat="20"/>
+		<Row UnitType="UNIT_SUEBI_2" Combat="25"/>
+		<Row UnitType="UNIT_SUEBI_3" Combat="30"/>
+	</Unit_Stats>
+	<Unit_Costs>
+		<!-- Civ Unique Military -->
+		<Row UnitType="UNIT_SUEBI" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_SUEBI_2" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_SUEBI_3" YieldType="YIELD_PRODUCTION" Cost="100"/>
+		<!-- Civ Unique Civilian -->
+		<Row UnitType="UNIT_FOLC" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_FOLC_TEUTOBOD" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_FOLC_ARMINIUS" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_FOLC_VIBILIUS" YieldType="YIELD_PRODUCTION" Cost="30"/>
+
+		<Row UnitType="UNIT_FOLC_CIVILIS" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_FOLC_VELEDA" YieldType="YIELD_PRODUCTION" Cost="30"/>
+
+		<Row UnitType="UNIT_FOLC_PIPARA" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_FOLC_RAICUNDA" YieldType="YIELD_PRODUCTION" Cost="30"/>
+
+		<Row UnitType="UNIT_FOLC_HERMANAFRID" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_FOLC_BOIORIX" YieldType="YIELD_PRODUCTION" Cost="30"/>
+
+	</Unit_Costs>
+	<UnitUpgrades>
+		<!-- Civ Unique Military -->
+		<Row Unit="UNIT_SUEBI" UpgradeUnit="UNIT_SUEBI_2"/>
+		<Row Unit="UNIT_SUEBI_2" UpgradeUnit="UNIT_SUEBI_3"/>
+	</UnitUpgrades>
+	<UnitReplaces>
+		<!-- Civ Unique Military -->
+		<Row CivUniqueUnitType="UNIT_SUEBI" ReplacesUnitType="UNIT_WARRIOR"/>
+		<Row CivUniqueUnitType="UNIT_SUEBI_2" ReplacesUnitType="UNIT_SPEARMAN"/>
+		<Row CivUniqueUnitType="UNIT_SUEBI_3" ReplacesUnitType="UNIT_PHALANX"/>
+		<!-- Civ Unique Civilian -->
+	</UnitReplaces>
+	<Unit_TransitionRetains>
+
+	</Unit_TransitionRetains>
+	<AiUnitEfficiencyBonuses>
+
+	</AiUnitEfficiencyBonuses>
+	<Tags>
+		<!-- Civ Unique Military -->
+		<Row Tag="UNIT_CLASS_SUEBI" Category="UNIT_CLASS"/>
+		<!-- Civ Unique Civilian -->
+		<Row Tag="UNIT_CLASS_FOLC" Category="UNIT_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!-- Civ Unique Military -->
+		<Row Type="UNIT_SUEBI" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_SUEBI" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_SUEBI" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_SUEBI" Tag="UNIT_CLASS_SUEBI"/>
+		<Row Type="UNIT_SUEBI_2" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_SUEBI_2" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_SUEBI_2" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_SUEBI_2" Tag="UNIT_CLASS_SUEBI"/>
+		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_SUEBI"/>
+		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
+		<!-- Civ Unique Civilian -->
+		<Row Type="UNIT_FOLC" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC" Tag="UNIT_CLASS_FOLC"/>
+		<Row Type="UNIT_FOLC_TEUTOBOD" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_TEUTOBOD" Tag="UNIT_CLASS_FOLC"/>
+		<Row Type="UNIT_FOLC_ARMINIUS" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_ARMINIUS" Tag="UNIT_CLASS_FOLC"/>
+		<Row Type="UNIT_FOLC_VIBILIUS" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_VIBILIUS" Tag="UNIT_CLASS_FOLC"/>
+
+		<Row Type="UNIT_FOLC_CIVILIS" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_CIVILIS" Tag="UNIT_CLASS_FOLC"/>
+		<Row Type="UNIT_FOLC_VELEDA" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_VELEDA" Tag="UNIT_CLASS_FOLC"/>
+
+		<Row Type="UNIT_FOLC_PIPARA" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_PIPARA" Tag="UNIT_CLASS_FOLC"/>
+		<Row Type="UNIT_FOLC_RAICUNDA" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_RAICUNDA" Tag="UNIT_CLASS_FOLC"/>
+
+		<Row Type="UNIT_FOLC_HERMANAFRID" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_HERMANAFRID" Tag="UNIT_CLASS_FOLC"/>
+		<Row Type="UNIT_FOLC_BOIORIX" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_BOIORIX" Tag="UNIT_CLASS_FOLC"/>
+
+	</TypeTags>
+	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_SUEBI" UnitClassType="UNIT_CLASS_SUEBI"/>
+		<!-- Civilian -->
+
+	</UnitClass_Abilities>
+	<UnitAbilities>
+		<!-- Unique -->
+		<Row UnitAbilityType="ABILITY_SUEBI" Name="LOC_ABILITY_SUEBI_NAME" Description="LOC_ABILITY_SUEBI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_MIGRATION_UNIT_FOREIGN_TERRITORY" Inactive="true" Name="LOC_TRAIT_GERMANIA_MIGRATION_ABILITY_NAME" Description="LOC_ABILITY_GERMANIA_MIGRATION_UNIT_FOREIGN_TERRITORY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CIVIC_GERMANIA_BARBARIAN_INVASION_XP" Inactive="true" Name="LOC_ABILITY_CIVIC_GERMANIA_BARBARIAN_INVASION_XP_NAME" Description="LOC_ABILITY_CIVIC_GERMANIA_BARBARIAN_INVASION_XP_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<!-- Unique Abilities -->
+		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="SUEBI_MOD_GOLD_INFANTRY_COMBAT_STRENGTH"/>
+		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="SUEBI_MOD_SILVER_INFANTRY_COMBAT_STRENGTH"/>
+		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="SUEBI_MOD_WINE_ADJUST_HEAL_PER_RESOURCE"/>
+
+		<Row UnitAbilityType="ABILITY_GERMANIA_MIGRATION_UNIT_FOREIGN_TERRITORY" ModifierId="NODE_CIVIC_AQ_GERMANIA_MIGRATION_ENEMY_TERRITORY_COMMANDER_XP"/>
+		<Row UnitAbilityType="ABILITY_CIVIC_GERMANIA_BARBARIAN_INVASION_XP" ModifierId="NODE_CIVIC_AQ_GERMANIA_MIGRATION_ENEMY_TERRITORY_COMMANDER_XP"/>
+		<!-- Civilian Abilities -->
+
+	</UnitAbilityModifiers>
+	<ChargedUnitAbilities>
+	</ChargedUnitAbilities>
+	<!-- Advisory Attributes -->
+	<Unit_Advisories>
+		<!-- Civ Unique Military -->
+		<Row UnitType="UNIT_SUEBI" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_SUEBI_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_SUEBI_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<!-- Civ Unique Civilian -->
+		<Row UnitType="UNIT_FOLC" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+	</Unit_Advisories>
+</Database>

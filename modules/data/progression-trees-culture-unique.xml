@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Civ Unique Trees -->
+		<Row Type="TREE_CIVICS_AQ_GERMANIA" Kind="KIND_TREE"/>
+		<!-- Civ Unique Tree Nodes -->
+		<!-- Germanis -->
+
+		<Row Type="NODE_CIVIC_AQ_GERMANIA_CODANUS" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_GERMANIA_MIDGARD" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_GERMANIA_WULFAZ" Kind="KIND_TREE_NODE"/>
+	</Types>
+	<Tags>
+		<Row Tag="UNIT_CLASS_BARBARICUM" Category="UNIT_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_GALLEY" Tag="UNIT_CLASS_BARBARICUM"/>
+	</TypeTags>
+	<TypeQuotes>
+		<Row Type="NODE_CIVIC_AQ_GERMANIA_CODANUS" Quote="LOC_CIVIC_GERMANIA_CODANUS_QUOTE" QuoteAuthor="LOC_CIVIC_GERMANIA_CODANUS_QUOTE_AUTHOR" QuoteAudio="VO_Quote_PeriplusErythraeanSea" />
+		<Row Type="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" Quote="LOC_NODE_CIVIC_AQ_GERMANIA_BARBARICUM_QUOTE" QuoteAuthor="LOC_NODE_CIVIC_AQ_GERMANIA_BARBARICUM_QUOTE_AUTHOR" QuoteAudio="VO_Quote_PeriplusErythraeanSea" />
+		<Row Type="NODE_CIVIC_AQ_GERMANIA_MIDGARD" Quote="LOC_CIVIC_GERMANIA_MIDGARD_QUOTE" QuoteAuthor="LOC_CIVIC_GERMANIA_MIDGARD_QUOTE_AUTHOR" QuoteAudio="VO_Quote_MonumentumAdulitanum"/>
+		<Row Type="NODE_CIVIC_AQ_GERMANIA_WULFAZ" Quote="LOC_CIVIC_GERMANIA_WULFAZ_QUOTE" QuoteAuthor="LOC_CIVIC_GERMANIA_WULFAZ_AUTHOR" QuoteAudio="VO_Quote_BookHimyarites"/>
+	</TypeQuotes>
+	<ProgressionTrees>
+		<!-- Civ Unique Trees -->
+		<!-- Germania -->
+		<Row ProgressionTreeType="TREE_CIVICS_AQ_GERMANIA" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_AQ_GERMANIA_NAME"/>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+		<!-- Germania -->
+
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="90" Name="LOC_CIVIC_GERMANIA_CODANUS_NAME" IconString="cult_aksum" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="150" Name="LOC_CIVIC_GERMANIA_BARBARICUM_NAME" IconString="cult_aksum" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="150" Name="LOC_CIVIC_GERMANIA_MIDGARD_NAME" IconString="cult_aksum" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="250" Name="LOC_CIVIC_GERMANIA_WULFAZ_NAME" IconString="cult_aksum" />
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<!-- Germania -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_CODANUS_NAVAL_WATER" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_CODANNOVIA" UnlockDepth="1"/>
+
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_TOWN_INFANTRY_PURCHASE_EFFICIENCY" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_ALL_MEN" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_TOWN_RESOURCE_CAPACITY" UnlockDepth="2"/>
+		
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_HERRENHOFE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_GALSTAR" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_MAUSOLEUM_OF_THEODORIC" UnlockDepth="2" AIIgnoreUnlockValue="true" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_MIGRATION_ENEMY_TERRITORY_COMMANDER_XP" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_BARBARIAN_INVASION" UnlockDepth="1"/>
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+		<!-- Germania -->
+		<Row Node="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" PrereqNode="NODE_CIVIC_AQ_GERMANIA_CODANUS"/>
+		<Row Node="NODE_CIVIC_AQ_GERMANIA_MIDGARD" PrereqNode="NODE_CIVIC_AQ_GERMANIA_CODANUS"/>
+		<Row Node="NODE_CIVIC_AQ_GERMANIA_WULFAZ" PrereqNode="NODE_CIVIC_AQ_GERMANIA_BARBARICUM"/>
+		<Row Node="NODE_CIVIC_AQ_GERMANIA_WULFAZ" PrereqNode="NODE_CIVIC_AQ_GERMANIA_MIDGARD"/>
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+		<!-- Germania -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+	</ProgressionTree_Advisories>
+</Database>

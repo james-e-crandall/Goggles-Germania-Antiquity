@@ -1,0 +1,5 @@
+
+Fix BOIORIX and HERMANAFRID tooltip
+Require buildings for BOIORIX and HERMANAFRID so you know have the tech for the units.
+
+Changed some great people abilites to grant tradtions.

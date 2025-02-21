@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!--Civ
+		Unique Improvements-->
+		<Row Type="BUILDING_HERRENHOFE" Kind="KIND_CONSTRUCTIBLE" />
+	</Types>
+	<TagCategories>
+
+	</TagCategories>
+	<Tags>
+	</Tags>
+	<ConstructibleClasses>
+	</ConstructibleClasses>
+	<Constructibles>
+		<!-- Discoveries -->
+		<!--Civ
+		Unique Builidings-->
+		<Row ConstructibleType="BUILDING_HERRENHOFE" Name="LOC_BUILDING_HERRENHOFE_NAME" Description="LOC_BUILDING_HERRENHOFE_DESCRIPTION" Tooltip="LOC_BUILDING_HERRENHOFE_TOOLTIP" ConstructibleClass="BUILDING" Cost="25" Population="1" Age="AGE_ANTIQUITY" />
+	</Constructibles>
+	<Improvements>
+		<!--Civ
+		Unique Improvements-->
+	</Improvements>
+	<Constructible_TransitionRemoves>
+	</Constructible_TransitionRemoves>
+	<Buildings>
+		<Row ConstructibleType="BUILDING_HERRENHOFE" Movable="false" TraitType="TRAIT_GERMANIA"/>
+	</Buildings>
+	<TypeTags>
+		<Row Type="BUILDING_HERRENHOFE" Tag="UNIQUE"/>
+		<Row Type="BUILDING_HERRENHOFE" Tag="AGELESS"/>
+	</TypeTags>
+	<Improvements>
+		<!-- Discoveries -->
+	</Improvements>
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="BUILDING_HERRENHOFE" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE" DistrictType="DISTRICT_URBAN"/>
+	</Constructible_ValidDistricts>
+	<Constructible_ValidBiomes>
+
+	</Constructible_ValidBiomes>
+	<Constructible_ValidTerrains>
+		<Row ConstructibleType="BUILDING_HERRENHOFE" TerrainType="TERRAIN_FLAT"/>
+	</Constructible_ValidTerrains>
+
+	<Constructible_ValidResources>
+	</Constructible_ValidResources>
+	<Constructible_YieldChanges>
+		<!--Civ
+		Unique Improvements-->
+		<Row ConstructibleType="BUILDING_HERRENHOFE" YieldType="YIELD_GOLD" YieldChange="1" />
+	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+		<Row ConstructibleType="BUILDING_HERRENHOFE" YieldType="YIELD_HAPPINESS" Amount="1"/>
+	</Constructible_Maintenances>
+	<Constructible_Adjacencies>
+		<!-- <Row ConstructibleType="BUILDING_HERRENHOFE" YieldChangeId="HarrenhofeFarmGold" /> -->
+	</Constructible_Adjacencies>
+	<Constructible_Logistics />
+	<Adjacency_YieldChanges>
+		<!-- Standard Adjacencies -->
+		<!-- Adjacencies for the Palace -->
+		<!-- <Row ID="HarrenhofeFarmGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentConstructible="IMPROVEMENT_FARM" /> -->
+		<!-- Wildcard Adjacency Yields Changes -->
+	</Adjacency_YieldChanges>
+	<Constructible_Plunders>
+		<!--Civ
+		Unique Improvements-->
+		<Row ConstructibleType="BUILDING_HERRENHOFE" PlunderType="PLUNDER_HEAL" Amount="30" />
+	</Constructible_Plunders>
+	<Warehouse_YieldChanges>
+		<Row ID="BrickyardHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+		<Row ID="FishingQuayHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+		<Row ID="GranaryHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+		<Row ID="SawPitHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+	</Warehouse_YieldChanges>
+	<Constructible_Adjacencies>
+		<!-- Adjacencies for the Palace -->
+	</Constructible_Adjacencies>
+	<Constructible_WildcardAdjacencies>
+		<!-- Leaders -->
+		<!-- Traditions -->
+	</Constructible_WildcardAdjacencies>
+	<Constructible_WarehouseYields>
+		<Row ConstructibleType="BUILDING_BRICKYARD" YieldChangeId="BrickyardHerrenhofeGold"/>
+		<Row ConstructibleType="BUILDING_FISHING_QUAY" YieldChangeId="FishingQuayHerrenhofeGold"/>
+		<Row ConstructibleType="BUILDING_GRANARY" YieldChangeId="GranaryHerrenhofeGold"/>
+		<Row ConstructibleType="BUILDING_SAW_PIT" YieldChangeId="SawPitHerrenhofeGold"/>
+	</Constructible_WarehouseYields>
+	<!-- Worker Base Yields -->
+	<WorkerYields>
+	</WorkerYields>
+		<!-- Advisory Attributes -->
+	<Constructible_Advisories>
+		<Row ConstructibleType="BUILDING_HERRENHOFE" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+	</Constructible_Advisories>
+</Database>

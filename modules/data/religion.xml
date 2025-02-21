@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+	</Types>
+	<TagCategories>
+
+	</TagCategories>
+	<Tags>
+	</Tags>
+	<Buildings>
+	</Buildings>
+	<TypeTags>
+	</TypeTags>
+	<Constructible_Adjacencies>
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+		<!-- Wildcard Adjacency Yields Changes -->
+		<Row ID="GalstarWildcardTundraHappiness" YieldType="YIELD_HAPPINESS" YieldChange="0.5" TilesRequired="1"  AdjacentBiome="BIOME_TUNDRA"/>
+	</Adjacency_YieldChanges>
+	<Warehouse_YieldChanges>
+	</Warehouse_YieldChanges>
+
+	<Constructible_WildcardAdjacencies>
+		<!-- Traditions -->
+		<Row YieldChangeId="GalstarWildcardTundraHappiness" RequiresActivation="true" ConstructibleTag="HAPPINESS" />
+	</Constructible_WildcardAdjacencies>
+	<WorkerYields>
+	</WorkerYields>
+</Database>

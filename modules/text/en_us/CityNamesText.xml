@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--GERMANIA-->
+		<Row Tag="LOC_CITY_NAME_GERMANIA1">
+			<Text>Manching </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA2">
+			<Text>Basilea</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA3">
+			<Text>Vindonissa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA4">
+			<Text>Alcimoennis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA5">
+			<Text>Altenburg-Rheinau</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA6">
+			<Text>Donnersberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA7">
+			<Text>Dünsberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA8">
+			<Text>Finsterlohr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA9">
+			<Text>Creglingen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA10">
+			<Text>Heidengraben</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA11">
+			<Text>Hohenasperg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA12">
+			<Text>Glauberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA13">
+			<Text>Martberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA14">
+			<Text>Milseburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA15">
+			<Text>Staffelberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA16">
+			<Text>Steinburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA17">
+			<Text>Glauberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA18">
+			<Text>Hirschlanden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA19">
+			<Text>Hochdorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA20">
+			<Text>Hohenasperg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA21">
+			<Text>Heuneburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA22">
+			<Text>Ubiorum</Text>
+		</Row>
+	</EnglishText>
+</Database>

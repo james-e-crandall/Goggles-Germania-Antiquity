@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--	Germania										-->
+	<!-- ==================================================	-->
+
+	<!-- ==================================================	-->
+	<!--	Unique Abilities							-->
+	<!-- ==================================================	-->
+	<Modifier id="SUEBI_MOD_GOLD_INFANTRY_COMBAT_STRENGTH" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_SUEBI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ResourceType">RESOURCE_GOLD</Argument>
+	</Modifier>
+	
+	<Modifier id="SUEBI_MOD_SILVER_INFANTRY_COMBAT_STRENGTH" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_SUEBI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ResourceType">RESOURCE_SILVER</Argument>
+	</Modifier>
+
+	<Modifier id="SUEBI_MOD_WINE_ADJUST_HEAL_PER_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_HEAL_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_SUEBI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<Argument name="ResourceType">RESOURCE_WINE</Argument>
+	</Modifier>
+
+</GameEffects>

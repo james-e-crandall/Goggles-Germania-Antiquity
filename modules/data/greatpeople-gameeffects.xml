@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Commander abilities -->
+	<!-- TEUTOBOD -->
+	<Modifier id="GREATPERSON_RENAME_COMMANDER_TEUTOBOD" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
+		<Argument name="Name">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_COMMANDER_NAME</Argument>
+	</Modifier>
+	<Modifier id="GREATPERSON_COMMANDER_HIGH_COMBAT_TEUTOBOD" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_TEUTOBOD</Argument>
+	</Modifier>
+	<Modifier id="TEUTOBOD_COMMANDER_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_TEUTOBOD_COMBAT</Argument>
+	</Modifier>
+	<Modifier id="TEUTOBOD_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" Inverse="false"/>
+		</SubjectRequirements>
+		<Argument name="Amount">4</Argument>
+		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_PREVIEW</String>
+	</Modifier>
+	<!-- ARMINIUS -->
+	<Modifier id="GREATPERSON_RENAME_COMMANDER_ARMINIUS" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
+		<Argument name="Name">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_COMMANDER_NAME</Argument>
+	</Modifier>
+	<Modifier id="GREATPERSON_COMMANDER_HIGH_COMBAT_ARMINIUS" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_VIBILIUS</Argument>
+	</Modifier>
+	<Modifier id="ARMINIUS_COMMANDER_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"  />
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_ARMINIUS_COMBAT</Argument>
+	</Modifier>
+	<Modifier id="ARMINIUS_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements type="REQUIREMENTSET_TEST_ANY">
+			<Requirement type="REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES">
+				<Argument name="FeatureClassType">FEATURE_CLASS_VEGETATED</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_PREVIEW</String>
+	</Modifier>
+	<!-- VIBILIUS -->
+	<Modifier id="GREATPERSON_RENAME_COMMANDER_VIBILIUS" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
+		<Argument name="Name">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_COMMANDER_NAME</Argument>
+	</Modifier>
+	<Modifier id="GREATPERSON_COMMANDER_HIGH_COMBAT_VIBILIUS" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_VIBILIUS</Argument>
+	</Modifier>
+	<Modifier id="VIBILIUS_COMMANDER_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"  />
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_VIBILIUS_COMBAT</Argument>
+	</Modifier>
+	<Modifier id="VIBILIUS_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" Inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_PREVIEW</String>
+	</Modifier>
+	<!-- Traditions -->
+	<Modifier id="GREAT_PERSON_TRADITION_CIVILIS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_GREAT_PERSON_CIVILIS</Argument>
+		<Argument name="Lock">false</Argument>
+	</Modifier>
+		<Modifier id="GREAT_PERSON_TRADITION_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_GREAT_PERSON_VELEDA</Argument>
+		<Argument name="Lock">false</Argument>
+	</Modifier>
+	<Modifier id="GREAT_PERSON_TRADITION_PIPARA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_GREAT_PERSON_PIPARA</Argument>
+		<Argument name="Lock">false</Argument>
+	</Modifier>
+	<!-- Resource -->
+	<Modifier id="GREAT_PERSON_HAPPINESS_RESOURCES_RAICUNDA" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_YIELD_PER_RESOURCES_IN_CITY" run-once="true" permanent="true">
+		<Argument name="Amount" type="ScaleByGameSpeed">50</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+	</Modifier>
+	<!-- Units -->
+	<Modifier id="GREAT_PERSON_GRANT_RANGED_HERMANAFRID" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+				<Argument name="ProgressionTreeNodeType">NODE_TECH_AQ_ANIMAL_HUSBANDRY</Argument>
+				<Argument name="MinDepth">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitTag">UNIT_CLASS_RANGED</Argument>
+		<Argument name="UnitAbilityType">ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Summary">LOC_GREATPERSON_GRANT_RANGED</String>
+	</Modifier>
+
+	<Modifier id="GREAT_PERSON_GRANT_SIEGE_BOIORIX" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+				<Argument name="ProgressionTreeNodeType">NODE_TECH_AQ_WHEEL</Argument>
+				<Argument name="MinDepth">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitTag">UNIT_CLASS_RANGED</Argument>
+		<Argument name="UnitAbilityType">ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Summary">LOC_GREATPERSON_GRANT_SIEGE</String>
+	</Modifier>
+
+	<!--Unit Abilities-->
+	<Modifier id="HERMANAFRID_RANGED_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="BOIORIX_SIEGE_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

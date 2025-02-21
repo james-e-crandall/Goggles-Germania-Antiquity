@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Civ Unique Trees -->
+		<!-- Civ Unique Tree Nodes -->
+	</Types>
+	<TypeQuotes>
+	</TypeQuotes>
+	<ProgressionTrees>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<!-- Germania -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_CHIEFDOM" TargetKind="KIND_MODIFIER" TargetType="MOD_REVEAL_CIV_CULTURE_TREE_GERMANIA" UnlockDepth="1" Hidden="true"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_DISCIPLINE" TargetKind="KIND_UNIT" TargetType="UNIT_FOLC" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA"/>
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+
+	</ProgressionTree_Advisories>
+</Database>

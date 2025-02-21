@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GERMANIA" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ANGLO_SAXONS" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_HOLY_ROMAN_EMPIRE" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ANGLO_SAXONS"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HOLY_ROMAN_EMPIRE"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" Name="LOC_CIVILIZATION_GERMANIA_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_NORMAN" CivUnlock="true"/>
+
+	</UnlockRewards>
+	<UnlockRequirements>
+		<Row UnlockType="UNLOCK_CIVILIZATION_NORMAN" RequirementSetId="REQSET_CIV_IS_GERMANIA" Description="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GERMANIA_NORMAN_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_ANGLO_SAXONS" RequirementSetId="REQSET_CIV_IS_GERMANIA" Description="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GERMANIA_ANGLO_SAXONS_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_HOLY_ROMAN_EMPIRE" RequirementSetId="REQSET_CIV_IS_GERMANIA" Description="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GERMANIA_HOLY_ROMAN_EMPIRE_TOOLTIP"/>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" ConfigurationValue="CIVILIZATION_GERMANIA"/>
+	</UnlockConfigurationValues>
+</Database>

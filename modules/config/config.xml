@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Leaders>
+	</Leaders>
+	<LeaderItems>
+
+	</LeaderItems>
+	<LeaderTags>
+
+	</LeaderTags>
+	<LeaderQuotes>
+
+	</LeaderQuotes>
+	<LeaderCivilizationBias>
+
+	</LeaderCivilizationBias>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" CivilizationName="LOC_CIVILIZATION_GERMANIA_NAME" CivilizationFullName="LOC_CIVILIZATION_GERMANIA_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_GERMANIA_DESCRIPTION" CivilizationIcon="civ_sym_germania.png"/>
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" Type="TRAIT_GERMANIA_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_GERMANIA_ABILITY_NAME" Description="LOC_TRAIT_GERMANIA_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" Type="UNIT_SUEBI" Kind="KIND_UNIT" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_BASE_DESCRIPTION" Icon="ICON_UNIT_SUEBI"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" Type="UNIT_FOLC" Kind="KIND_UNIT" Name="LOC_UNIT_FOLC_NAME" Description="LOC_UNIT_FOLC_DESCRIPTION" Icon="ICON_UNIT_FOLC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" Type="BUILDING_HERRENHOFE" Kind="KIND_IMPROVEMENT" Name="LOC_BUILDING_HERRENHOFE_NAME" Description="LOC_BUILDING_HERRENHOFE_DESCRIPTION" Icon="BUILDING_HERRENHOFE"/>
+		
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" TagType="TAG_TRAIT_MILITARISTIC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" TagType="TAG_TRAIT_EXPANSIONIST"/>
+	</CivilizationTags>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_GERMANIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_CATHERINE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CATHERINE_GERMANIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_GERMANIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+	</LeaderCivilizationBias>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NORMAN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NORMAN_NAME" Description="LOC_CIVILIZATION_NORMAN_DESCRIPTION" Icon="ICON_CIVILIZATION_NORMAN"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ANGLO_SAXONS" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ANGLO_SAXONS_NAME" Description="LOC_CIVILIZATION_ANGLO_SAXONS_DESCRIPTION" Icon="ICON_CIVILIZATION_ANGLO_SAXONS"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_HOLY_ROMAN_EMPIRE" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_HOLY_ROMAN_EMPIRE_NAME" Description="LOC_CIVILIZATION_HOLY_ROMAN_EMPIRE_DESCRIPTION" Icon="ICON_CIVILIZATION_HOLY_ROMAN_EMPIRE"/>
+		
+	</CivilizationUnlocks>
+	<LeaderUnlocks>
+
+	</LeaderUnlocks>
+	<Mementos>
+
+	</Mementos>
+</Database>

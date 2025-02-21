@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GERMANIA" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA"/>
+	</Unlocks>
+	<UnlockRewards>
+	</UnlockRewards>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_CIV_IS_GERMANIA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_CIV_IS_GERMANIA" Name="CivilizationType" Value="CIVILIZATION_GERMANIA"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA" RequirementId="REQ_CIV_IS_GERMANIA"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<Row UnlockType="UNLOCK_CIVILIZATION_GERMANIA" RequirementSetId="REQSET_CIV_IS_GERMANIA" Description="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GERMANIA_NORMAN_TOOLTIP"/>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" ConfigurationValue="CIVILIZATION_GERMANIA"/>
+	</UnlockConfigurationValues>
+</Database>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION">
+			<Text>Play as the [B]Germania[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GERMANIA_NORMAN_TOOLTIP">
+			<Text>The [B]Germania [/B] is from the same continent as [B]Norman[/b].</Text>
+		</Row>
+	</EnglishText>
+</Database>

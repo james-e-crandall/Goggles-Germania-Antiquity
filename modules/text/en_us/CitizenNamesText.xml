@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--GERMANIA-->
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_1">
+			<Text>Adalberht</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_2">
+			<Text>Badurad</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_3">
+			<Text>Chlodochar </Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_4">
+			<Text>Dagobert</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_5">
+			<Text>Eberwin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_6">
+			<Text>Folcmar</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_7">
+			<Text>Gautbert</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_8">
+			<Text>Hadubert</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_9">
+			<Text>Ingulf</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_MALE_10">
+			<Text>Kunibert</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_1">
+			<Text>Adalgard</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_2">
+			<Text>Baduhilt </Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_3">
+			<Text>Chlodechilda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_4">
+			<Text>Clothildis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_5">
+			<Text>Ermelinde</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_6">
+			<Text>Farohildis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_7">
+			<Text>Geredrudis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_8">
+			<Text>Hadewidis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_9">
+			<Text>Leutgard</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GERMANIA_FEMALE_10">
+			<Text>Odilia</Text>
+		</Row>
+	</EnglishText>
+</Database>

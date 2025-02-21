@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Tier 1-->
+		<!--Tier 2-->
+
+		<Row Tag="LOC_PEDIA_PAGE_UNIT_SUEBI_CHAPTER_HISTORY_PARA_1">
+			<Text>The Roman legion was a unit of Roman troops formed for a particular war – until the Marian Reforms of 107 BCE when legions became virtually permanent. Legions included more than one kind of unit and were comprised of mounted soldiers and foot soldiers, generally on the order of a few thousand. Poorer spearmen (hastati) were positioned at the front of the line, while better-armed and armored soldiers (principes and triarii) were placed towards the rear. Soldiers were arranged in the maniple – an elaboration on the phalanx – which left empty spaces within the ranks to allow greater maneuverability and create deadly pockets where over-ambitious enemies might be trapped. These maniples were composed of around two hundred men and commanded by two centurions (each responsible for a hundred soldiers, as the name suggests).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_UNIT_SUEBI_CHAPTER_HISTORY_PARA_2">
+			<Text>The legions began as groups of nobles who could afford their own arms and equipment, but as Rome grew into an empire, these military units gave way to a professional (and political) class of soldiers, which had profound ramifications for the development of the Empire.</Text>
+		</Row>
+
+		<!--Civ Unique Civilian-->
+		<Row Tag="LOC_PEDIA_PAGE_UNIT_FOLC_CHAPTER_HISTORY_PARA_1">
+			<Text>When Cyrus the Great founded the Achaemenid Empire, his army was not a professional force, but one formed through an ancient system of levies. This practice, called the kara, required civilians to answer a ruler’s call to arms and serve as long as war lasted; they returned to their homes in times of peace. As Cyrus consolidated his power and stabilized his empire, he invested in a standing army, the spada, which formed the core of his military might. The administration of this force required a strict hierarchy of soldiers and generals, at the top of which stood the hazarapatis, just beneath the King of Kings himself.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_UNIT_FOLC_CHAPTER_HISTORY_PARA_2">
+			<Text>The duties of the hazarapatis were twofold. First, he was general of the standing army and likely in immediate command of the cavalry. Second, he led the royal bodyguard, the melophoroi, and controlled access to the king. These roles were very different and would have been challenging for a single person to manage alone, so scholars believe there were two hazarapateis at any one time, one for each position.</Text>
+		</Row>
+
+
+	</EnglishText>
+</Database>
