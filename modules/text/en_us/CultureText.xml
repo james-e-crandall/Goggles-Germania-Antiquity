@@ -35,10 +35,16 @@
 			<Text>Ovid</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_TOWN_INFANTRY_PRODUCTION_DESCRIPTION">
-			<Text>+100% [icon:YIELD_GOLD]Gold to buying Infantry Units in each town specialized as a Farm/Fishing town.</Text>
+			<Text>+100% [icon:YIELD_GOLD]Gold to buying Infantry Units in each town specialized as a Fishing town.</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_RESOURCE_CAP_DESCRIPTION">
-			<Text>+2 Resouce Capacity each town specialized as a Farm/Fishing town.</Text>
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FISH_TOWN_INFANTRY_PRODUCTION_DESCRIPTION">
+			<Text>+100% [icon:YIELD_GOLD]Gold to buying Infantry Units in each town specialized as a Farm town.</Text>
+		</Row>
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_RESOURCE_CAP_DESCRIPTION">
+			<Text>+2 Resouce Capacity each town specialized as a Farm town.</Text>
+		</Row>
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FISH_RESOURCE_CAP_DESCRIPTION">
+			<Text>+2 Resouce Capacity each town specialized as a Fishing town.</Text>
 		</Row>
 		
 		<Row Tag="LOC_CIVIC_GERMANIA_MIDGARD_NAME">

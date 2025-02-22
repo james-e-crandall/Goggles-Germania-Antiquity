@@ -95,7 +95,7 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_NAME">
 			<Text>Raicunda of the Thuringii</Text>
 		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_RAICUNDA_DESCRIPTION">
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_DESCRIPTION">
 			<Text>Activate on a City Hall to Grant one time happiness bonus from Resouces.</Text>
 		</Row>
 		<!-- Units -->
