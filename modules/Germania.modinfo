@@ -34,6 +34,9 @@
 	</ActionCriteria>
 	<ActionGroups>
         <ActionGroup id="base-game-main-Germania" scope="game" criteria="always">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
             <Actions>
                 <UpdateDatabase>
 					<Item>data/unlocks-base-standard.xml</Item>
@@ -109,9 +112,6 @@
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-Germania" scope="shell" criteria="always">
-			<Properties>
-				<LoadOrder>1001</LoadOrder>
-			</Properties>
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
