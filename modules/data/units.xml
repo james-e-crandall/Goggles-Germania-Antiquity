@@ -58,16 +58,16 @@
 		<Row UnitType="UNIT_SUEBI_2" YieldType="YIELD_PRODUCTION" Cost="60"/>
 		<Row UnitType="UNIT_SUEBI_3" YieldType="YIELD_PRODUCTION" Cost="100"/>
 		<!-- Civ Unique Civilian -->
-		<Row UnitType="UNIT_FOLC" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_FOLC_TEUTOBOD" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_FOLC_ARMINIUS" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_FOLC_VIBILIUS" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_FOLC_CIVILIS" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_FOLC_VELEDA" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_FOLC_PIPARA" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_FOLC_RAICUNDA" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_FOLC_HERMANAFRID" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_FOLC_BOIORIX" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_FOLC" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_TEUTOBOD" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_ARMINIUS" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_VIBILIUS" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_CIVILIS" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_VELEDA" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_PIPARA" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_RAICUNDA" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_HERMANAFRID" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_BOIORIX" YieldType="YIELD_PRODUCTION" Cost="60"/>
 	</Unit_Costs>
 	<UnitUpgrades>
 		<!-- Civ Unique Military -->

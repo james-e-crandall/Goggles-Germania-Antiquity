@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_GERMANIA">
+			<Text>A group of varied peoples joined together by Kings and popular assemblies the Germani struck fear in their enemies for their ferocity, as well as inspired admiration from their closeness to nature. Eventually they began to migrate and overrun other civilizations as they themselves were driven out of some of there traditional homelands.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INTRO_GERMANIA">
+			<Text>Freedom is a gift bestowed by nature even on the dumb animals. Courage is the peculiar excellence of man, and the Gods help the braver side.</Text>
+		</Row>
+	</EnglishText>
+</Database>

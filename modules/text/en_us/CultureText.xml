@@ -81,7 +81,7 @@
 			<Text>All Men</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION">
-			<Text>+20% [icon:YIELD_HAPPINESS]Happiness to all Farming Towns.</Text>
+			<Text>+30% [icon:YIELD_HAPPINESS]Happiness to all Farming Towns.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_GALSTAR_NAME">
 			<Text>Galstar</Text>

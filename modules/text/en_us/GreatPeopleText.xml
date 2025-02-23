@@ -21,54 +21,25 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_PREVIEW">
 			<Text>+{1_Amount} from Fury of the Germans</Text>
 		</Row>
-
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_NAME">
 			<Text>Arminius of the Cherusci</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_DESCRIPTION">
-			<Text>Activate on an Army Commander to change its name to “Give me back my Legions!” Units within this Command Radius gain +5 Combat Strength in Vegitabtive Terrain.</Text>
+			<Text>Activate on an Army Commander to grant 2 promotions.</Text>
 		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_COMMANDER_NAME">
-			<Text>Give me back my Legions!</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_PREVIEW">
-			<Text>+{1_Amount} from Give me back my Legions!</Text>
-		</Row>
-
+		<!-- Legacy Points -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_NAME">
 			<Text>Vibilius of the Hermunduri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_DESCRIPTION">
-			<Text>Activate on an Army Commander to change its name to “Disposer of Kings” Units within this Command Radius gain +2 Combat Strength when defending.</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_COMMANDER_NAME">
-			<Text>Disposer of Kings</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_PREVIEW">
-			<Text>+{1_Amount} from Disposer of Kings</Text>
+			<Text>Grant +1 Military Legacy Ponts.</Text>
 		</Row>
 		<!-- Traditions -->
-		<!-- xxxx -->
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_NAME">
-			<Text>Civilis of the Batavi</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_DESCRIPTION">
-			<Text>Activated on a Barracks to grant a tradition: 50%[icon:YIELD_INFLUENCE] gold towards Inciting independent People to Attack and Bolster CS Military</Text>
-		</Row>
-
-		<Row Tag="LOC_TRADITION_GREAT_PERSON_CIVILIS_NAME">
-			<Text>Revolt of the Batavi</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_GREAT_PERSON_CIVILIS_DESCRIPTION">
-			<Text>50%[icon:YIELD_INFLUENCE] influence towards Inciting independent People to Attack and Bolster CS Military</Text>
-		</Row>
-		<!-- xxxx -->
-
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_NAME">
 			<Text>Veleda seeress of the Bructeri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_DESCRIPTION">
-			<Text>Activated on a Villa to grants a tradtion:  100%[icon:YIELD_INFLUENCE]influence towards Hinder Public Morale and Hinder Military Production.</Text>
+			<Text>Grants a tradtion:  100%[icon:YIELD_INFLUENCE]influence towards Hinder Public Morale and Hinder Military Production.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_VELEDA_NAME">
 			<Text>Successes of the rebels</Text>
@@ -76,53 +47,61 @@
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_VELEDA_DESCRIPTION">
 			<Text>100%[icon:YIELD_INFLUENCE]influence towards Hinder Public Morale and Hinder Military Production.</Text>
 		</Row>
-		<!-- xxxx -->
-
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_NAME">
 			<Text>Pipara of the Marcomanni</Text> 
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_DESCRIPTION">
-			<Text>Grants a tradtion: +1 Happiness per Resouce in each Settlement.</Text>
+			<Text>Grants a tradtion: +1 Happiness per Imported Resouce in each Settlement.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_PIPARA_NAME">
 			<Text>For love of country</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_PIPARA_DESCRIPTION">
-			<Text>+1 Happiness per Resouce in each Settlement.</Text>
+			<Text>+1 Happiness per Imported Resouce in each Settlement.</Text>
 		</Row>
-
-		<!-- Resouces -->
+		<!-- Bursts -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_NAME">
 			<Text>Raicunda of the Thuringii</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_DESCRIPTION">
-			<Text>Activate on a City Hall to Grant one time happiness bonus from Resouces.</Text>
+			<Text>Grant one time happiness bonus from Resouces.</Text>
 		</Row>
 		<!-- Units -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_NAME">
+			<Text>Civilis of the Batavi</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_DESCRIPTION">
+			<Text>Grants 2 Settler Units with increased movement.</Text>
+		</Row>
+		<Row Tag="ABILITY_CIVILIS_MOVEMENT_DESCRIPTION">
+			<Text>+1 movement</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_GRANT_CREATE_TOWN">
+			<Text>Grants 2 Settler Units with increased movement.</Text>
+		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_NAME">
 			<Text>Hermanafrid of the Thuringii</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_DESCRIPTION">
-			<Text>Activated on a settlement Creates 2 Ranged Units with +3 Combat Strength.</Text>
+			<Text>Grants 2 Ranged Units with +3 Combat Strength.</Text>
 		</Row>
 		<Row Tag="ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH_DESCRIPTION">
 			<Text>+3 Combat Strength</Text>
 		</Row>
 		<Row Tag="LOC_GREATPERSON_GRANT_RANGED">
-			<Text>Activate on a Saw pit to Create 2 Ranged Units with +3 Combat Strength.</Text>
+			<Text>Grants 2 Ranged Units with +3 Combat Strength.</Text>
 		</Row>
-
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_NAME">
 			<Text> Boiorix of the Cimbri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_DESCRIPTION">
-			<Text>Activate on a Villa Creates 2 Siege Units with +3 Combat Strength.</Text>
+			<Text>Grants 2 Siege Units with +3 Combat Strength.</Text>
 		</Row>
 		<Row Tag="ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH_DESCRIPTION">
 			<Text>+3 Combat Strength</Text>
 		</Row>
 		<Row Tag="LOC_GREATPERSON_GRANT_SIEGE">
-			<Text>Creates 2 Creates Units with +3 Combat Strength.</Text>
+			<Text>Creates 2 Siege Units with +3 Combat Strength.</Text>
 		</Row>
 	</EnglishText>
 </Database>

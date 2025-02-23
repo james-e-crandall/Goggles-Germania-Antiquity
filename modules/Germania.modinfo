@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="goggles_civ_germania" version="1"
 	xmlns="ModInfo">
-	<!-- TODO: 
-	- Add the rest of the folc unique units
+	<!-- Atributions: 
+	By Philipp Veit - https://sammlung.staedelmuseum.de/de/werk/germania, PDM-owner, https://commons.wikimedia.org/w/index.php?curid=96817315
 	-->
 	<Properties>
 		<Name>LOC_MODULE_GERMANIA_NAME</Name>
@@ -89,6 +89,7 @@
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/greatpeople.xml</Item>
 					<Item>data/greatpeople-gameeffects.xml</Item>
+					<Item>data/loading-info.xml</Item>
 					<Item>data/progression-trees-culture-common.xml</Item>
 					<Item>data/progression-trees-culture-unique.xml</Item>
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
@@ -103,10 +104,14 @@
 					<Item>text/en_us/GreatPeopleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-Germania" scope="shell" criteria="always">
+			<Properties>
+				<LoadOrder>1001</LoadOrder>
+			</Properties>
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
@@ -131,6 +136,7 @@
 					<Item>text/en_us/GreatPeopleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
 				</UpdateText>
 				<UpdateColors>
 				</UpdateColors>

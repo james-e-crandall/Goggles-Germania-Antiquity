@@ -25,53 +25,21 @@
 		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_PREVIEW</String>
 	</Modifier>
 	<!-- ARMINIUS -->
-	<Modifier id="GREATPERSON_RENAME_COMMANDER_ARMINIUS" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
-		<Argument name="Name">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_COMMANDER_NAME</Argument>
-	</Modifier>
-	<Modifier id="GREATPERSON_COMMANDER_HIGH_COMBAT_ARMINIUS" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<Argument name="AbilityType">ABILITY_VIBILIUS</Argument>
-	</Modifier>
-	<Modifier id="ARMINIUS_COMMANDER_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"  />
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_ARMINIUS_COMBAT</Argument>
-	</Modifier>
-	<Modifier id="ARMINIUS_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements type="REQUIREMENTSET_TEST_ANY">
-			<Requirement type="REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES">
-				<Argument name="FeatureClassType">FEATURE_CLASS_VEGETATED</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Amount">5</Argument>
-		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_PREVIEW</String>
+	<Modifier id="GREATPERSON_REWARD_LEGACY_POINT_MILITARY_ARMINIUS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_LEGACY_POINTS">
+		<Argument name="Amount">1</Argument>
+		<Argument name="Type">CARD_CATEGORY_MILITARISTIC</Argument>
 	</Modifier>
 	<!-- VIBILIUS -->
-	<Modifier id="GREATPERSON_RENAME_COMMANDER_VIBILIUS" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
-		<Argument name="Name">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_COMMANDER_NAME</Argument>
-	</Modifier>
-	<Modifier id="GREATPERSON_COMMANDER_HIGH_COMBAT_VIBILIUS" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<Argument name="AbilityType">ABILITY_VIBILIUS</Argument>
-	</Modifier>
-	<Modifier id="VIBILIUS_COMMANDER_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<Modifier id="GREATPERSON_GRANT_UNIT_PROMOTION_VIBILIUS" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_PROMOTION">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"  />
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_VIBILIUS_COMBAT</Argument>
-	</Modifier>
-	<Modifier id="VIBILIUS_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" Inverse="true"/>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">2</Argument>
-		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_PREVIEW</String>
 	</Modifier>
 	<!-- Traditions -->
-	<Modifier id="GREAT_PERSON_TRADITION_CIVILIS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
-		<Argument name="Tradition">TRADITION_GREAT_PERSON_CIVILIS</Argument>
-		<Argument name="Lock">false</Argument>
-	</Modifier>
-		<Modifier id="GREAT_PERSON_TRADITION_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+	<Modifier id="GREAT_PERSON_TRADITION_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_GREAT_PERSON_VELEDA</Argument>
 		<Argument name="Lock">false</Argument>
 	</Modifier>
@@ -81,10 +49,20 @@
 	</Modifier>
 	<!-- Resource -->
 	<Modifier id="GREAT_PERSON_HAPPINESS_RESOURCES_RAICUNDA" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_YIELD_PER_RESOURCES_IN_CITY" run-once="true" permanent="true">
-		<Argument name="Amount" type="ScaleByGameSpeed">50</Argument>
+		<Argument name="Amount" type="ScaleByGameSpeed">100</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 	</Modifier>
 	<!-- Units -->
+	<Modifier id="GREAT_PERSON_TRADITION_CIVILIS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_GREAT_PERSON_CIVILIS</Argument>
+		<Argument name="Lock">false</Argument>
+	</Modifier>
+	<Modifier id="GREAT_PERSON_GRANT_SETTLER_CIVILIS" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
+		<Argument name="UnitTag">UNIT_CLASS_CREATE_TOWN</Argument>
+		<Argument name="UnitAbilityType">ABILITY_CIVILIS_MOVEMENT</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Summary">LOC_GREATPERSON_GRANT_CREATE_TOWN</String>
+	</Modifier>
 	<Modifier id="GREAT_PERSON_GRANT_RANGED_HERMANAFRID" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
@@ -112,6 +90,10 @@
 	</Modifier>
 
 	<!--Unit Abilities-->
+	<Modifier id="CIVILIS_MOVEMENT" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">ABILITY_CIVILIS_MOVEMENT_DESCRIPTION</String>
+	</Modifier>
 	<Modifier id="HERMANAFRID_RANGED_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">3</Argument>
 		<String context="Preview">ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH_DESCRIPTION</String>
