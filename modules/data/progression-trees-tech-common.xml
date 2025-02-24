@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+
+	</Types>
+	<TypeQuotes>
+	</TypeQuotes>
+	<ProgressionTreeNodes>
+
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_BRONZE_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_SUEBI_2" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_SUEBI_3" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA"/>
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+
+	</ProgressionTree_Advisories>
+</Database>

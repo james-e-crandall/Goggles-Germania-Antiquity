@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<RequirementSet id="REQSET_FARM_OR_FISH_TOWN" type="REQUIREMENTSET_TEST_ANY">
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_GRANARY</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_FISHING</Argument>
+			</Requirement>
+	</RequirementSet>
+</GameEffects>

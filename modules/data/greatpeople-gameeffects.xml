@@ -60,7 +60,7 @@
 	<Modifier id="GREAT_PERSON_GRANT_SETTLER_CIVILIS" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
 		<Argument name="UnitTag">UNIT_CLASS_CREATE_TOWN</Argument>
 		<Argument name="UnitAbilityType">ABILITY_CIVILIS_MOVEMENT</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">1</Argument>
 		<String context="Summary">LOC_GREATPERSON_GRANT_CREATE_TOWN</String>
 	</Modifier>
 	<Modifier id="GREAT_PERSON_GRANT_RANGED_HERMANAFRID" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
@@ -83,15 +83,15 @@
 				<Argument name="MinDepth">1</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="UnitTag">UNIT_CLASS_RANGED</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_SIEGE</Argument>
 		<Argument name="UnitAbilityType">ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH</Argument>
 		<Argument name="Amount">2</Argument>
 		<String context="Summary">LOC_GREATPERSON_GRANT_SIEGE</String>
 	</Modifier>
 
 	<!--Unit Abilities-->
-	<Modifier id="CIVILIS_MOVEMENT" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<Argument name="Amount">1</Argument>
+	<Modifier id="CIVILIS_MOVEMENT" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
+		<Argument name="Amount">2</Argument>
 		<String context="Preview">ABILITY_CIVILIS_MOVEMENT_DESCRIPTION</String>
 	</Modifier>
 	<Modifier id="HERMANAFRID_RANGED_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">

@@ -39,13 +39,13 @@
 			<Text>Veleda seeress of the Bructeri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_DESCRIPTION">
-			<Text>Grants a tradtion:  100%[icon:YIELD_INFLUENCE]influence towards Hinder Public Morale and Hinder Military Production.</Text>
+			<Text>Grants a tradtion: 100%[icon:YIELD_INFLUENCE]influence towards Hinder Research and Hinder Military Production.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_VELEDA_NAME">
 			<Text>Successes of the rebels</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_VELEDA_DESCRIPTION">
-			<Text>100%[icon:YIELD_INFLUENCE]influence towards Hinder Public Morale and Hinder Military Production.</Text>
+			<Text>100%[icon:YIELD_INFLUENCE]influence towards Hinder Research and Hinder Military Production.</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_NAME">
 			<Text>Pipara of the Marcomanni</Text> 
@@ -71,13 +71,13 @@
 			<Text>Civilis of the Batavi</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_DESCRIPTION">
-			<Text>Grants 2 Settler Units with increased movement.</Text>
+			<Text>Grants a Settler Units with increased movement.</Text>
 		</Row>
 		<Row Tag="ABILITY_CIVILIS_MOVEMENT_DESCRIPTION">
-			<Text>+1 movement</Text>
+			<Text>+2 movement</Text>
 		</Row>
 		<Row Tag="LOC_GREATPERSON_GRANT_CREATE_TOWN">
-			<Text>Grants 2 Settler Units with increased movement.</Text>
+			<Text>Grants a Settler Units with increased movement.</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_NAME">
 			<Text>Hermanafrid of the Thuringii</Text>
