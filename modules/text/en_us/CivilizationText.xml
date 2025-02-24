@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-
-
-
 		<!--Germania Names-->
 		<Row Tag="LOC_CIVILIZATION_GERMANIA_NAME">
 			<Text>Germania</Text>
@@ -14,8 +11,12 @@
 		<Row Tag="LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_GERMANIA_DESCRIPTION">
 			<Text>Germania Antiquity Age Civilization</Text>
 		</Row>
+				<!--Civilization Adjectives-->
+		<Row Tag="LOC_CIVILIZATION_GERMANIA_ADJECTIVE">
+			<Text>Teutonic</Text>
+			<Gender>Masculine:an</Gender>
+		</Row>
 		<!--Germania Ability-->
-		
 		<Row Tag="LOC_TRAIT_GERMANIA_ABILITY_NAME">
 			<Text>Furor Teutonicus</Text>
 		</Row>
