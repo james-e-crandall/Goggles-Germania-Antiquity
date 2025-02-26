@@ -34,10 +34,10 @@
 	<ProgressionTreeNodes>
 		<!-- Germania -->
 
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="150" Name="LOC_CIVIC_GERMANIA_CODANUS_NAME" IconString="cult_aksum" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="250" Name="LOC_CIVIC_GERMANIA_BARBARICUM_NAME" IconString="cult_aksum" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="250" Name="LOC_CIVIC_GERMANIA_MIDGARD_NAME" IconString="cult_aksum" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="400" Name="LOC_CIVIC_GERMANIA_WULFAZ_NAME" IconString="cult_aksum" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="150" Name="LOC_CIVIC_GERMANIA_CODANUS_NAME" IconString="cult_germania" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="250" Name="LOC_CIVIC_GERMANIA_BARBARICUM_NAME" IconString="cult_germania" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="250" Name="LOC_CIVIC_GERMANIA_MIDGARD_NAME" IconString="cult_germania" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" ProgressionTree="TREE_CIVICS_AQ_GERMANIA" Cost="400" Name="LOC_CIVIC_GERMANIA_WULFAZ_NAME" IconString="cult_germania" />
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- Germania -->

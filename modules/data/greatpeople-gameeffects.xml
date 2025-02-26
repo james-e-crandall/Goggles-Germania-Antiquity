@@ -19,7 +19,9 @@
 	</Modifier>
 	<Modifier id="TEUTOBOD_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" Inverse="false"/>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING">
+				<Argument name="Inverse">true</Argument>
+			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">4</Argument>
 		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_PREVIEW</String>

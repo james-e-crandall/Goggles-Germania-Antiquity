@@ -11,7 +11,7 @@
 		<Row Tag="LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_GERMANIA_DESCRIPTION">
 			<Text>Germania Antiquity Age Civilization</Text>
 		</Row>
-				<!--Civilization Adjectives-->
+		<!--Civilization Adjectives-->
 		<Row Tag="LOC_CIVILIZATION_GERMANIA_ADJECTIVE">
 			<Text>Teutonic</Text>
 			<Gender>Masculine:an</Gender>

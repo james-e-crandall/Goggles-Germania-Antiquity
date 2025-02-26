@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Database>
     <IconDefinitions>
+        <!-- civic -->
+        <Row>
+            <ID>cult_germania</ID>
+            <Path>fs://game/goggles_civ_germania/icons/cult_germania.png</Path>
+        </Row> 
         <Row>
             <ID>CIVILIZATION_GERMANIA</ID>
             <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania</Path>
