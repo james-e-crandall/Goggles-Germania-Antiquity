@@ -19,9 +19,7 @@
 	</Modifier>
 	<Modifier id="TEUTOBOD_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING">
-				<Argument name="Inverse">true</Argument>
-			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING"/>
 		</SubjectRequirements>
 		<Argument name="Amount">4</Argument>
 		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_PREVIEW</String>
@@ -92,10 +90,15 @@
 	</Modifier>
 
 	<!--Unit Abilities-->
-	<Modifier id="CIVILIS_MOVEMENT" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
+	<Modifier id="CIVILIS_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
 		<Argument name="Amount">2</Argument>
 		<String context="Preview">ABILITY_CIVILIS_MOVEMENT_DESCRIPTION</String>
 	</Modifier>
+	<Modifier id="CIVILIS_EMBARKED_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_EMBARKED_MOVEMENT">
+		<Argument name="Amount">2</Argument>
+		<String context="Preview">ABILITY_CIVILIS_MOVEMENT_DESCRIPTION</String>
+	</Modifier>
+
 	<Modifier id="HERMANAFRID_RANGED_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">3</Argument>
 		<String context="Preview">ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH_DESCRIPTION</String>

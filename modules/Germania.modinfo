@@ -2,7 +2,10 @@
 <Mod id="goggles_civ_germania" version="1"
 	xmlns="ModInfo">
 	<!-- Atributions: 
+	Germania Image provided by:
 	By Philipp Veit - https://sammlung.staedelmuseum.de/de/werk/germania, PDM-owner, https://commons.wikimedia.org/w/index.php?curid=96817315
+	Icons Images Provided by:
+	Vathareon
 	-->
 	<Properties>
 		<Name>LOC_MODULE_GERMANIA_NAME</Name>
@@ -46,6 +49,7 @@
                 </UpdateText>
                 <ImportFiles>
                     <Item>icons/civ_sym_germania</Item>
+					<Item>icons/civ_line_germania</Item>
                     <Item>icons/buildicon_herrenhofe.png</Item>		
 					<Item>icons/unitflag_folc.png</Item>
 					<Item>icons/unitflag_suebi.png</Item>	
@@ -132,6 +136,7 @@
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_germania.png</Item>
+					<Item>icons/civ_line_germania</Item>
                     <Item>icons/buildicon_herrenhofe.png</Item>		
 					<Item>icons/unitflag_folc.png</Item>
 					<Item>icons/unitflag_suebi.png</Item>

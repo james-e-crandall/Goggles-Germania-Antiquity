@@ -29,7 +29,5 @@
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_GERMANIA_DESCRIPTION">
 			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Germania's associated Wonder.</Text>
 		</Row>
-
-
 	</EnglishText>
 </Database>

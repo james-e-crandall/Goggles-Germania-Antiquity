@@ -7,6 +7,10 @@
             <Path>fs://game/goggles_civ_germania/icons/cult_germania.png</Path>
         </Row> 
         <Row>
+            <ID>civ_line_germania</ID>
+            <Path>fs://game/goggles_civ_germania/icons/civ_line_germania.png</Path>
+        </Row> 
+        <Row>
             <ID>CIVILIZATION_GERMANIA</ID>
             <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania</Path>
             <Context>DEFAULT</Context>

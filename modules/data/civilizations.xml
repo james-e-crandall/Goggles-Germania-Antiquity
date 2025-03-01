@@ -22,8 +22,8 @@
 	<TraitModifiers>
 		<Row TraitType="TRAIT_GERMANIA_ABILITY" ModifierId="TRAIT_MOD_FUROR_TEUTONICUS_HAPPINESS_ON_UNIT_DEFEAT"/>
 		<Row TraitType="TRAIT_GERMANIA_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_GERMANIA"/>
-
 	</TraitModifiers>
+
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_GERMANIA" TraitType="TRAIT_ANTIQUITY_CIV"/>
 		<Row CivilizationType="CIVILIZATION_GERMANIA" TraitType="TRAIT_GERMANIA"/>

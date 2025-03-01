@@ -19,9 +19,11 @@
 				<Argument name="RequirementSetId">REQSET_FARM_OR_FISH_TOWN</Argument>
 			</Requirement>
 		</SubjectRequirements>
+		<Argument name="ConstructibleType">IMPROVEMENT_FARM, IMPROVEMENT_FISHING_BOAT, IMPROVEMENT_FISHING_BOAT_RESOURCE</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Percent">30</Argument>
+		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION</String>
+
 	</Modifier>
 	<!-- GALSTAR -->
 	<Modifier id="TRADITION_GERMANIA_GALSTAR_MOD_RELIGIOUS_HAPPIENESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
@@ -30,13 +32,18 @@
 	</Modifier>
 
 	<!-- BARBARIAN_INVASION -->
-	<Modifier id="TRADITION_GERMANIA_BARBARIAN_INVASION_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_YIELD">
+	<Modifier id="TRADITION_GERMANIA_BARBARIAN_INVASION_ENEMY_TERRITORY_COMMANDER_XP" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_FIRST_TIME_SETTLEMENT_OCCUPATION" />
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_IN_OWNER_TERRITORY" inverse="true">
+				<Argument name="friendlyOnly">true</Argument>
+			</Requirement>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_HAPPIENESS</Argument>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">100</Argument>
+		<Argument name="Percent">20</Argument>
 	</Modifier>
+
 
 	<!-- Great People -->
 	<Modifier id="TRADITION_ADJUST_SABOTAGE_EFFICIENCY_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">

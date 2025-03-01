@@ -34,9 +34,11 @@
 		<Row Tag="LOC_CIVIC_GERMANIA_BARBARICUM_QUOTE_AUTHOR">
 			<Text>Ovid</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_FISH_TOWN_INFANTRY_PRODUCTION_DESCRIPTION">
-			<Text>+100% [icon:YIELD_GOLD]Gold to buying Infantry Units in each town specialized as a Fishing/Farming town.</Text>
+
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
+			<Text>+2[icon:YIELD_HAPPINESS] Happiness in Fishing/Farming town for each City-State you are Suzerain of.</Text>
 		</Row>
+
 		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_FISH_RESOURCE_CAP_DESCRIPTION">
 			<Text>+2 Resouce Capacity each town specialized as a Fishing/Farming town.</Text>
 		</Row>
@@ -60,8 +62,11 @@
 		<Row Tag="LOC_CIVIC_GERMANIA_WULFAZ_QUOTE_AUTHOR">
 			<Text>Christian Fürchtegott</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_AQ_GERMANIA_MIGRATION_ENEMY_TERRITORY_COMMANDER_XP_DESCRIPTION">
-			<Text>+20% Commander experience in Enemy Territory.</Text>
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT">
+			<Text>Gain [icon:YIELD_SCIENCE]Science per Age upon capturing a Settlement for the first time.</Text>
+		</Row>
+		<Row Tag="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT_DESCRIPTION">
+			<Text>Gain [icon:YIELD_SCIENCE]Science per Age upon capturing a Settlement for the first time. Description</Text>
 		</Row>
 
 		<!--Germania Unique Traditions-->
@@ -74,9 +79,13 @@
 		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_NAME">
 			<Text>All Men</Text>
 		</Row>
+		<!-- <Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION">
+			<Text>+30% [icon:YIELD_HAPPINESS]Happiness to all Fishing/Farming Towns.</Text>
+		</Row> -->
 		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION">
-			<Text>+30% [icon:YIELD_HAPPINESS]Happiness to all Farming Towns.</Text>
+			<Text>+1 [icon:YIELD_HAPPINESS]Happiness per Farm or Fishing Boat to all Fishing/Farming Towns.</Text>
 		</Row>
+
 		<Row Tag="LOC_TRADITION_GERMANIA_GALSTAR_NAME">
 			<Text>Galstar</Text>
 		</Row>
@@ -87,7 +96,7 @@
 			<Text>Barbarian Invasion</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_BARBARIAN_INVASION_DESCRIPTION">
-			<Text>Gain [icon:YIELD_HAPPINESS]Happiness per Age upon capturing a Settlement for the first time.</Text>
+			<Text>+20% Commander experience in Enemy Territory.</Text>
 		</Row>
 
 </EnglishText>

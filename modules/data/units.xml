@@ -152,4 +152,9 @@
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_FOLC" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
 	</Unit_Advisories>
+	<ProjectModifiers>
+		<!-- Warehouse Modifiers -->
+		<Row ProjectType="PROJECT_TOWN_GRANARY" ModifierId="SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY"/>
+		<Row ProjectType="PROJECT_TOWN_FISHING" ModifierId="SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY"/>
+	</ProjectModifiers>
 </Database>
