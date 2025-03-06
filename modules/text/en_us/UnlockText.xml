@@ -7,5 +7,16 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_GERMANIA_NORMAN_TOOLTIP">
 			<Text>The [B]Germania [/B] is from the same continent as [B]Norman[/b].</Text>
 		</Row>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_GERMANIA_TOOLTIP">
+			<Text>[B]Charlemagne[/B] strategically complements [B]Germania[/B] .</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CATHERINE_GERMANIA_TOOLTIP">
+			<Text>[B]Catherine[/B] was born in [B]Germania[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_GERMANIA_TOOLTIP">
+			<Text>[B]Friedrich[/B] was born in [B]Germania[/B].</Text>
+		</Row>
+		
 	</EnglishText>
 </Database>
