@@ -8,7 +8,7 @@
 
 	<Civilizations>
 		<!--Full Civs -->
-		<Row CivilizationType="CIVILIZATION_GERMANIA" Name="LOC_CIVILIZATION_GERMANIA_NAME" FullName="LOC_CIVILIZATION_GERMANIA_FULLNAME" Description="LOC_CIVILIZATION_GERMANIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_GERMANIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_GERMANIA" CapitalName="LOC_CITY_NAME_GERMANIA1" RandomCityNameDepth="10" />	
+		<Row CivilizationType="CIVILIZATION_GERMANIA" AITargetCityPercentage="25" Name="LOC_CIVILIZATION_GERMANIA_NAME" FullName="LOC_CIVILIZATION_GERMANIA_FULLNAME" Description="LOC_CIVILIZATION_GERMANIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_GERMANIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_GERMANIA" CapitalName="LOC_CITY_NAME_GERMANIA1" RandomCityNameDepth="10" />	
 	</Civilizations>
 	<CivilizationFavoredWonders>
 		<Row CivilizationType="CIVILIZATION_GERMANIA" FavoredWonderType="WONDER_MAUSOLEUM_OF_THEODORIC" FavoredWonderName="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_NAME"/>
@@ -63,10 +63,10 @@
 		<Row CivilizationType="CIVILIZATION_GERMANIA" CityName="LOC_CITY_NAME_GERMANIA22"/>
 	</CityNames>
 	<StartBiasBiomes>
-		<Row CivilizationType="CIVILIZATION_GERMANIA" BiomeType="BIOME_TUNDRA" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" BiomeType="BIOME_TUNDRA" Score="100"/>
 	</StartBiasBiomes>
 	<StartBiasTerrains>
-
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TerrainType="TERRAIN_MOUNTAIN" Score="25"/>
 	</StartBiasTerrains>
 	<StartBiasFeatureClasses>
 		<Row CivilizationType="CIVILIZATION_GERMANIA" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="5"/>
