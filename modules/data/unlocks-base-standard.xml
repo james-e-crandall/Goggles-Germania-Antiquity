@@ -24,7 +24,7 @@
 		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA" RequirementId="REQ_CIV_IS_GERMANIA"/>
 	</RequirementSetRequirements>
 	<UnlockRequirements>
-		<Row UnlockType="UNLOCK_CIVILIZATION_GERMANIA" RequirementSetId="REQSET_CIV_IS_GERMANIA" Description="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GERMANIA_NORMAN_TOOLTIP"/>
+
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" ConfigurationValue="CIVILIZATION_GERMANIA"/>
