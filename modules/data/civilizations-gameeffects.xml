@@ -16,32 +16,6 @@
 		<String context="WorldText">LOC_WORLD_HAPPINESS_INCREASE_FLOATER</String>
 	</Modifier>
 
-	<!-- GERMANIA Test -->
-	<Modifier id="TRAIT_MOD_FUROR_TEUTONICUS_COMMANDER_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_FUROR_TEUTONICUS</Argument>
-	</Modifier>
-	<Modifier id="TRAIT_MOD_FUROR_TEUTONICUS_COORDINATED_ATTACK_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_FUROR_TEUTONICUS_COMBAT</Argument>
-	</Modifier>
-	<Modifier id="TRAIT_MOD_FUROR_TEUTONICUS_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" Inverse="false"/>
-		</SubjectRequirements>
-		<Argument name="Amount">30</Argument>
-		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_TEUTOBOD_PREVIEW</String>
-	</Modifier>
-
 	<!-- ==================================================	-->
 	<!--	Civ Trees							-->
 	<!-- ==================================================	-->
