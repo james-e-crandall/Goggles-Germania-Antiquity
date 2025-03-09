@@ -34,9 +34,6 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
-		<Criteria all="true" id="goggles_civ_germania-enable">
-			<ModInUse>goggles_civ_swiss_confederacy</ModInUse>
-		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
         <ActionGroup id="base-game-main-Germania" scope="game" criteria="always">

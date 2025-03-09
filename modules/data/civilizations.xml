@@ -66,7 +66,7 @@
 		<Row CivilizationType="CIVILIZATION_GERMANIA" BiomeType="BIOME_TUNDRA" Score="100"/>
 	</StartBiasBiomes>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TerrainType="TERRAIN_MOUNTAIN" Score="25"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" TerrainType="TERRAIN_MOUNTAIN" Score="25"/>
 	</StartBiasTerrains>
 	<StartBiasFeatureClasses>
 		<Row CivilizationType="CIVILIZATION_GERMANIA" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="5"/>
