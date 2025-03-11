@@ -29,9 +29,9 @@
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" TagType="TAG_TRAIT_EXPANSIONIST"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_GERMANIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_GERMANIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_CATHERINE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CATHERINE_GERMANIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_GERMANIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_GERMANIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 	</LeaderCivilizationBias>
 	<CivilizationUnlocks>
 		
