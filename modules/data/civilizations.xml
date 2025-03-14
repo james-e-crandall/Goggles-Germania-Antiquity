@@ -11,7 +11,7 @@
 		<Row CivilizationType="CIVILIZATION_GERMANIA" AITargetCityPercentage="25" Name="LOC_CIVILIZATION_GERMANIA_NAME" FullName="LOC_CIVILIZATION_GERMANIA_FULLNAME" Description="LOC_CIVILIZATION_GERMANIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_GERMANIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_GERMANIA" CapitalName="LOC_CITY_NAME_GERMANIA1" RandomCityNameDepth="10" />	
 	</Civilizations>
 	<CivilizationFavoredWonders>
-		<Row CivilizationType="CIVILIZATION_GERMANIA" FavoredWonderType="WONDER_MAUSOLEUM_OF_THEODORIC" FavoredWonderName="LOC_WONDER_MAUSOLEUM_OF_THEODORIC_NAME"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" FavoredWonderType="WONDER_HASELGEBRIGE_SALT_MINE" FavoredWonderName="LOC_WONDER_HASELGEBRIGE_SALT_MINE_NAME"/>
 	</CivilizationFavoredWonders>
 	<Modifiers/>
 	<ModifierArguments/>
@@ -71,6 +71,9 @@
 	<StartBiasFeatureClasses>
 		<Row CivilizationType="CIVILIZATION_GERMANIA" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="5"/>
 	</StartBiasFeatureClasses>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_GERMANIA" ResourceType="RESOURCE_SALT" Score="5"/>
+	</StartBiasResources>
 	<StartBiasRivers>
 	</StartBiasRivers>
 	<StartBiasAdjacentToCoasts>

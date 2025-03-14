@@ -9,6 +9,8 @@
 
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_HASELGEBRIGE_SALT_MINE" UnlockDepth="1"/>
+		<!-- Germania -->
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_BRONZE_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_SUEBI_2" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA"/>
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_SUEBI_3" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA"/>
 	</ProgressionTreeNodeUnlocks>

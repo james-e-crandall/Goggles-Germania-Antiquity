@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Wonders -->
+		<Row Type="WONDER_HASELGEBRIGE_SALT_MINE" Kind="KIND_CONSTRUCTIBLE"/>
+    </Types>
+	<TypeQuotes>
+		<!-- Wonders -->
+		<Row Type="WONDER_HASELGEBRIGE_SALT_MINE" Quote="LOC_QUOTE_WONDER_HASELGEBRIGE_SALT_MINE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_HASELGEBRIGE_SALT_MINE" QuoteAudio="VO_Quote_Haselgebrige_Salt_Mine"/>
+    </TypeQuotes>
+	<Constructibles>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" Name="LOC_WONDER_HASELGEBRIGE_SALT_MINE_NAME" Description="LOC_WONDER_HASELGEBRIGE_SALT_MINE_DESCRIPTION" Tooltip="LOC_WONDER_HASELGEBRIGE_SALT_MINE_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
+    </Constructibles>
+    <Wonders>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" MaxWorldInstances="1" AdjacentResource="RESOURCE_SALT" />    
+	</Wonders>
+	<Constructible_ValidDistricts>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" DistrictType="DISTRICT_WONDER"/>
+    </Constructible_ValidDistricts>
+	<Constructible_YieldChanges>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldType="YIELD_DIPLOMACY" YieldChange="1"/>
+    </Constructible_YieldChanges>
+	<Constructible_WarehouseYields>
+		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldChangeId="HaselgebrigeSaltMineMineResourceDiplomacy" />
+		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldChangeId="HaselgebrigeSaltMineWoodcutterResourceDiplomacy" />
+		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldChangeId="HaselgebrigeSaltMineFishingBoatResourceDiplomacy" />
+		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldChangeId="HaselgebrigeSaltMineQuarryDiplomacy" />
+	</Constructible_WarehouseYields>
+	<Warehouse_YieldChanges>
+		<Row ID="HaselgebrigeSaltMineMineResourceDiplomacy" Age="AGE_ANTIQUITY" YieldType="YIELD_DIPLOMACY" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
+		<Row ID="HaselgebrigeSaltMineWoodcutterResourceDiplomacy" Age="AGE_ANTIQUITY" YieldType="YIELD_DIPLOMACY" YieldChange="1" ConstructibleInCity="IMPROVEMENT_WOODCUTTER_RESOURCE"/>
+		<Row ID="HaselgebrigeSaltMineFishingBoatResourceDiplomacy" Age="AGE_ANTIQUITY" YieldType="YIELD_DIPLOMACY" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
+		<Row ID="HaselgebrigeSaltMineQuarryDiplomacy" Age="AGE_ANTIQUITY" YieldType="YIELD_DIPLOMACY" YieldChange="1" ConstructibleInCity="IMPROVEMENT_QUARRY"/>
+	</Warehouse_YieldChanges>
+    <Constructible_Advisories>
+		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" AdvisoryClassType="ADVISORY_CLASS_DIPLOMACY"/>
+    </Constructible_Advisories>
+</Database>

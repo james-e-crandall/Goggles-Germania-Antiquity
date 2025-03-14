@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<Row>
+			<ID>WONDER_HASELGEBRIGE_SALT_MINE</ID>
+			<Path>blp:wondericon_pyramids</Path>
+		</Row>
+    </IconDefinitions>
+</Database>

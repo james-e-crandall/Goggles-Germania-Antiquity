@@ -6,6 +6,9 @@
 	By Philipp Veit - https://sammlung.staedelmuseum.de/de/werk/germania, PDM-owner, https://commons.wikimedia.org/w/index.php?curid=96817315
 	Icons Images Provided by:
 	Vathareon
+	Haselgebrige Salt Mine Quote From:
+	https://www.sciencedirect.com/science/article/pii/S0191814111000423
+
 	-->
 	<Properties>
 		<Name>LOC_MODULE_GERMANIA_NAME</Name>
@@ -72,6 +75,7 @@
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Germania.xml</Item>
+					<Item>data/icons/wonder-icons.xml</Item>
                 </UpdateIcons>
                 <ScenarioScripts>
                 </ScenarioScripts>
@@ -91,6 +95,7 @@
 					<Item>data/religion.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/traditions.xml</Item>
+					<Item>data/wonders.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
 					
@@ -106,6 +111,7 @@
 					<Item>text/en_us/GreatPeopleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>	
+					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -159,6 +165,7 @@
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Germania.xml</Item>
+					<Item>data/icons/wonder-icons.xml</Item>
                 </UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>

@@ -41,7 +41,7 @@
 		<!-- Germania -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_CODANUS_NAVAL_WATER" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_CODANNOVIA" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_MAUSOLEUM_OF_THEODORIC" UnlockDepth="1" AIIgnoreUnlockValue="true" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_HASELGEBRIGE_SALT_MINE" UnlockDepth="1" AIIgnoreUnlockValue="true" />
 		
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_ALL_MEN" UnlockDepth="1"/>
