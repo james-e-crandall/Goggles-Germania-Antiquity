@@ -63,10 +63,10 @@
 			<Text>Christian Fürchtegott</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT">
-			<Text>Gain [icon:YIELD_SCIENCE]Science per Age upon capturing a Settlement for the first time.</Text>
+			<Text>Gain [icon:YIELD_SCIENCE] Science per Age upon capturing a Settlement for the first time.</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT_DESCRIPTION">
-			<Text>Gain [icon:YIELD_SCIENCE]Science per Age upon capturing a Settlement for the first time. Description</Text>
+			<Text>Gain [icon:YIELD_SCIENCE] Science per Age upon capturing a Settlement for the first time. Description</Text>
 		</Row>
 
 		<!--Germania Unique Traditions-->
@@ -74,23 +74,20 @@
 			<Text>Codannovia</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_DESCRIPTION">
-			<Text>+100% [icon:YIELD_GOLD]Gold twords purchasing Warehouse buildings.</Text>
+			<Text>+100%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_NAME">
 			<Text>All Men</Text>
 		</Row>
-		<!-- <Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION">
-			<Text>+30% [icon:YIELD_HAPPINESS]Happiness to all Fishing/Farming Towns.</Text>
-		</Row> -->
 		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION">
-			<Text>+1 [icon:YIELD_HAPPINESS]Happiness per Farm or Fishing Boat to all Fishing/Farming Towns.</Text>
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Farm or Fishing Boat to all Fishing/Farming Towns.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_GERMANIA_GALSTAR_NAME">
 			<Text>Galstar</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_GALSTAR_DESCRIPTION">
-			<Text>[icon:YIELD_HAPPINESS]Happiness buidlings have a minor adjacency with Tundra.</Text>
+			<Text>Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_BARBARIAN_INVASION_NAME">
 			<Text>Barbarian Invasion</Text>

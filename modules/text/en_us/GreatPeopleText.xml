@@ -39,25 +39,25 @@
 			<Text>Veleda seeress of the Bructeri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_DESCRIPTION">
-			<Text>Grants a tradtion: 100%[icon:YIELD_INFLUENCE]influence towards Hinder Research and Hinder Military Production.</Text>
+			<Text>Grants a tradtion: 100%[icon:YIELD_DIPLOMACY] influence towards Hinder Research and Hinder Military Production.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_VELEDA_NAME">
 			<Text>Successes of the rebels</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_VELEDA_DESCRIPTION">
-			<Text>100%[icon:YIELD_INFLUENCE]influence towards Hinder Research and Hinder Military Production.</Text>
+			<Text>100%[icon:YIELD_DIPLOMACY] influence towards Hinder Research and Hinder Military Production.</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_NAME">
 			<Text>Pipara of the Marcomanni</Text> 
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_DESCRIPTION">
-			<Text>Grants a tradtion: +1 Happiness per Imported Resouce in each Settlement.</Text>
+			<Text>Grants a tradtion: +1[icon:YIELD_HAPPINESS] Happiness per Imported Resouce in each Settlement.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_PIPARA_NAME">
 			<Text>For love of country</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_PIPARA_DESCRIPTION">
-			<Text>+1 Happiness per Imported Resouce in each Settlement.</Text>
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Imported Resouce in each Settlement.</Text>
 		</Row>
 		<!-- Bursts -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_NAME">

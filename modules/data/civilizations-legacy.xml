@@ -17,5 +17,7 @@
 	</Traits>
 	<LegacyLeaderCivPriorities>
 		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_GERMANIA"/>
+		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_GERMANIA"/>
+		<Row Leader="LEADER_CATHERINE" CivilizationType="CIVILIZATION_GERMANIA"/>
 	</LegacyLeaderCivPriorities>
 </Database>
