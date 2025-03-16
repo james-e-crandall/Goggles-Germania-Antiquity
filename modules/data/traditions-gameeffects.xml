@@ -13,18 +13,19 @@
 	</Modifier>
 
 	<!-- CODANNOVIA -->
-	<Modifier id="TRADITION_GERMANIA_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+	<Modifier id="TRADITION_GERMANIA_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
 				<Argument name="RequirementSetId">REQSET_FARM_OR_FISH_TOWN</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ConstructibleType">IMPROVEMENT_FARM, IMPROVEMENT_FISHING_BOAT, IMPROVEMENT_FISHING_BOAT_RESOURCE</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION</String>
-
+		<Argument name="ConstructibleType">IMPROVEMENT_FARM, IMPROVEMENT_FISHING_BOAT, IMPROVEMENT_FISHING_BOAT_RESOURCE</Argument>
+		<String context="Description">LOC_TRADITION_HEALING_CULTS_DESCRIPTION</String>
 	</Modifier>
+
+
 	<!-- GALSTAR -->
 	<Modifier id="TRADITION_GERMANIA_GALSTAR_MOD_RELIGIOUS_HAPPIENESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
 		<Argument name="ConstructibleAdjacency">GalstarWildcardTundraHappiness</Argument>

@@ -8,6 +8,18 @@
 		<Row Tag="LOC_UNIT_FOLC_DESCRIPTION">
 			<Text>A Great Person with one charge. Can only be trained in the Capitol, and the specific Folc received is random. Each Folc can only be received once. Cost increases per Folc trained.</Text>
 		</Row>
+		<Replace Tag="LOC_GREATPERSON_BARRACKS_PRODUCTION">
+			<Text>The Barracks provides +{1_Amount}[icon:YIELD_PRODUCTION] Production in this Settlement.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATPERSON_ARENA_HAPPINESS">
+			<Text>The Arena provides +{1_Amount}[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATPERSON_ALTER_HAPPINESS">
+			<Text>The Alter provides +{1_Amount}[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
+		</Replace>
+
 		 <!-- Commander abilities -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME">
 			<Text>Teutobod of the Tuetons</Text>
@@ -32,7 +44,7 @@
 			<Text>Vibilius of the Hermunduri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_DESCRIPTION">
-			<Text>Grant +1 Military Legacy Ponts.</Text>
+			<Text>Activated to have The Arena provides +4[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
 		</Row>
 		<!-- Traditions -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_NAME">
@@ -64,7 +76,7 @@
 			<Text>Raicunda of the Thuringii</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_DESCRIPTION">
-			<Text>One Time Grant Gold bonus from Resouces in a Settlement.</Text>
+			<Text>Activated to have The Alter provides +4[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
 		</Row>
 		<!-- Units -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_NAME">
@@ -76,9 +88,9 @@
 		<Row Tag="ABILITY_CIVILIS_MOVEMENT_DESCRIPTION">
 			<Text>+2 movement</Text>
 		</Row>
-		<Row Tag="LOC_GREATPERSON_GRANT_CREATE_TOWN">
+		<Replace Tag="LOC_GREATPERSON_GRANT_CREATE_TOWN">
 			<Text>Grants a Settler Units with increased movement.</Text>
-		</Row>
+		</Replace>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_NAME">
 			<Text>Hermanafrid of the Thuringii</Text>
 		</Row>
@@ -88,9 +100,9 @@
 		<Row Tag="ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH_DESCRIPTION">
 			<Text>+3 Combat Strength</Text>
 		</Row>
-		<Row Tag="LOC_GREATPERSON_GRANT_RANGED">
+		<Replace Tag="LOC_GREATPERSON_GRANT_RANGED">
 			<Text>Grants 2 Ranged Units with +3 Combat Strength.</Text>
-		</Row>
+		</Replace>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_NAME">
 			<Text>Boiorix of the Cimbri</Text>
 		</Row>
@@ -100,8 +112,8 @@
 		<Row Tag="ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH_DESCRIPTION">
 			<Text>+3 Combat Strength</Text>
 		</Row>
-		<Row Tag="LOC_GREATPERSON_GRANT_SIEGE">
+		<Replace Tag="LOC_GREATPERSON_GRANT_SIEGE">
 			<Text>Creates 2 Siege Units with +3 Combat Strength.</Text>
-		</Row>
+		</Replace>
 	</EnglishText>
 </Database>

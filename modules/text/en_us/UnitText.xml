@@ -8,19 +8,19 @@
 			<Text>Suebi</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_BASE_DESCRIPTION">
-			<Text>Germania Unique Infantry Unit. +1 Combat Strength from each Gold and Silver Resource. +5 Healing from each Wine Resource. +100% [icon:YIELD_GOLD]Gold to purchasing Suebi in towns specialized as a Fishing/Farming town.</Text>
+			<Text>Germania Unique Infantry Unit. +1 Combat Strength from each Gold and Silver Resource. +5 Healing from each Wine Resource. Reduced cost to purchase Suebi for each in town specialized as a Fishing/Farming.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_DESCRIPTION">
-			<Text>Germania Unique Infantry Unit. +1 Combat Strength from each Gold and Silver Resource. +5 Healing from each Wine Resource. +100% [icon:YIELD_GOLD]Gold to purchasing Suebi in towns specialized as a Fishing/Farming town.</Text>
+			<Text>Germania Unique Infantry Unit. +1 Combat Strength from each Gold and Silver Resource. +5 Healing from each Wine Resource. Reduced cost to purchase Suebi for each in town specialized as a Fishing/Farming.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_2_DESCRIPTION">
-			<Text>Tier 2 Germania Unique Infantry Unit. +1 Combat Strength from each Gold and Silver Resource. +5 Healing from each Wine Resource. +100% [icon:YIELD_GOLD]Gold to purchasing Suebi in towns specialized as a Fishing/Farming town.</Text>
+			<Text>Tier 2 Germania Unique Infantry Unit. +1 Combat Strength from each Gold and Silver Resource. +5 Healing from each Wine Resource. Reduced cost to purchase Suebi for each in town specialized as a Fishing/Farming.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_3_DESCRIPTION">
-			<Text>Tier 3 Germania Unique Infantry Unit. +1 Combat Strength from each Gold and Silver Resource. +5 Healing from each Wine Resource. +100% [icon:YIELD_GOLD]Gold to purchasing Suebi in towns specialized as a Fishing/Farming town.</Text>
+			<Text>Tier 3 Germania Unique Infantry Unit. +1 Combat Strength from each Gold and Silver Resource. +5 Healing from each Wine Resource. Reduced cost to purchase Suebi for each in town specialized as a Fishing/Farming.</Text>
 		</Row>
 		<Row Tag="SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY_DESCRIPTION">
-			<Text>+100% [icon:YIELD_GOLD]Gold to purchasing Suebi in towns specialized as a Fishing/Farming town.</Text>
+			<Text>Reduced cost to purchase Suebi for each in town specialized as a Fishing/Farming.</Text>
 		</Row>
 
 
