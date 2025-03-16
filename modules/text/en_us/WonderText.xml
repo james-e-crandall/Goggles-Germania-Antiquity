@@ -8,7 +8,7 @@
 			<Text>+1[icon:YIELD_DIPLOMACY] Influence. {LOC_WONDER_HASELGEBRIGE_SALT_MINE_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_HASELGEBRIGE_SALT_MINE_TOOLTIP">
-			<Text>+1[icon:YIELD_DIPLOMACY] Influence to all Resources in the city. Ageless. Must be placed adjacent to a Salt Resource.</Text>
+			<Text>+1[icon:YIELD_DIPLOMACY] Influence to all Mined or Quarried Resources in the city. Ageless. Must be placed adjacent to a Salt Resource.</Text>
 		</Row>
 		<Row Tag="LOC_QUOTE_WONDER_HASELGEBRIGE_SALT_MINE">
 			<Text>Exposed in salt mines, rocksalt and mudrock form a two component tectonite: The rock type “haselgebirge” consists of 10–70 wt % halite with silt- to gravel- or block-sized components within a halite matrix, and the “kerngebirge” with >70 wt % halite.</Text>
