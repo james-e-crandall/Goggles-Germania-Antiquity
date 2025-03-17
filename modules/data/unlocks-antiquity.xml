@@ -9,7 +9,7 @@
 		
 	</Unlocks>
 	<UnlockRewards>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" Name="LOC_CIVILIZATION_GERMANIA_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_NORMAN" CivUnlock="true"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" Name="LOC_CIVILIZATION_GERMANIA_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_GERMANIA" CivUnlock="true"/>
 
 	</UnlockRewards>
 	<UnlockRequirements>

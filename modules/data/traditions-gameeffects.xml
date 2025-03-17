@@ -25,7 +25,6 @@
 		<String context="Description">LOC_TRADITION_HEALING_CULTS_DESCRIPTION</String>
 	</Modifier>
 
-
 	<!-- GALSTAR -->
 	<Modifier id="TRADITION_GERMANIA_GALSTAR_MOD_RELIGIOUS_HAPPIENESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
 		<Argument name="ConstructibleAdjacency">GalstarWildcardTundraHappiness</Argument>

@@ -12,13 +12,13 @@
 			<Text>The Barracks provides +{1_Amount}[icon:YIELD_PRODUCTION] Production in this Settlement.</Text>
 		</Replace>
 
-		<Replace Tag="LOC_GREATPERSON_ARENA_HAPPINESS">
+		<InsertOrIgnore Tag="LOC_GREATPERSON_ARENA_HAPPINESS">
 			<Text>The Arena provides +{1_Amount}[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
-		</Replace>
+		</InsertOrIgnore>
 
-		<Replace Tag="LOC_GREATPERSON_ALTER_HAPPINESS">
+		<InsertOrIgnore Tag="LOC_GREATPERSON_ALTER_HAPPINESS">
 			<Text>The Alter provides +{1_Amount}[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
-		</Replace>
+		</InsertOrIgnore>
 
 		 <!-- Commander abilities -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME">
