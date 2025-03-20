@@ -3,7 +3,7 @@
 	<IconDefinitions>
 		<Row>
 			<ID>WONDER_HASELGEBRIGE_SALT_MINE</ID>
-			<Path>blp:wondericon_pyramids</Path>
+			<Path>fs://game/goggles_civ_germania/icons/wondericon_haselgebrige_salt_mine.png</Path>
 		</Row>
     </IconDefinitions>
 </Database>

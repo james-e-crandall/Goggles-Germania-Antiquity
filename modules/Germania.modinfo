@@ -2,8 +2,6 @@
 <Mod id="goggles_civ_germania" version="1"
 	xmlns="ModInfo">
 	<!-- Atributions: 
-	Germania Image provided by:
-	By Philipp Veit - https://sammlung.staedelmuseum.de/de/werk/germania, PDM-owner, https://commons.wikimedia.org/w/index.php?curid=96817315
 	Icons Images Provided by:
 	Vathareon
 	Haselgebrige Salt Mine Quote From:
@@ -72,6 +70,7 @@
 					<Item>icons/unitflag_folc.png</Item>
 					<Item>icons/unitflag_suebi.png</Item>	
 					<Item>icons/cult_germania.png</Item>
+					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Germania.xml</Item>
@@ -162,6 +161,7 @@
 					<Item>icons/unitflag_folc.png</Item>
 					<Item>icons/unitflag_suebi.png</Item>
 					<Item>icons/cult_germania.png</Item>
+					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Germania.xml</Item>

@@ -7,7 +7,7 @@
 			<Text>Herrenhöfe</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HERRENHOFE_DESCRIPTION">
-			<Text>+1[icon:YIELD_GOLD] Gold. +2[icon:YIELD_GOLD] Gold for eaach Warehouse building. Germania Unique Building. Ageless. Must be placed on Flat Terrain.</Text>
+			<Text>+1[icon:YIELD_GOLD] Gold. +2[icon:YIELD_GOLD] Gold for each Warehouse building. Germania Unique Building. Ageless. Must be placed on Flat Terrain.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HERRENHOFE_TOOLTIP">
 			<Text>Germania Unique Building. Ageless. Must be placed on Flat Terrain.</Text>
