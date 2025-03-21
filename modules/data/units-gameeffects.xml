@@ -1,50 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<!-- ==================================================	-->
-	<!--	Germania										-->
-	<!-- ==================================================	-->
-	<!-- GERMANIA Test -->
-
-
-
-	<!-- ==================================================	-->
-	<!--	Unique Abilities							-->
-	<!-- ==================================================	-->
-	<Modifier id="SUEBI_MOD_GOLD_INFANTRY_COMBAT_STRENGTH" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+	<Modifier id="SUEBI_MOD_SPLASH_DAMAGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SPLASH_DAMAGE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_SUEBI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">1</Argument>
-		<Argument name="ResourceType">RESOURCE_GOLD</Argument>
+		<Argument name="Percent">10</Argument>
 	</Modifier>
-	
-	<Modifier id="SUEBI_MOD_SILVER_INFANTRY_COMBAT_STRENGTH" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_SUEBI</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Amount">1</Argument>
-		<Argument name="ResourceType">RESOURCE_SILVER</Argument>
-	</Modifier>
-
-	<Modifier id="SUEBI_MOD_WINE_ADJUST_HEAL_PER_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_HEAL_PER_RESOURCE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_SUEBI</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Amount">5</Argument>
-		<Argument name="ResourceType">RESOURCE_WINE</Argument>
-	</Modifier>
-
-	<Modifier id="SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_UNIT_PURCHASE_EFFICIENCY">
-		<Argument name="UnitTag">UNIT_CLASS_SUEBI</Argument>
-		<Argument name="Apply">Rate</Argument>
-		<Argument name="Percent">5</Argument>
-		<String context="Description">SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY_DESCRIPTION</String>
-	</Modifier>
-
 </GameEffects>

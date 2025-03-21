@@ -22,6 +22,7 @@
 		<Row Type="UNIT_FOLC_BOIORIX" Kind="KIND_UNIT"/>
 		<!-- Unique Abilities -->
 		<Row Type="ABILITY_SUEBI" Kind="KIND_ABILITY"/>
+
 	</Types>
 	<Units>
 		<!-- Civ Unique Military -->
@@ -137,10 +138,7 @@
 		<Row UnitAbilityType="ABILITY_SUEBI" Name="LOC_ABILITY_SUEBI_NAME" Description="LOC_ABILITY_SUEBI_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="SUEBI_MOD_GOLD_INFANTRY_COMBAT_STRENGTH"/>
-		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="SUEBI_MOD_SILVER_INFANTRY_COMBAT_STRENGTH"/>
-		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="SUEBI_MOD_WINE_ADJUST_HEAL_PER_RESOURCE"/>
-
+		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="SUEBI_MOD_SPLASH_DAMAGE"/>
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>
 	</ChargedUnitAbilities>
