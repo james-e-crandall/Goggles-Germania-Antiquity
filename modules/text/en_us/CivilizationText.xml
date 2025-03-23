@@ -21,10 +21,10 @@
 			<Text>Furor Teutonicus</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_GERMANIA_ABILITY_DESCRIPTION">
-			<Text>Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] Happiness equal to 50% of its Combat Strength.</Text>
+			<Text>[LIST][LI]Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] [B]Happiness [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[LI]Reduced cost to purchase [B]Suebi[/B] for each [B]Fishing/Farming[/B] town.[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GERMANIA_DESCRIPTION">
-			<Text>[LIST][LI]Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] [B]Happiness [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Mausoleum of Theodoric[/B].[/LIST]</Text>
+			<Text>[LIST][LI]Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] [B]Happiness [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[LI]Reduced cost to purchase [B]Suebi[/B] for each [B]Fishing/Farming[/B] town.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Mausoleum of Theodoric[/B].[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_GERMANIA_DESCRIPTION">
 			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Germania's associated Wonder.</Text>

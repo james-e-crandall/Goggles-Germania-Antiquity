@@ -41,21 +41,17 @@
         </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
+		<!-- Optional compatability -->
 		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
 			<!-- ynamp compatability -->
-            <Properties>
-				<LoadOrder>100</LoadOrder>
-			</Properties>
 			<Actions>
                 <UpdateDatabase>
-					<Item>ynamp/greatest-earth.xml</Item>
+					<Item>ynamp/data/greatest-earth.xml</Item>
                 </UpdateDatabase>
             </Actions>
 		</ActionGroup>
+		<!-- Germania -->
         <ActionGroup id="base-game-main-Germania" scope="game" criteria="always">
-			<Properties>
-				<LoadOrder>100</LoadOrder>
-			</Properties>
             <Actions>
                 <UpdateDatabase>
 					<Item>data/unlocks-base-standard.xml</Item>
@@ -81,9 +77,6 @@
             </Actions>
         </ActionGroup>
 		<ActionGroup id="age-antiquity-persist-Germania" scope="game" criteria="antiquity-age-persist">
-			<Properties>
-				<LoadOrder>100</LoadOrder>
-			</Properties>
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
@@ -115,9 +108,6 @@
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-antiquity-main-Germania" scope="game" criteria="antiquity-age-current">
-			<Properties>
-				<LoadOrder>100</LoadOrder>
-			</Properties>
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
@@ -143,9 +133,6 @@
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-Germania" scope="shell" criteria="always">
-			<Properties>
-				<LoadOrder>100</LoadOrder>
-			</Properties>
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
@@ -153,6 +140,7 @@
 				</UpdateColors>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>friedrich-alt/config/config-friedrich-alt.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_germania.png</Item>
@@ -175,6 +163,7 @@
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>friedrich-alt/text/en_us/UnlockFriedrichAltText.xml</Item>
 				</UpdateText>
 				<UpdateColors>
 				</UpdateColors>

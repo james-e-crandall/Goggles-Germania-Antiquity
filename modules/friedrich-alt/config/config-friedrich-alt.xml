@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH_ALT" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_GERMANIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+	</LeaderCivilizationBias>
+</Database>
