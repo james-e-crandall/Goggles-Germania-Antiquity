@@ -62,12 +62,10 @@
 		<Row Tag="LOC_CIVIC_GERMANIA_WULFAZ_QUOTE_AUTHOR">
 			<Text>Christian Fürchtegott</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT">
-			<Text>Gain [icon:YIELD_SCIENCE] Science per Age upon capturing a Settlement for the first time.</Text>
+		<Row Tag="NODE_NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION">
+			<Text>+100% Commander experience during a Celebration.</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT_DESCRIPTION">
-			<Text>Gain [icon:YIELD_SCIENCE] Science per Age upon capturing a Settlement for the first time. Description</Text>
-		</Row>
+
 
 		<!--Germania Unique Traditions-->
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_NAME">
@@ -89,12 +87,6 @@
 		<Row Tag="LOC_TRADITION_GERMANIA_GALSTAR_DESCRIPTION">
 			<Text>Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_GERMANIA_BARBARIAN_INVASION_NAME">
-			<Text>Barbarian Invasion</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_GERMANIA_BARBARIAN_INVASION_DESCRIPTION">
-			<Text>+20% Commander experience in Enemy Territory.</Text>
-		</Row>
 
-</EnglishText>
+	</EnglishText>
 </Database>

@@ -52,8 +52,7 @@
 		
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
 
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_BARBARIAN_INVASION" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_CELEBRATION_COMMANDER_XP" UnlockDepth="1"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 		<!-- Germania -->

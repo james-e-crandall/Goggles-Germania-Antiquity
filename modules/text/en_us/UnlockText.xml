@@ -13,6 +13,8 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_GERMANIA_TOOLTIP">
 			<Text>[B]{LOC_LEADER_FRIEDRICH_NAME}[/B] was born in [B]{LOC_CIVILIZATION_GERMANIA_NAME}[/B].</Text>
 		</Row>
-		
+		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_GERMANIA_TOOLTIP">
+			<Text>[B]{LOC_LEADER_FRIEDRICH_ALT_NAME}[/B] was born in [B]Germania[/B].</Text>
+		</Row>
 	</EnglishText>
 </Database>

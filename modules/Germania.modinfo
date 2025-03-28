@@ -140,7 +140,6 @@
 				</UpdateColors>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<Item>friedrich-alt/config/config-friedrich-alt.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_germania.png</Item>
@@ -163,7 +162,6 @@
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
-					<Item>friedrich-alt/text/en_us/UnlockFriedrichAltText.xml</Item>
 				</UpdateText>
 				<UpdateColors>
 				</UpdateColors>

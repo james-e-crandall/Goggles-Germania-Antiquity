@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Database>
     <IconDefinitions>
-        <!-- civic -->
+        <!-- Civ Symbol-->
+        <Row>
+            <ID>CIVILIZATION_GERMANIA</ID>
+            <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+		<Row>
+			<ID>ICON_CIVILIZATION_GERMANIA</ID>
+            <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania</Path>
+		</Row>
+        <!-- Loadscreen -->
+		<Row>
+			<ID>CIVILIZATION_GERMANIA</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_germania/icons/lsbg_germania_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_GERMANIA</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_germania/iconslsbg_germania_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+        <!-- Culture -->
         <Row>
             <ID>cult_germania</ID>
             <Path>fs://game/goggles_civ_germania/icons/cult_germania.png</Path>
@@ -10,11 +33,7 @@
             <ID>civ_line_germania</ID>
             <Path>fs://game/goggles_civ_germania/icons/civ_line_germania.png</Path>
         </Row> 
-        <Row>
-            <ID>CIVILIZATION_GERMANIA</ID>
-            <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania</Path>
-            <Context>DEFAULT</Context>
-        </Row>
+        <!-- UU AND UI -->
         <Row>
             <ID>BUILDING_HERRENHOFE</ID>
             <Path>fs://game/goggles_civ_germania/icons/buildicon_herrenhofe.png</Path>

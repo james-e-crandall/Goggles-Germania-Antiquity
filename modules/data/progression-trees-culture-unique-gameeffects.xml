@@ -41,14 +41,15 @@
 		<String context="Description">NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_FISH_RESOURCE_CAP_DESCRIPTION</String>
 	</Modifier>
 	<!-- WULFAZ -->
-
-	<Modifier id="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_YIELD">
+	<Modifier id="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_CELEBRATION_COMMANDER_XP" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_FIRST_TIME_SETTLEMENT_OCCUPATION" />
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_SCIENCE</Argument>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">100</Argument>
-		<String context="Description">NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_HAPPIENESS_ON_CAPTURE_SETTLEMENT_DESCRIPTION</String>
+		<Argument name="Percent">100</Argument>
+		<String context="Description">NODE_NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION</String>
 	</Modifier>
 
 
