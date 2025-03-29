@@ -130,6 +130,9 @@
 				<UpdateText>
 					<Item>text/en_us/LoadingText.xml</Item>
 				</UpdateText>
+                <UpdateVisualRemaps>
+                    <Item>data/visual-remap.xml</Item>
+                </UpdateVisualRemaps>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-Germania" scope="shell" criteria="always">

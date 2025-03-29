@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <VisualRemaps>
+    <!-- subei -->
+        <Row>
+            <ID>REMAP_UNIT_SUEBI</ID>
+            <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_SUEBI</From>
+            <To>UNIT_WARRIOR</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_SUEBI_2</ID>
+            <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_SUEBI_2</From>
+            <To>UNIT_SPEARMAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_SUEBI_3</ID>
+            <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_SUEBI_3</From>
+            <To>UNIT_PHALANX</To>
+        </Row>
+        <!-- folc -->
+        <Row>
+            <ID>REMAP_UNIT_FOLC_TEUTOBOD</ID>
+            <DisplayName>LOC_UNIT_FOLC_TEUTOBOD_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_FOLC_TEUTOBOD</From>
+            <To>UNIT_LOGIOS_SOCRATES</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_FOLC_ARMINIUS</ID>
+            <DisplayName>LOC_UNIT_FOLC_ARMINIUS_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_FOLC_ARMINIUS</From>
+            <To>UNIT_LOGIOS_XENOPHON</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_FOLC_VIBILIUS</ID>
+            <DisplayName>LOC_UNIT_FOLC_VIBILIUS_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_FOLC_VIBILIUS</From>
+            <To>UNIT_LOGIOS_PYTHAGORAS</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_FOLC_CIVILIS</ID>
+            <DisplayName>LOC_UNIT_FOLC_ARMINIUS_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_FOLC_CIVILIS</From>
+            <To>UNIT_LOGIOS_PLATO</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_FOLC_VELEDA</ID>
+            <DisplayName>LOC_UNIT_FOLC_VELEDA_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_FOLC_VELEDA</From>
+            <To>UNIT_TJATY_NEBET</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_FOLC_PIPARA</ID>
+            <DisplayName>LOC_UNIT_FOLC_PIPARA_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_FOLC_PIPARA</From>
+            <To>UNIT_LOGIOS_HYPATIA</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_FOLC_HERMANAFRID</ID>
+            <DisplayName>LOC_UNIT_FOLC_HERMANAFRID_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_FOLC_HERMANAFRID</From>
+            <To>UNIT_TJATY_IMHOTEP</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_FOLC_BOIORIX</ID>
+            <DisplayName>LOC_UNIT_FOLC_BOIORIX_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_FOLC_BOIORIX</From>
+            <To>UNIT_TJATY_RAMOSE</To>
+        </Row>        
+        
+    </VisualRemaps>
+</Database>
+<!-- generated with https://github.com/izica/civ7-modding-tools -->
