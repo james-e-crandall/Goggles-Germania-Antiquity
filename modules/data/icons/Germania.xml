@@ -46,12 +46,12 @@
         </Row>
         <Row>
             <ID>UNIT_SUEBI_2</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi.png</Path>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_2.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_SUEBI_3</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi.png</Path>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_3.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 

@@ -64,7 +64,9 @@
 					<Item>icons/civ_line_germania</Item>
                     <Item>icons/buildicon_herrenhofe.png</Item>		
 					<Item>icons/unitflag_folc.png</Item>
-					<Item>icons/unitflag_suebi.png</Item>	
+					<Item>icons/unitflag_suebi.png</Item>
+					<Item>icons/unitflag_suebi_2.png</Item>
+					<Item>icons/unitflag_suebi_3.png</Item>
 					<Item>icons/cult_germania.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
@@ -150,6 +152,8 @@
                     <Item>icons/buildicon_herrenhofe.png</Item>		
 					<Item>icons/unitflag_folc.png</Item>
 					<Item>icons/unitflag_suebi.png</Item>
+					<Item>icons/unitflag_suebi_2.png</Item>
+					<Item>icons/unitflag_suebi_3.png</Item>
 					<Item>icons/cult_germania.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
