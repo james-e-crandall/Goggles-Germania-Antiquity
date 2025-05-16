@@ -36,8 +36,10 @@
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
         <Criteria all="true" id="ged-ynamp-enable">
-            <!-- let other mods override the yield banner -->
             <ModInUse>ged-ynamp</ModInUse>
+        </Criteria>
+        <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
+            <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
         </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
@@ -49,6 +51,13 @@
 					<Item>ynamp/data/greatest-earth.xml</Item>
                 </UpdateDatabase>
             </Actions>
+		</ActionGroup>
+		<ActionGroup id="izica-unit-portrait-visual-remaps" scope="game" criteria="izica-unit-portrait-visual-remaps-enable">
+			<Actions>
+				<UIScripts>
+					<Item>ui/game.js</Item>
+				</UIScripts>
+			</Actions>
 		</ActionGroup>
 		<!-- Germania -->
         <ActionGroup id="base-game-main-Germania" scope="game" criteria="always">

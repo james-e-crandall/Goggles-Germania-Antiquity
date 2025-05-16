@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Database>
     <VisualRemaps>
-    <!-- subei -->
+        <Row>
+            <ID>REMAP_BUILDING_HERRENHOFE</ID>
+            <DisplayName>LOC_BUILDING_HERRENHOFE_NAME</DisplayName>
+            <Kind>BUILDING</Kind>
+            <From>BUILDING_HERRENHOFE</From>
+            <To>BUILDING_BARRACKS</To>
+        </Row>
+        <!-- subei -->
         <Row>
             <ID>REMAP_UNIT_SUEBI</ID>
             <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
@@ -83,4 +90,3 @@
         
     </VisualRemaps>
 </Database>
-<!-- generated with https://github.com/izica/civ7-modding-tools -->
