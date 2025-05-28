@@ -75,6 +75,11 @@
 		<Row ID="FishingQuayHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
 		<Row ID="GranaryHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
 		<Row ID="SawPitHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+
+		<Row ID="GermaniaAllMenFarmHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FARM"/>
+		<Row ID="GermaniaAllMenFishingBoatHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT"/>
+		<Row ID="GermaniaAllMenFishingBoatResourceHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
+		
 	</Warehouse_YieldChanges>
 	<Constructible_Adjacencies>
 		<!-- Adjacencies for the Palace -->

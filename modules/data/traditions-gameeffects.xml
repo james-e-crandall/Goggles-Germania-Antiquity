@@ -13,15 +13,18 @@
 	</Modifier>
 
 	<!-- CODANNOVIA -->
-	<Modifier id="TRADITION_GERMANIA_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+	<Modifier id="ATTACH_TRADITION_GERMANIA_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">GermaniaAllMenFarmHappiness, GermaniaAllMenFishingBoatHappiness, GermaniaAllMenFishingBoatResourceHappiness</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION</Argument>
+	</Modifier>
+
+	<Modifier id="TRADITION_GERMANIA_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
 				<Argument name="RequirementSetId">REQSET_FARM_OR_FISH_TOWN</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="ConstructibleType">IMPROVEMENT_FARM, IMPROVEMENT_FISHING_BOAT, IMPROVEMENT_FISHING_BOAT_RESOURCE</Argument>
+		<Argument name="ModifierId">ATTACH_TRADITION_GERMANIA_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS</Argument>
 		<String context="Description">LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION</String>
 	</Modifier>
 
@@ -46,7 +49,7 @@
 
 	<!-- Great People -->
 	<Modifier id="TRADITION_ADJUST_SABOTAGE_EFFICIENCY_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
-		<Argument name="ActionType">DIPLOMACY_ACTION_SABOTAGE_RESEARCH, DIPLOMACY_ACTION_SABOTAGE_MILITARY_PRODUCTION</Argument>
+		<Argument name="ActionGroupType">DIPLOMACY_ACTION_GROUP_SANCTION</Argument>
 		<Argument name="Percent">100</Argument>
 	</Modifier>
 
