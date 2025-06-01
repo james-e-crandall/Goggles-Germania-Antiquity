@@ -16,7 +16,7 @@
 		<!-- Discoveries -->
 		<!--Civ
 		Unique Builidings-->
-		<Row ConstructibleType="BUILDING_HERRENHOFE" Name="LOC_BUILDING_HERRENHOFE_NAME" Description="LOC_BUILDING_HERRENHOFE_DESCRIPTION" Tooltip="LOC_BUILDING_HERRENHOFE_TOOLTIP" ConstructibleClass="BUILDING" Cost="25" Population="1" Age="AGE_ANTIQUITY" />
+		<Row ConstructibleType="BUILDING_HERRENHOFE" Name="LOC_BUILDING_HERRENHOFE_NAME" Description="LOC_BUILDING_HERRENHOFE_DESCRIPTION" Tooltip="LOC_BUILDING_HERRENHOFE_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1" Age="AGE_ANTIQUITY" />
 	</Constructibles>
 	<Improvements>
 		<!--Civ

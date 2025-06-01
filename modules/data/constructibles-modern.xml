@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Warehouse_YieldChanges>
+        <Row ID="GrocerHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+        <Row ID="IronworksHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+    </Warehouse_YieldChanges>
+    <Constructible_WarehouseYields>
+        <Row ConstructibleType="BUILDING_GROCER" YieldChangeId="GrocerHerrenhofeGold"/>
+        <Row ConstructibleType="BUILDING_IRONWORKS" YieldChangeId="IronworksHerrenhofeGold"/>
+    </Constructible_WarehouseYields>
+</Database>

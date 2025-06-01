@@ -34,19 +34,6 @@
 		<String context="Description">LOC_TRADITION_GERMANIA_GALSTAR_DESCRIPTION</String>
 	</Modifier>
 
-	<!-- BARBARIAN_INVASION -->
-	<Modifier id="TRADITION_GERMANIA_BARBARIAN_INVASION_ENEMY_TERRITORY_COMMANDER_XP" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_UNIT_IN_OWNER_TERRITORY" inverse="true">
-				<Argument name="friendlyOnly">true</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Percent">20</Argument>
-	</Modifier>
-
 	<!-- Great People -->
 	<Modifier id="TRADITION_ADJUST_SABOTAGE_EFFICIENCY_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
 		<Argument name="ActionGroupType">DIPLOMACY_ACTION_GROUP_SANCTION</Argument>

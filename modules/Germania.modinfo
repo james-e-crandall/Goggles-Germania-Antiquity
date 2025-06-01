@@ -29,7 +29,14 @@
 		<Criteria id="exploration-age-current">
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
 		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-persist" any="true">
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 		<Criteria id="always">
@@ -118,7 +125,7 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-antiquity-main-Germania" scope="game" criteria="antiquity-age-current">
+		<ActionGroup id="antiquity-age-current-Germania" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
@@ -144,6 +151,20 @@
                 <UpdateVisualRemaps>
                     <Item>data/visual-remap.xml</Item>
                 </UpdateVisualRemaps>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="exploration-age-persist-Germania" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles-exploration.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="modern-age-persist-Germania" scope="game" criteria="modern-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles-modern.xml</Item>
+				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-Germania" scope="shell" criteria="always">

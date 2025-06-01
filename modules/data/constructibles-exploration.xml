@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Warehouse_YieldChanges>
+        <Row ID="GristmillHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+        <Row ID="SawmillHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+        <Row ID="StonecutterHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+    </Warehouse_YieldChanges>
+    <Constructible_WarehouseYields>
+        <Row ConstructibleType="BUILDING_GRISTMILL" YieldChangeId="GristmillHerrenhofeGold"/>
+        <Row ConstructibleType="BUILDING_SAWMILL" YieldChangeId="SawmillHerrenhofeGold"/>
+        <Row ConstructibleType="BUILDING_STONECUTTER" YieldChangeId="StonecutterHerrenhofeGold"/>
+    </Constructible_WarehouseYields>
+</Database>
