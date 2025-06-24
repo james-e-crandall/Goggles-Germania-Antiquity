@@ -20,7 +20,7 @@
 		<Row Tag="LOC_CIVIC_GERMANIA_CODANUS_QUOTE_AUTHOR">
 			<Text>Pliny the Elder </Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_AQ_GERMANIA_CODANUS_NAVAL_WATER_DESCRIPTION">
+		<Row Tag="LOC_MOD_JEC_CODANUS_NAVAL_WATER_DESCRIPTION">
 			<Text>Gain an Naval Unit when you construct a Water Building.</Text>
 		</Row>
 
@@ -35,11 +35,11 @@
 			<Text>Ovid</Text>
 		</Row>
 
-		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
+		<Row Tag="MOD_JEC_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
 			<Text>+2[icon:YIELD_HAPPINESS] Happiness in Fishing/Farming town for each City-State you are Suzerain of.</Text>
 		</Row>
 
-		<Row Tag="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_FISH_RESOURCE_CAP_DESCRIPTION">
+		<Row Tag="LOC_MOD_JEC_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY_DESCRIPTION">
 			<Text>+2 Resouce Capacity each town specialized as a Fishing/Farming town.</Text>
 		</Row>
 		
@@ -62,7 +62,7 @@
 		<Row Tag="LOC_CIVIC_GERMANIA_WULFAZ_QUOTE_AUTHOR">
 			<Text>Christian Fürchtegott</Text>
 		</Row>
-		<Row Tag="NODE_NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION">
+		<Row Tag="LOC_MOD_JEC_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION">
 			<Text>+100% Commander experience during a Celebration.</Text>
 		</Row>
 

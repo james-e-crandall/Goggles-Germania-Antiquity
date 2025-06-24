@@ -4,12 +4,12 @@
         <!-- Civ Symbol-->
         <Row>
             <ID>CIVILIZATION_GERMANIA_JEC</ID>
-            <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania</Path>
+            <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania_jec</Path>
             <Context>DEFAULT</Context>
         </Row>
 		<Row>
 			<ID>ICON_CIVILIZATION_GERMANIA_JEC</ID>
-            <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania</Path>
+            <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania_jec</Path>
 		</Row>
         <!-- Loadscreen -->
 		<Row>
@@ -35,8 +35,8 @@
         </Row> 
         <!-- UU AND UI -->
         <Row>
-            <ID>BUILDING_HERRENHOFE</ID>
-            <Path>fs://game/goggles_civ_germania/icons/buildicon_herrenhofe.png</Path>
+            <ID>BUILDING_HERRENHOFE_JEC</ID>
+            <Path>fs://game/goggles_civ_germania/icons/buildicon_herrenhofe_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>

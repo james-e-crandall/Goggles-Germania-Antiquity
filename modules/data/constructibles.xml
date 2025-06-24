@@ -3,7 +3,7 @@
 	<Types>
 		<!--Civ
 		Unique Improvements-->
-		<Row Type="BUILDING_HERRENHOFE" Kind="KIND_CONSTRUCTIBLE" />
+		<Row Type="BUILDING_HERRENHOFE_JEC" Kind="KIND_CONSTRUCTIBLE" />
 	</Types>
 	<TagCategories>
 
@@ -16,7 +16,7 @@
 		<!-- Discoveries -->
 		<!--Civ
 		Unique Builidings-->
-		<Row ConstructibleType="BUILDING_HERRENHOFE" Name="LOC_BUILDING_HERRENHOFE_NAME" Description="LOC_BUILDING_HERRENHOFE_DESCRIPTION" Tooltip="LOC_BUILDING_HERRENHOFE_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1" Age="AGE_ANTIQUITY" />
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" Name="LOC_BUILDING_HERRENHOFE_JEC_NAME" Description="LOC_BUILDING_HERRENHOFE_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_HERRENHOFE_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1" Age="AGE_ANTIQUITY" />
 	</Constructibles>
 	<Improvements>
 		<!--Civ
@@ -25,68 +25,55 @@
 	<Constructible_TransitionRemoves>
 	</Constructible_TransitionRemoves>
 	<Buildings>
-		<Row ConstructibleType="BUILDING_HERRENHOFE" Movable="false" TraitType="TRAIT_GERMANIA"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" Movable="false" TraitType="TRAIT_GERMANIA"/>
 	</Buildings>
 	<TypeTags>
-		<Row Type="BUILDING_HERRENHOFE" Tag="UNIQUE"/>
-		<Row Type="BUILDING_HERRENHOFE" Tag="AGELESS"/>
+		<Row Type="BUILDING_HERRENHOFE_JEC" Tag="UNIQUE"/>
+		<Row Type="BUILDING_HERRENHOFE_JEC" Tag="AGELESS"/>
 	</TypeTags>
 	<Improvements>
 		<!-- Discoveries -->
 	</Improvements>
 	<Constructible_ValidDistricts>
-		<Row ConstructibleType="BUILDING_HERRENHOFE" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_HERRENHOFE" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
 	<Constructible_ValidBiomes>
 
 	</Constructible_ValidBiomes>
 	<Constructible_ValidTerrains>
-		<Row ConstructibleType="BUILDING_HERRENHOFE" TerrainType="TERRAIN_FLAT"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" TerrainType="TERRAIN_FLAT"/>
 	</Constructible_ValidTerrains>
 
 	<Constructible_ValidResources>
 	</Constructible_ValidResources>
 	<Constructible_YieldChanges>
-		<!--Civ
-		Unique Improvements-->
-		<Row ConstructibleType="BUILDING_HERRENHOFE" YieldType="YIELD_GOLD" YieldChange="1" />
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldType="YIELD_GOLD" YieldChange="1" />
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
-		<Row ConstructibleType="BUILDING_HERRENHOFE" YieldType="YIELD_HAPPINESS" Amount="1"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldType="YIELD_HAPPINESS" Amount="1"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
-		<!-- <Row ConstructibleType="BUILDING_HERRENHOFE" YieldChangeId="HarrenhofeFarmGold" /> -->
 	</Constructible_Adjacencies>
 	<Constructible_Logistics />
 	<Adjacency_YieldChanges>
-		<!-- Standard Adjacencies -->
-		<!-- Adjacencies for the Palace -->
-		<!-- <Row ID="HarrenhofeFarmGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentConstructible="IMPROVEMENT_FARM" /> -->
-		<!-- Wildcard Adjacency Yields Changes -->
 	</Adjacency_YieldChanges>
 	<Constructible_Plunders>
-		<!--Civ
-		Unique Improvements-->
-		<Row ConstructibleType="BUILDING_HERRENHOFE" PlunderType="PLUNDER_HEAL" Amount="30" />
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" PlunderType="PLUNDER_HEAL" Amount="30" />
 	</Constructible_Plunders>
 	<Warehouse_YieldChanges>
-		<Row ID="BrickyardHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
-		<Row ID="FishingQuayHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
-		<Row ID="GranaryHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
-		<Row ID="SawPitHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE"/>
+		<Row ID="BrickyardHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE_JEC"/>
+		<Row ID="FishingQuayHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE_JEC"/>
+		<Row ID="GranaryHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE_JEC"/>
+		<Row ID="SawPitHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE_JEC"/>
 
 		<Row ID="GermaniaAllMenFarmHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FARM"/>
 		<Row ID="GermaniaAllMenFishingBoatHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT"/>
 		<Row ID="GermaniaAllMenFishingBoatResourceHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
-		
 	</Warehouse_YieldChanges>
 	<Constructible_Adjacencies>
-		<!-- Adjacencies for the Palace -->
 	</Constructible_Adjacencies>
 	<Constructible_WildcardAdjacencies>
-		<!-- Leaders -->
-		<!-- Traditions -->
 	</Constructible_WildcardAdjacencies>
 	<Constructible_WarehouseYields>
 		<Row ConstructibleType="BUILDING_BRICKYARD" YieldChangeId="BrickyardHerrenhofeGold"/>
@@ -99,7 +86,7 @@
 	</WorkerYields>
 		<!-- Advisory Attributes -->
 	<Constructible_Advisories>
-		<Row ConstructibleType="BUILDING_HERRENHOFE" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row ConstructibleType="BUILDING_HERRENHOFE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
 	</Constructible_Advisories>
 </Database>

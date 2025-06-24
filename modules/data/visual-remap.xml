@@ -2,10 +2,10 @@
 <Database>
     <VisualRemaps>
         <Row>
-            <ID>REMAP_BUILDING_HERRENHOFE</ID>
-            <DisplayName>LOC_BUILDING_HERRENHOFE_NAME</DisplayName>
+            <ID>REMAP_BUILDING_HERRENHOFE_JEC</ID>
+            <DisplayName>LOC_BUILDING_HERRENHOFE_JEC_NAME</DisplayName>
             <Kind>BUILDING</Kind>
-            <From>BUILDING_HERRENHOFE</From>
+            <From>BUILDING_HERRENHOFE_JEC</From>
             <To>BUILDING_BARRACKS</To>
         </Row>
         <!-- subei -->

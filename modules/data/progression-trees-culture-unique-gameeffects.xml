@@ -6,7 +6,7 @@
 
 
 	<!-- CODANUS -->
-	<Modifier id="NODE_CIVIC_AQ_GERMANIA_CODANUS_NAVAL_WATER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT">
+	<Modifier id="MOD_JEC_CODANUS_NAVAL_WATER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_BUILT_TAGGED_CONSTRUCTIBLE">
 				<Argument name="Tags">WATER</Argument>
@@ -15,11 +15,11 @@
 		<Argument name="AllowUniqueOverride">true</Argument>
 		<Argument name="UnitTag">UNIT_CLASS_NAVAL</Argument>
 		<Argument name="Amount">1</Argument>
-		<String context="Description">NODE_CIVIC_AQ_GERMANIA_CODANUS_NAVAL_WATER_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_CODANUS_NAVAL_WATER_DESCRIPTION</String>
 	</Modifier>
 	<!-- BARBARICUM -->
 	<!-- Level 1 -->
-	<Modifier id="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_SUZERAIN">
+	<Modifier id="MOD_JEC_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_SUZERAIN">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
 				<Argument name="RequirementSetId">REQSET_FARM_OR_FISH_TOWN</Argument>
@@ -27,21 +27,21 @@
 		</SubjectRequirements>
 		<Argument name="Amount">2</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<String context="Description">LOC_TRADITION_SAKDINA_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- Level 2 -->
-	<Modifier id="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+	<Modifier id="MOD_JEC_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
 				<Argument name="RequirementSetId">REQSET_FARM_OR_FISH_TOWN</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">2</Argument>
-		<String context="Description">NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_FISH_RESOURCE_CAP_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY_DESCRIPTION</String>
 	</Modifier>
 	<!-- WULFAZ -->
-	<Modifier id="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_CELEBRATION_COMMANDER_XP" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
+	<Modifier id="MOD_JEC_WULFAZ_MOD_CELEBRATION_COMMANDER_XP" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
@@ -49,7 +49,7 @@
 			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
 		</SubjectRequirements>
 		<Argument name="Percent">100</Argument>
-		<String context="Description">NODE_NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION</String>
 	</Modifier>
 
 

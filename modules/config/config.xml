@@ -15,13 +15,13 @@
 
 	</LeaderCivilizationBias>
 	<Civilizations>
-		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA_JEC" CivilizationName="LOC_CIVILIZATION_GERMANIA_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_GERMANIA_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_GERMANIA_JEC_DESCRIPTION" CivilizationIcon="civ_sym_germania.png"/>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA_JEC" CivilizationName="LOC_CIVILIZATION_GERMANIA_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_GERMANIA_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_GERMANIA_JEC_DESCRIPTION" CivilizationIcon="civ_sym_germania_jec.png"/>
 	</Civilizations>
 	<CivilizationItems>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA_JEC" Type="TRAIT_GERMANIA_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_GERMANIA_JEC_ABILITY_NAME" Description="LOC_TRAIT_GERMANIA_JEC_ABILITY_DESCRIPTION"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA_JEC" Type="UNIT_SUEBI" Kind="KIND_UNIT" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_BASE_DESCRIPTION" Icon="ICON_UNIT_SUEBI"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA_JEC" Type="UNIT_FOLC" Kind="KIND_UNIT" Name="LOC_UNIT_FOLC_NAME" Description="LOC_UNIT_FOLC_DESCRIPTION" Icon="ICON_UNIT_FOLC"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA_JEC" Type="BUILDING_HERRENHOFE" Kind="KIND_IMPROVEMENT" Name="LOC_BUILDING_HERRENHOFE_NAME" Description="LOC_BUILDING_HERRENHOFE_DESCRIPTION" Icon="BUILDING_HERRENHOFE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA_JEC" Type="BUILDING_HERRENHOFE_JEC" Kind="KIND_IMPROVEMENT" Name="LOC_BUILDING_HERRENHOFE_JEC_NAME" Description="LOC_BUILDING_HERRENHOFE_JEC_DESCRIPTION" Icon="BUILDING_HERRENHOFE_JEC"/>
 		
 	</CivilizationItems>
 	<CivilizationTags>

@@ -39,20 +39,20 @@
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- Germania -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_CODANUS_NAVAL_WATER" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_CODANUS_NAVAL_WATER" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_CODANNOVIA" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_HASELGEBRIGE_SALT_MINE" UnlockDepth="1" AIIgnoreUnlockValue="true" />
 
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_ALL_MEN" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY" UnlockDepth="2"/>
 		
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_HERRENHOFE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_HERRENHOFE_JEC" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_GALSTAR" UnlockDepth="1"/>
 		
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
 
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_GERMANIA_WULFAZ_MOD_CELEBRATION_COMMANDER_XP" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_WULFAZ_MOD_CELEBRATION_COMMANDER_XP" UnlockDepth="1"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 		<!-- Germania -->

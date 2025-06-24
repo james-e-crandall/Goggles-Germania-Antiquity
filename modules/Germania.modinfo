@@ -76,16 +76,15 @@
 					<Item>text/en_us/UnlockText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
-                    <Item>icons/civ_sym_germania</Item>
-					<Item>icons/civ_sym_germania.png</Item>
-					<Item>icons/civ_sym_germania.png.png</Item>
-					<Item>icons/civ_line_germania</Item>
-                    <Item>icons/buildicon_herrenhofe.png</Item>		
+                    <Item>icons/civ_sym_germania_jec</Item>
+					<Item>icons/civ_sym_germania_jec.png</Item>
+					<Item>icons/civ_line_germania_jec</Item>
+                    <Item>icons/buildicon_herrenhofe_jec.png</Item>		
 					<Item>icons/unitflag_folc.png</Item>
 					<Item>icons/unitflag_suebi.png</Item>
 					<Item>icons/unitflag_suebi_2.png</Item>
 					<Item>icons/unitflag_suebi_3.png</Item>
-					<Item>icons/cult_germania.png</Item>
+					<Item>icons/cult_germania_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
@@ -179,16 +178,15 @@
 					<Item>config/config.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
-                    <Item>icons/civ_sym_germanias</Item>
-					<Item>icons/civ_sym_germania.png</Item>
-					<Item>icons/civ_sym_germania.png.png</Item>
-					<Item>icons/civ_line_germania</Item>
-                    <Item>icons/buildicon_herrenhofe.png</Item>		
+                    <Item>icons/civ_sym_germania_jec</Item>
+					<Item>icons/civ_sym_germania_jec.png</Item>
+					<Item>icons/civ_line_germania_jec</Item>
+                    <Item>icons/buildicon_herrenhofe_jec.png</Item>		
 					<Item>icons/unitflag_folc.png</Item>
 					<Item>icons/unitflag_suebi.png</Item>
 					<Item>icons/unitflag_suebi_2.png</Item>
 					<Item>icons/unitflag_suebi_3.png</Item>
-					<Item>icons/cult_germania.png</Item>
+					<Item>icons/cult_germania_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
