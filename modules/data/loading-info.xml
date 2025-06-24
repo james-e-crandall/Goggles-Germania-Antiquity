@@ -4,7 +4,7 @@
 
 	</LoadingInfo_Ages>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_GERMANIA" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_GERMANIA" Audio="VO_Loading_Germania" Subtitle="LOC_LOADING_INTRO_GERMANIA" BackgroundImageHigh="fs://game/goggles_civ_germania/icons/lsbg_germania_1080.png" BackgroundImageLow="fs://game/goggles_civ_germania/icons/lsbg_germania_720.png" ForegroundImage="fs://game/civ_line_germania.png" />
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_GERMANIA" Audio="VO_Loading_Germania" Subtitle="LOC_LOADING_INTRO_GERMANIA" BackgroundImageHigh="fs://game/goggles_civ_germania/icons/lsbg_germania_1080.png" BackgroundImageLow="fs://game/goggles_civ_germania/icons/lsbg_germania_720.png" ForegroundImage="fs://game/civ_line_germania.png" />
 	</LoadingInfo_Civilizations>
 
 </Database>

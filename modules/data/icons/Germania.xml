@@ -3,23 +3,23 @@
     <IconDefinitions>
         <!-- Civ Symbol-->
         <Row>
-            <ID>CIVILIZATION_GERMANIA</ID>
+            <ID>CIVILIZATION_GERMANIA_JEC</ID>
             <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania</Path>
             <Context>DEFAULT</Context>
         </Row>
 		<Row>
-			<ID>ICON_CIVILIZATION_GERMANIA</ID>
+			<ID>ICON_CIVILIZATION_GERMANIA_JEC</ID>
             <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania</Path>
 		</Row>
         <!-- Loadscreen -->
 		<Row>
-			<ID>CIVILIZATION_GERMANIA</ID>
+			<ID>CIVILIZATION_GERMANIA_JEC</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/goggles_civ_germania/icons/lsbg_germania_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_GERMANIA</ID>
+			<ID>CIVILIZATION_GERMANIA_JEC</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/goggles_civ_germania/iconslsbg_germania_720</Path>
 			<IconSize>720</IconSize>

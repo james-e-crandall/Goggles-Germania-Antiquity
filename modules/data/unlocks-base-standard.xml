@@ -4,10 +4,10 @@
 		<InsertOrIgnore Kind="KIND_UNLOCK"/>
 	</Kinds>
 	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GERMANIA" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GERMANIA_JEC" Kind="KIND_UNLOCK"/>
 	</Types>
 	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA_JEC"/>
 	</Unlocks>
 	<UnlockRewards>
 	</UnlockRewards>
@@ -18,7 +18,7 @@
 		<Row RequirementId="REQ_CIV_IS_GERMANIA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="REQ_CIV_IS_GERMANIA" Name="CivilizationType" Value="CIVILIZATION_GERMANIA"/>
+		<Row RequirementId="REQ_CIV_IS_GERMANIA" Name="CivilizationType" Value="CIVILIZATION_GERMANIA_JEC"/>
 	</RequirementArguments>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA" RequirementId="REQ_CIV_IS_GERMANIA"/>
@@ -27,6 +27,6 @@
 
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" ConfigurationValue="CIVILIZATION_GERMANIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA_JEC" ConfigurationValue="CIVILIZATION_GERMANIA_JEC"/>
 	</UnlockConfigurationValues>
 </Database>

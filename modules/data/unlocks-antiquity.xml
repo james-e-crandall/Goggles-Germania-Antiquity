@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GERMANIA" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GERMANIA_JEC" Kind="KIND_UNLOCK"/>
 
 	</Types>
 	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA_JEC"/>
 		
 	</Unlocks>
 	<UnlockRewards>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" Name="LOC_CIVILIZATION_GERMANIA_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_GERMANIA" UnlockRewardType="CIVILIZATION_GERMANIA" UnlockRewardKind="KIND_CIVILIZATION"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA_JEC" Name="LOC_CIVILIZATION_GERMANIA_JEC_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_GERMANIA_JEC" UnlockRewardType="CIVILIZATION_GERMANIA_JEC" UnlockRewardKind="KIND_CIVILIZATION"/>
 
 	</UnlockRewards>
 	<UnlockRequirements>
 	
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" ConfigurationValue="CIVILIZATION_GERMANIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA_JEC" ConfigurationValue="CIVILIZATION_GERMANIA_JEC"/>
 	</UnlockConfigurationValues>
 </Database>
