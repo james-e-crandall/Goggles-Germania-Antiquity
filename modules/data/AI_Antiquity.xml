@@ -36,10 +36,10 @@
 		<Row ListType="Germania Constructibles Biases" Item="BUILDING_FISHING_QUAY" Value="50" />
 		<Row ListType="Germania Constructibles Biases" Item="BUILDING_HERRENHOFE_JEC" Value="200" />
 		<Row ListType="Germania Constructibles Biases" Item="WONDER_HASELGEBRIGE_SALT_MINE" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_2" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_3" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_FOLC" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_JEC" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_JEC_2" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_JEC_3" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_FOLC_JEC" Value="50"/>
 		<Row ListType="Germania Tag Biases" Item="MILITARY" Value="400"/>
 	</AiFavoredItems>
 	<!-- City Strategies -->

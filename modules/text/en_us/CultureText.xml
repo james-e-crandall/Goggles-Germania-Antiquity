@@ -35,7 +35,7 @@
 			<Text>Ovid</Text>
 		</Row>
 
-		<Row Tag="MOD_JEC_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
+		<Row Tag="LOC_MOD_JEC_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
 			<Text>+2[icon:YIELD_HAPPINESS] Happiness in Fishing/Farming town for each City-State you are Suzerain of.</Text>
 		</Row>
 

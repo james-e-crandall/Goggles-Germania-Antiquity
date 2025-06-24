@@ -2,10 +2,10 @@
 <Database>
 	<EnglishText>
 		<!--Germania-->
-		<Row Tag="LOC_UNIT_FOLC_NAME">
+		<Row Tag="LOC_UNIT_FOLC_JEC_NAME">
 			<Text>Folc</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_FOLC_DESCRIPTION">
+		<Row Tag="LOC_UNIT_FOLC_JEC_DESCRIPTION">
 			<Text>A Great Person with one charge. Can only be trained in the Capitol, and the specific Folc received is random. Each Folc can only be received once. Cost increases per Folc trained.</Text>
 		</Row>
 		<Replace Tag="LOC_GREATPERSON_BARRACKS_PRODUCTION">

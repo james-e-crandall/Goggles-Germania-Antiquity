@@ -40,69 +40,69 @@
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_SUEBI</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi.png</Path>
+            <ID>UNIT_SUEBI_JEC</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_SUEBI_2</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_2.png</Path>
+            <ID>UNIT_SUEBI_JEC_2</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec_2.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_SUEBI_3</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_3.png</Path>
+            <ID>UNIT_SUEBI_JEC_3</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec_3.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 
         <Row>
-            <ID>UNIT_FOLC</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
+            <ID>UNIT_FOLC_JEC</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_FOLC_TEUTOBOD</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
+            <ID>UNIT_FOLC_JEC_TEUTOBOD</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_FOLC_ARMINIUS</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
+            <ID>UNIT_FOLC_JEC_ARMINIUS</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
        <Row>
-            <ID>UNIT_FOLC_VIBILIUS</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
+            <ID>UNIT_FOLC_JEC_VIBILIUS</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_FOLC_CIVILIS</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
+            <ID>UNIT_FOLC_JEC_CIVILIS</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
                 <Row>
-            <ID>UNIT_FOLC_VELEDA</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
+            <ID>UNIT_FOLC_JEC_VELEDA</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_FOLC_PIPARA</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
-            <Context>DEFAULT</Context>
-        </Row>
-                <Row>
-            <ID>UNIT_FOLC_RAICUNDA</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
+            <ID>UNIT_FOLC_JEC_PIPARA</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_FOLC_HERMANAFRID</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
+            <ID>UNIT_FOLC_JEC_RAICUNDA</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-                <Row>
-            <ID>UNIT_FOLC_BOIORIX</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc.png</Path>
+        <Row>
+            <ID>UNIT_FOLC_JEC_HERMANAFRID</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_FOLC_JEC_BOIORIX</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 

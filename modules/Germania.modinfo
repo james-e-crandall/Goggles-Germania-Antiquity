@@ -80,10 +80,10 @@
 					<Item>icons/civ_sym_germania_jec.png</Item>
 					<Item>icons/civ_line_germania_jec</Item>
                     <Item>icons/buildicon_herrenhofe_jec.png</Item>		
-					<Item>icons/unitflag_folc.png</Item>
-					<Item>icons/unitflag_suebi.png</Item>
-					<Item>icons/unitflag_suebi_2.png</Item>
-					<Item>icons/unitflag_suebi_3.png</Item>
+					<Item>icons/unitflag_folc_jec.png</Item>
+					<Item>icons/unitflag_suebi_jec.png</Item>
+					<Item>icons/unitflag_suebi_jec_2.png</Item>
+					<Item>icons/unitflag_suebi_jec_3.png</Item>
 					<Item>icons/cult_germania_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
@@ -182,10 +182,10 @@
 					<Item>icons/civ_sym_germania_jec.png</Item>
 					<Item>icons/civ_line_germania_jec</Item>
                     <Item>icons/buildicon_herrenhofe_jec.png</Item>		
-					<Item>icons/unitflag_folc.png</Item>
-					<Item>icons/unitflag_suebi.png</Item>
-					<Item>icons/unitflag_suebi_2.png</Item>
-					<Item>icons/unitflag_suebi_3.png</Item>
+					<Item>icons/unitflag_folc_jec.png</Item>
+					<Item>icons/unitflag_suebi_jec.png</Item>
+					<Item>icons/unitflag_suebi_jec_2.png</Item>
+					<Item>icons/unitflag_suebi_jec_3.png</Item>
 					<Item>icons/cult_germania_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>

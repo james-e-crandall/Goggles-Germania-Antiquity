@@ -10,81 +10,81 @@
         </Row>
         <!-- subei -->
         <Row>
-            <ID>REMAP_UNIT_SUEBI</ID>
-            <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
+            <ID>REMAP_UNIT_SUEBI_JEC</ID>
+            <DisplayName>LOC_UNIT_SUEBI_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_SUEBI</From>
+            <From>UNIT_SUEBI_JEC</From>
             <To>UNIT_WARRIOR</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_SUEBI_2</ID>
-            <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
+            <ID>REMAP_UNIT_SUEBI_JEC_2</ID>
+            <DisplayName>LOC_UNIT_SUEBI_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_SUEBI_2</From>
+            <From>UNIT_SUEBI_JEC_2</From>
             <To>UNIT_SPEARMAN</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_SUEBI_3</ID>
-            <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
+            <ID>REMAP_UNIT_SUEBI_JEC_3</ID>
+            <DisplayName>LOC_UNIT_SUEBI_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_SUEBI_3</From>
+            <From>UNIT_SUEBI_JEC_3</From>
             <To>UNIT_PHALANX</To>
         </Row>
         <!-- folc -->
         <Row>
-            <ID>REMAP_UNIT_FOLC_TEUTOBOD</ID>
-            <DisplayName>LOC_UNIT_FOLC_TEUTOBOD_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_TEUTOBOD</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_TEUTOBOD_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_TEUTOBOD</From>
+            <From>UNIT_FOLC_JEC_TEUTOBOD</From>
             <To>UNIT_LOGIOS_SOCRATES</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_FOLC_ARMINIUS</ID>
-            <DisplayName>LOC_UNIT_FOLC_ARMINIUS_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_ARMINIUS</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_ARMINIUS_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_ARMINIUS</From>
+            <From>UNIT_FOLC_JEC_ARMINIUS</From>
             <To>UNIT_LOGIOS_XENOPHON</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_FOLC_VIBILIUS</ID>
-            <DisplayName>LOC_UNIT_FOLC_VIBILIUS_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_VIBILIUS</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_VIBILIUS_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_VIBILIUS</From>
+            <From>UNIT_FOLC_JEC_VIBILIUS</From>
             <To>UNIT_LOGIOS_PYTHAGORAS</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_FOLC_CIVILIS</ID>
-            <DisplayName>LOC_UNIT_FOLC_ARMINIUS_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_CIVILIS</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_ARMINIUS_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_CIVILIS</From>
+            <From>UNIT_FOLC_JEC_CIVILIS</From>
             <To>UNIT_LOGIOS_PLATO</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_FOLC_VELEDA</ID>
-            <DisplayName>LOC_UNIT_FOLC_VELEDA_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_VELEDA</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_VELEDA_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_VELEDA</From>
+            <From>UNIT_FOLC_JEC_VELEDA</From>
             <To>UNIT_TJATY_NEBET</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_FOLC_PIPARA</ID>
-            <DisplayName>LOC_UNIT_FOLC_PIPARA_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_PIPARA</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_PIPARA_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_PIPARA</From>
+            <From>UNIT_FOLC_JEC_PIPARA</From>
             <To>UNIT_LOGIOS_HYPATIA</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_FOLC_HERMANAFRID</ID>
-            <DisplayName>LOC_UNIT_FOLC_HERMANAFRID_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_HERMANAFRID</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_HERMANAFRID_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_HERMANAFRID</From>
+            <From>UNIT_FOLC_JEC_HERMANAFRID</From>
             <To>UNIT_TJATY_IMHOTEP</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_FOLC_BOIORIX</ID>
-            <DisplayName>LOC_UNIT_FOLC_BOIORIX_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_BOIORIX</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_BOIORIX_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_BOIORIX</From>
+            <From>UNIT_FOLC_JEC_BOIORIX</From>
             <To>UNIT_TJATY_RAMOSE</To>
         </Row>        
         
