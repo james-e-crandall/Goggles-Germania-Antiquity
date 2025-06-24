@@ -21,7 +21,7 @@
 		<Row>
 			<ID>CIVILIZATION_GERMANIA_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_germania/iconslsbg_germania_720</Path>
+			<Path>fs://game/goggles_civ_germania/icons/lsbg_germania_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
         <!-- Culture -->
