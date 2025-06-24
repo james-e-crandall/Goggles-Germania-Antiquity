@@ -4,6 +4,10 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION">
 			<Text>Play as the [B]Germania[/B].</Text>
 		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GERMANIA_JEC_DESCRIPTION">
+			<Text>Play as the [B]Germania[/B]. jec</Text>
+		</Row>
+
 		<Row Tag="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_GERMANIA_TOOLTIP">
 			<Text>[B]{LOC_LEADER_CHARLEMAGNE_NAME}[/B] strategically complements [B]{LOC_CIVILIZATION_GERMANIA_JEC_NAME}[/B] .</Text>
 		</Row>

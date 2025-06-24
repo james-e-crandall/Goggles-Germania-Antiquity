@@ -26,8 +26,8 @@
 		</Row>
         <!-- Culture -->
         <Row>
-            <ID>cult_germania</ID>
-            <Path>fs://game/goggles_civ_germania/icons/cult_germania.png</Path>
+            <ID>cult_germania_jec</ID>
+            <Path>fs://game/goggles_civ_germania/icons/cult_germania_jec.png</Path>
         </Row> 
         <Row>
             <ID>civ_line_germania</ID>
