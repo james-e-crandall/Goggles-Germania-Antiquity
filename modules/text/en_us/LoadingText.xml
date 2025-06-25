@@ -7,5 +7,8 @@
 		<Row Tag="LOC_LOADING_INTRO_GERMANIA">
 			<Text>Freedom is a gift bestowed by nature even on the dumb animals. Courage is the peculiar excellence of man, and the Gods help the braver side.</Text>
 		</Row>
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_GERMANIA">
+			<Text>Germainia is able to expand with bonuses to Fishing and Farming towns while still being a millitary threat. The Folc Unique Civilians grants bonus to millitary strength and expansion, the Herrenhöfe grants gold, and the Codannovia tradtion reduces Warehouse purchase cost.</Text>
+		</Row>
 	</EnglishText>
 </Database>
