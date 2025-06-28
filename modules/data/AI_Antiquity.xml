@@ -19,12 +19,12 @@
 	</AiListTypes>
 	<AiLists>
 		<!-- Germania -->
-		<Row ListType="Germania Unit Biases" LeaderType="TRAIT_GERMANIA" System="UnitBiases"/>
-		<Row ListType="Germania Government Bias" LeaderType="TRAIT_GERMANIA" System="GovernmentBiases"/>
-		<Row ListType="Germania Constructibles Biases" LeaderType="TRAIT_GERMANIA" System="ConstructibleBiases" />	
-		<Row ListType="Germania Budget Biases" LeaderType="TRAIT_GERMANIA" System="AiBudgetBiases"/>	
-		<Row ListType="Germania PseudoYield Biases" LeaderType="TRAIT_GERMANIA" System="PseudoYieldBiases"/>	
-		<Row ListType="Germania Tag Biases" LeaderType="TRAIT_GERMANIA" System="TagBiases"/>
+		<Row ListType="Germania Unit Biases" LeaderType="TRAIT_GERMANIA_JEC" System="UnitBiases"/>
+		<Row ListType="Germania Government Bias" LeaderType="TRAIT_GERMANIA_JEC" System="GovernmentBiases"/>
+		<Row ListType="Germania Constructibles Biases" LeaderType="TRAIT_GERMANIA_JEC" System="ConstructibleBiases" />	
+		<Row ListType="Germania Budget Biases" LeaderType="TRAIT_GERMANIA_JEC" System="AiBudgetBiases"/>	
+		<Row ListType="Germania PseudoYield Biases" LeaderType="TRAIT_GERMANIA_JEC" System="PseudoYieldBiases"/>	
+		<Row ListType="Germania Tag Biases" LeaderType="TRAIT_GERMANIA_JEC" System="TagBiases"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Germania -->

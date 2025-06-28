@@ -25,7 +25,7 @@
 	<Constructible_TransitionRemoves>
 	</Constructible_TransitionRemoves>
 	<Buildings>
-		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" Movable="false" TraitType="TRAIT_GERMANIA"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" Movable="false" TraitType="TRAIT_GERMANIA_JEC"/>
 	</Buildings>
 	<TypeTags>
 		<Row Type="BUILDING_HERRENHOFE_JEC" Tag="UNIQUE"/>

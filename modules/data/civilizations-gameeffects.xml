@@ -22,7 +22,7 @@
 	<Modifier id="MOD_JEC_REVEAL_CIV_CULTURE_TREE_GERMANIA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
-				<Argument name="TraitType">TRAIT_GERMANIA</Argument>
+				<Argument name="TraitType">TRAIT_GERMANIA_JEC</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_GERMANIA</Argument>
@@ -35,7 +35,7 @@
 	<Modifier id="MOD_JEC_CIV_WONDER_PRODUCTION_GERMANIA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
-				<Argument name="TraitType">TRAIT_GERMANIA</Argument>
+				<Argument name="TraitType">TRAIT_GERMANIA_JEC</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Percent">30</Argument>

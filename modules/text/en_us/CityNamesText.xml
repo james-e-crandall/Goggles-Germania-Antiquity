@@ -2,70 +2,70 @@
 <Database>
 	<EnglishText>
 		<!--GERMANIA-->
-		<Row Tag="LOC_CITY_NAME_GERMANIA1">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC1">
 			<Text>Manching </Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA2">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC2">
 			<Text>Basilea</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA3">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC3">
 			<Text>Vindonissa</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA4">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC4">
 			<Text>Alcimoennis</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA5">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC5">
 			<Text>Altenburg-Rheinau</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA6">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC6">
 			<Text>Donnersberg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA7">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC7">
 			<Text>Dünsberg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA8">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC8">
 			<Text>Finsterlohr</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA9">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC9">
 			<Text>Creglingen</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA10">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC10">
 			<Text>Heidengraben</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA11">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC11">
 			<Text>Hohenasperg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA12">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC12">
 			<Text>Glauberg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA13">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC13">
 			<Text>Martberg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA14">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC14">
 			<Text>Milseburg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA15">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC15">
 			<Text>Staffelberg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA16">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC16">
 			<Text>Steinburg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA17">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC17">
 			<Text>Glauberg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA18">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC18">
 			<Text>Hirschlanden</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA19">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC19">
 			<Text>Hochdorf</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA20">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC20">
 			<Text>Hohenasperg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA21">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC21">
 			<Text>Heuneburg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GERMANIA22">
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC22">
 			<Text>Ubiorum</Text>
 		</Row>
 	</EnglishText>

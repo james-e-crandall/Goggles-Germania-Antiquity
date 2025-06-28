@@ -2,7 +2,7 @@
 <Database>
 	<Types>
 		<!-- Major Civs -->
-		<Row Type="TRAIT_GERMANIA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_GERMANIA_JEC" Kind="KIND_TRAIT"/>
 		<Row Type="CIVILIZATION_GERMANIA_JEC" Kind="KIND_CIVILIZATION"/>
 	</Types>
 	<LegacyCivilizations>
@@ -10,10 +10,10 @@
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" Name="LOC_CIVILIZATION_GERMANIA_JEC_NAME" FullName="LOC_CIVILIZATION_GERMANIA_JEC_FULLNAME" Adjective="LOC_CIVILIZATION_GERMANIA_JEC_ADJECTIVE" Age="AGE_ANTIQUITY"/>
 	</LegacyCivilizations>
 	<LegacyCivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_GERMANIA"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_GERMANIA_JEC"/>
 	</LegacyCivilizationTraits>
 	<Traits>
-		<Row TraitType="TRAIT_GERMANIA" InternalOnly="true"/>
+		<Row TraitType="TRAIT_GERMANIA_JEC" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
 		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_GERMANIA_JEC"/>

@@ -13,7 +13,7 @@
 	<ProgressionTreeNodeUnlocks>
 		<!-- Germania -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_CHIEFDOM" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_REVEAL_CIV_CULTURE_TREE_GERMANIA" UnlockDepth="1" Hidden="true"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_DISCIPLINE" TargetKind="KIND_UNIT" TargetType="UNIT_FOLC_JEC" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_DISCIPLINE" TargetKind="KIND_UNIT" TargetType="UNIT_FOLC_JEC" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 	</ProgressionTreePrereqs>
