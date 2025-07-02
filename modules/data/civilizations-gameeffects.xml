@@ -25,7 +25,7 @@
 				<Argument name="TraitType">TRAIT_GERMANIA_JEC</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_GERMANIA</Argument>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_GERMANIA_JEC</Argument>
 		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_GERMANIA_DESCRIPTION</String>
 	</Modifier>
 	
