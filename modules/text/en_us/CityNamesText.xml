@@ -68,5 +68,29 @@
 		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC22">
 			<Text>Ubiorum</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC23">
+			<Text>Bedburg-Königshoven</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC24">
+			<Text>Bilzingsleben</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC25">
+			<Text>Riesenstein</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC26">
+			<Text>Sirgenstein</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC27">
+			<Text>Wehringen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC28">
+			<Text>Marburger</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC29">
+			<Text>Hanauer</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERMANIA_JEC30">
+			<Text>Ipf</Text>
+		</Row>
 	</EnglishText>
 </Database>
