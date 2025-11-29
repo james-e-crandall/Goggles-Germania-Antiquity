@@ -3,6 +3,7 @@
 	<Types>
 		<!-- Major Civs -->
 		<Row Type="TRAIT_GERMANIA_JEC" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_FOLC_JEC" Kind="KIND_TRAIT"/>
 		<Row Type="CIVILIZATION_GERMANIA_JEC" Kind="KIND_CIVILIZATION"/>
 	</Types>
 	<LegacyCivilizations>
@@ -14,6 +15,7 @@
 	</LegacyCivilizationTraits>
 	<Traits>
 		<Row TraitType="TRAIT_GERMANIA_JEC" InternalOnly="true"/>
+		<Row TraitType="TRAIT_FOLC_JEC" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
 		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_GERMANIA_JEC"/>

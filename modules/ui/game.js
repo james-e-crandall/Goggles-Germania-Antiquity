@@ -36,6 +36,10 @@ window.UnitPortraitVisualRemaps = {
         unitType: 'UNIT_LOGIOS_HYPATIA',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     }, 
+    'UNIT_FOLC_JEC_RAICUNDA': { //your unit type
+        unitType: 'UNIT_LOGIOS_HYPATIA',
+        background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
+    }, 
     'UNIT_FOLC_JEC_HERMANAFRID': { //your unit type
         unitType: 'UNIT_TJATY_IMHOTEP',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
