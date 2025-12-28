@@ -9,7 +9,7 @@
 		<Row Type="UNIT_FOLC_JEC" Kind="KIND_UNIT"/>
 		<!-- Commander -->
 		<Row Type="UNIT_FOLC_JEC_TEUTOBOD" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_FOLC_JEC_ARMINIUS" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_JEC_SIGIMER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_FOLC_JEC_VIBILIUS" Kind="KIND_UNIT"/>
 		<!-- Diplomatic -->
 		<Row Type="UNIT_FOLC_JEC_CIVILIS" Kind="KIND_UNIT"/>
@@ -39,7 +39,7 @@
 		<!--Germania-->
 		<Row UnitType="UNIT_FOLC_JEC" Name="LOC_UNIT_FOLC_JEC_NAME" Description="LOC_UNIT_FOLC_JEC_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC"/>
 		<Row UnitType="UNIT_FOLC_JEC_TEUTOBOD" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME" Description="LOC_UNIT_FOLC_JEC_TEUTOBOD_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_FOLC_JEC_ARMINIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_NAME" Description="LOC_UNIT_FOLC_JEC_ARMINIUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_JEC_SIGIMER" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_SIGIMER_NAME" Description="LOC_UNIT_FOLC_JEC_SIGIMER_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
 		<Row UnitType="UNIT_FOLC_JEC_VIBILIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_NAME" Description="LOC_UNIT_FOLC_JEC_VIBILIUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
 		<Row UnitType="UNIT_FOLC_JEC_CIVILIS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_NAME" Description="LOC_UNIT_FOLC_JEC_CIVILIS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
 		<Row UnitType="UNIT_FOLC_JEC_VELEDA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_NAME" Description="LOC_UNIT_FOLC_JEC_VELEDA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
@@ -61,7 +61,7 @@
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_FOLC_JEC" YieldType="YIELD_PRODUCTION" Cost="60"/>
 		<Row UnitType="UNIT_FOLC_JEC_TEUTOBOD" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_JEC_ARMINIUS" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_SIGIMER" YieldType="YIELD_PRODUCTION" Cost="60"/>
 		<Row UnitType="UNIT_FOLC_JEC_VIBILIUS" YieldType="YIELD_PRODUCTION" Cost="60"/>
 		<Row UnitType="UNIT_FOLC_JEC_CIVILIS" YieldType="YIELD_PRODUCTION" Cost="60"/>
 		<Row UnitType="UNIT_FOLC_JEC_VELEDA" YieldType="YIELD_PRODUCTION" Cost="60"/>
@@ -114,8 +114,8 @@
 		<Row Type="UNIT_FOLC_JEC" Tag="UNIT_CLASS_FOLC_JEC"/>
 		<Row Type="UNIT_FOLC_JEC_TEUTOBOD" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_FOLC_JEC_TEUTOBOD" Tag="UNIT_CLASS_FOLC_JEC"/>
-		<Row Type="UNIT_FOLC_JEC_ARMINIUS" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_JEC_ARMINIUS" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_SIGIMER" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_SIGIMER" Tag="UNIT_CLASS_FOLC_JEC"/>
 		<Row Type="UNIT_FOLC_JEC_VIBILIUS" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_FOLC_JEC_VIBILIUS" Tag="UNIT_CLASS_FOLC_JEC"/>
 		<Row Type="UNIT_FOLC_JEC_CIVILIS" Tag="UNIT_CLASS_GREATPERSON"/>

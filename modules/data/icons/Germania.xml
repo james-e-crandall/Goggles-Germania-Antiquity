@@ -54,7 +54,6 @@
             <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec_3.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-
         <Row>
             <ID>UNIT_FOLC_JEC</ID>
             <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
@@ -66,7 +65,7 @@
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_FOLC_JEC_ARMINIUS</ID>
+            <ID>UNIT_FOLC_JEC_SIGIMER</ID>
             <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>

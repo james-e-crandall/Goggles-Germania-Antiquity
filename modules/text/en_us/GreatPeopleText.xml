@@ -21,22 +21,16 @@
 		</InsertOrIgnore>
 
 		 <!-- Commander abilities -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_SIGIMER_NAME">
+			<Text>Sigimer of the Cherusci</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_SIGIMER_DESCRIPTION">
+			<Text>Activate on an Wonder to grant a special Commander "Arminius".</Text>
+		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME">
-			<Text>Teutobod of the Tuetons</Text>
+			<Text>Teutobod of the Cherusci</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_DESCRIPTION">
-			<Text>Activate on an Army Commander to change its name to “Fury of the Germans” Units within this Command Radius gain +4 Combat Strength when attacking.</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_COMMANDER_NAME">
-			<Text>Fury of the Germans</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_PREVIEW">
-			<Text>+{1_Amount} from Fury of the Germans</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_NAME">
-			<Text>Arminius of the Cherusci</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_DESCRIPTION">
 			<Text>Activate on an Army Commander to grant 2 promotions.</Text>
 		</Row>
 		<!-- Legacy Points -->
@@ -51,7 +45,7 @@
 			<Text>Veleda seeress of the Bructeri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_DESCRIPTION">
-			<Text>Grants a tradtion: +100% [icon:YIELD_DIPLOMACY] Influence towards initiating Military Infiltration.</Text>
+			<Text>+100% [icon:YIELD_DIPLOMACY] Influence towards initiating Military Infiltration.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_VELEDA_NAME">
 			<Text>Successes of the rebels</Text>
@@ -63,7 +57,7 @@
 			<Text>Pipara of the Marcomanni</Text> 
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_DESCRIPTION">
-			<Text>Grants a tradtion: +1[icon:YIELD_HAPPINESS] Happiness per Imported Resouce in each Settlement.</Text>
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Imported Resouce in each Settlement.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GREAT_PERSON_PIPARA_NAME">
 			<Text>For love of country</Text>

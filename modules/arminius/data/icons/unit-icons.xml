@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+        <Row>
+            <ID>UNIT_ARMINIUS</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+	</IconDefinitions>
+</Database>

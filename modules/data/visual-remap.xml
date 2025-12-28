@@ -30,6 +30,14 @@
             <From>UNIT_SUEBI_JEC_3</From>
             <To>UNIT_PHALANX</To>
         </Row>
+        <!-- commander -->
+        <Row>
+            <ID>REMAP_UNIT_ARMINIUS</ID>
+            <DisplayName>LOC_UNIT_ARMINIUS_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_ARMINIUS</From>
+            <To>UNIT_ARMY_COMMANDER</To>
+        </Row>
         <!-- folc -->
         <Row>
             <ID>REMAP_UNIT_FOLC_JEC_TEUTOBOD</ID>
@@ -39,10 +47,10 @@
             <To>UNIT_LOGIOS_SOCRATES</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_FOLC_JEC_ARMINIUS</ID>
-            <DisplayName>LOC_UNIT_FOLC_JEC_ARMINIUS_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_SIGIMER</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_SIGIMER_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_JEC_ARMINIUS</From>
+            <From>UNIT_FOLC_JEC_SIGIMER</From>
             <To>UNIT_LOGIOS_XENOPHON</To>
         </Row>
         <Row>
@@ -54,7 +62,7 @@
         </Row>
         <Row>
             <ID>REMAP_UNIT_FOLC_JEC_CIVILIS</ID>
-            <DisplayName>LOC_UNIT_FOLC_JEC_ARMINIUS_NAME</DisplayName>
+            <DisplayName>LOC_UNIT_FOLC_JEC_SIGIMER_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_FOLC_JEC_CIVILIS</From>
             <To>UNIT_LOGIOS_PLATO</To>

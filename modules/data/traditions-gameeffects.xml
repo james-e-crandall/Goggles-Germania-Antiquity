@@ -34,17 +34,5 @@
 		<String context="Description">LOC_TRADITION_GERMANIA_GALSTAR_DESCRIPTION</String>
 	</Modifier>
 
-	<!-- Great People -->
-	<Modifier id="TRADITION_ADJUST_MILITARY_INFILTRATION_COST_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
-		<Argument name="ActionType">DIPLOMACY_ACTION_ESPIONAGE_MILITARY_INFILTRATION</Argument>
-		<Argument name="Percent">100</Argument>
-	</Modifier>
-	<Modifier id="TRADITION_HAPPINESS_FROM_RESOURCES_PIPARA" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_YIELD_PER_RESOURCES_IN_CITY">
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">2</Argument>
-		<Argument name="Imported">true</Argument>
-		<Argument name="Tooltip">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_ABILITY_NAME</Argument>
-	</Modifier>
-
 
 </GameEffects>

@@ -95,6 +95,24 @@
                 </ScenarioScripts>
             </Actions>
         </ActionGroup>
+		<ActionGroup id="base-game-main-arminius" scope="game" criteria="always">
+			<Actions>
+				<UpdateIcons>
+					<Item>arminius/data/icons/unit-icons.xml</Item>
+					<Item>arminius/data/icons/promotion-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>arminius/data/units.xml</Item>
+					<Item>arminius/data/unit-promotions.xml</Item>
+					<Item>arminius/data/unit-promotions-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>arminius/text/en_us/UnitText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+
+		<!-- Age specific updates -->
 		<ActionGroup id="age-antiquity-persist-Germania" scope="game" criteria="antiquity-age-persist">
 			<Actions>
 				<UpdateArt>

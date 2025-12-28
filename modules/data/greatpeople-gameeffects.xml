@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- Commander abilities -->
+	<!-- SIGIMER -->
+	<Modifier id="GREAT_PERSON_GRANT_UNIT_ARMINIUS" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="UnitType">UNIT_ARMINIUS</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
 	<!-- TEUTOBOD -->
-	<Modifier id="GREATPERSON_RENAME_COMMANDER_TEUTOBOD" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
-		<Argument name="Name">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_COMMANDER_NAME</Argument>
-	</Modifier>
-	<Modifier id="GREATPERSON_COMMANDER_HIGH_COMBAT_TEUTOBOD" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<Argument name="AbilityType">ABILITY_TEUTOBOD</Argument>
-	</Modifier>
-	<Modifier id="TEUTOBOD_COMMANDER_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_TEUTOBOD_COMBAT</Argument>
-	</Modifier>
-	<Modifier id="TEUTOBOD_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING"/>
-		</SubjectRequirements>
-		<Argument name="Amount">4</Argument>
-		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_PREVIEW</String>
-	</Modifier>
-	<!-- ARMINIUS -->
-	<Modifier id="GREATPERSON_GRANT_UNIT_PROMOTION_ARMINIUS" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_PROMOTION">
+	<Modifier id="GREATPERSON_GRANT_UNIT_PROMOTION_TEUTOBOD" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_PROMOTION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
@@ -40,15 +22,19 @@
 		<Argument name="Amount">4</Argument>
 		<String context="Summary">LOC_GREATPERSON_ARENA_HAPPINESS</String>
 	</Modifier>
-	<!-- Traditions -->
-	<Modifier id="GREAT_PERSON_TRADITION_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
-		<Argument name="Tradition">TRADITION_GREAT_PERSON_VELEDA</Argument>
-		<Argument name="Lock">false</Argument>
+	<!-- Player Modifiers -->
+	<Modifier id="GREAT_PERSON_TRADITION_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
+		<Argument name="ActionType">DIPLOMACY_ACTION_ESPIONAGE_MILITARY_INFILTRATION</Argument>
+		<Argument name="Percent">100</Argument>
 	</Modifier>
-	<Modifier id="GREAT_PERSON_TRADITION_PIPARA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
-		<Argument name="Tradition">TRADITION_GREAT_PERSON_PIPARA</Argument>
-		<Argument name="Lock">false</Argument>
+	<Modifier id="GREAT_PERSON_TRADITION_PIPARA" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_YIELD_PER_RESOURCES_IN_CITY">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_ABILITY_NAME</Argument>
 	</Modifier>
+
+
 	<!-- RAICUNDA -->
 	<Modifier id="GREATPERSON_ALTAR_HAPPINESS_RAICUNDA" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
 		<Argument name="ConstructibleType">BUILDING_ALTAR</Argument>
