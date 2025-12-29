@@ -16,7 +16,7 @@ window.UnitPortraitVisualRemaps = {
         unitType: 'UNIT_LOGIOS_SOCRATES',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },
-    'UNIT_FOLC_JEC_ARMINIUS': { //your unit type
+    'UNIT_FOLC_JEC_SIGIMER': { //your unit type
         unitType: 'UNIT_LOGIOS_XENOPHON',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },  

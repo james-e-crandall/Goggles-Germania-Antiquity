@@ -3,36 +3,35 @@
 	<IconDefinitions>
 		<Row>
 			<ID>PROMOTION_CLASS_ARMINIUS_COMMANDER</ID>
-			<Path>blp:promo_assault</Path>
+			<Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
 		</Row>
-
-
 		<Row>
 			<ID>PROMOTION_ARMY_ARMINIUS_JUNGLE_WARFARE</ID>
-			<Path>blp:promotionstar_1</Path>
+			<Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
 		</Row>
 		<Row>
 			<ID>PROMOTION_ARMY_ARMINIUS_METTLE_COURAGE</ID>
-			<Path>blp:promotionstar_big</Path>
+			<Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
 		</Row>
 		<Row>
 			<ID>PROMOTION_ARMY_ARMINIUS_LAC_REBELLION</ID>
-			<Path>blp:promotionstar_1</Path>
-		</Row>
-		<Row>
-			<ID>PROMOTION_ARMY_ARMINIUS_ONE_SINGLE_CRY</ID>
-			<Path>blp:promotionstar_big</Path>
-		</Row>
-		<Row>
-			<ID>PROMOTION_ARMY_ARMINIUS_65_STRONGHOLDS</ID>
-			<Path>blp:promotionstar_1</Path>
+			<Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
 		</Row>
 		<Row>
 			<ID>PROMOTION_ARMY_ARMINIUS_HAI_BA_TRUNG</ID>
-			<Path>blp:promotionstar_big</Path>
+			<Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
 		</Row>
-
-
-
+		<Row>
+			<ID>PROMOTION_ARMY_ARMINIUS_ONE_SINGLE_CRY</ID>
+			<Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
+		</Row>
+		<Row>
+			<ID>PROMOTION_ARMY_ARMINIUS_65_STRONGHOLDS</ID>
+			<Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
+		</Row>
+		<Row>
+			<ID>PROMOTION_ARMY_ARMINIUS_HAI_BA_TRUNG</ID>
+			<Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
+		</Row>
 	</IconDefinitions>
 </Database>

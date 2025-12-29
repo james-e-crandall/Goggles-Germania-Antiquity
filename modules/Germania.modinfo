@@ -109,9 +109,18 @@
 				<UpdateText>
 					<Item>arminius/text/en_us/UnitText.xml</Item>
 				</UpdateText>
+				<UIScripts>
+					<Item>arminius/ui/unit-promotion/model-unit-promotion.chunk.js</Item>
+				</UIScripts>
 			</Actions>
 		</ActionGroup>
-
+		<ActionGroup id="shell-arminius" scope="shell" criteria="always">
+			<Actions>
+				<UpdateIcons>
+					<Item>arminius/data/icons/unit-icons.xml</Item>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
 		<!-- Age specific updates -->
 		<ActionGroup id="age-antiquity-persist-Germania" scope="game" criteria="antiquity-age-persist">
 			<Actions>
