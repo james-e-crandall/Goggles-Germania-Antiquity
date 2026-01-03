@@ -70,10 +70,10 @@
 			<Text>Hermann (Man of War)</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_HERMANN_DESCRIPTION">
-			<Text>Infantry Units the Command Radius Defeating captures that Unit under your control.</Text>
+			<Text>Infantry Units the Command Radius capture defeaded land Units and places under your control.</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_HERMANN_PREVIEW">
-			<Text>Defeating captures that Unit under your control.</Text>
+			<Text>Infantry Unit defeating  Units captures that Unit under your control.</Text>
 		</Row>
 
 

@@ -55,8 +55,8 @@
 		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS" UnitPromotionType="PROMOTION_ARMY_ARMINIUS_REGIMENTS_CAPACITY" PrereqUnitPromotion="PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE"/>
 		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS" UnitPromotionType="PROMOTION_ARMY_ARMINIUS_FRAMEA" PrereqUnitPromotion="PROMOTION_ARMY_ARMINIUS_REGIMENTS_CAPACITY"/>
 		
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS" UnitPromotionType="PROMOTION_ARMY_ARMINIUS_HERMANN" PrereqUnitPromotion="PROMOTION_ARMY_ARMINIUS_CLADES_VARIANA"/>
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS" UnitPromotionType="PROMOTION_ARMY_ARMINIUS_HERMANN" PrereqUnitPromotion="PROMOTION_ARMY_ARMINIUS_FRAMEA"/>
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS" UnitPromotionType="PROMOTION_ARMY_ARMINIUS_HERMANN" PrereqUnitPromotion="PROMOTION_ARMY_ARMINIUS_CLADES_VARIANA" GrantsCommendation="true"/>
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS" UnitPromotionType="PROMOTION_ARMY_ARMINIUS_HERMANN" PrereqUnitPromotion="PROMOTION_ARMY_ARMINIUS_FRAMEA" GrantsCommendation="true"/>
 		<!-- ____________________________________________________________________________________________________ -->
 	</UnitPromotionDisciplineDetails>
 	<UnitPromotions>
