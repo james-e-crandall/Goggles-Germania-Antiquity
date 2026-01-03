@@ -99,7 +99,6 @@
 			<Actions>
 				<UpdateIcons>
 					<Item>arminius/data/icons/unit-icons.xml</Item>
-					<Item>arminius/data/icons/promotion-icons.xml</Item>
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>arminius/data/units.xml</Item>
