@@ -103,6 +103,7 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>arminius/data/units.xml</Item>
+					<Item>arminius/data/units-gameeffects.xml</Item>
 					<Item>arminius/data/unit-promotions.xml</Item>
 					<Item>arminius/data/unit-promotions-gameeffects.xml</Item>
 				</UpdateDatabase>
@@ -129,6 +130,7 @@
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/requirement-sets.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
 					<Item>data/constructibles.xml</Item>
 					<Item>data/religion.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
@@ -184,14 +186,12 @@
 		<ActionGroup id="exploration-age-persist-Germania" scope="game" criteria="exploration-age-persist">
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/constructibles-exploration.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="modern-age-persist-Germania" scope="game" criteria="modern-age-persist">
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/constructibles-modern.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>

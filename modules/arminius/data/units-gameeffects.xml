@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="MOD_ARMINIUS_RESILIENCE" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_RESPAWN_SPEED">
+		<Argument name="Percent">-50</Argument>
+	</Modifier>
+</GameEffects>

@@ -2,80 +2,81 @@
 <Database>
 	<EnglishText>
 		<!-- Unique -->
-		<Row Tag="LOC_UNIT_ARMINIUS_NAME">
+		<Row Tag="LOC_UNIT_ARMINIUS_JEC_NAME">
 			<Text>Arminius</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_ARMINIUS_DESCRIPTION">
-			<Text>Germania's Unique Army Commander. Ageless. She has a [icon:NAR_REW_PROMOTION] Unique Promotion Tree that replaces Leadership and a Unique Commendation, Sisters Unite, that replaces Duty. Faster respawn than other [icon:UNIT_ARMY_COMMANDER] Commanders if defeated. Appears after obtaining the first Land Military Unit of the Age. Persists across Age Transition. Begins with 2 [icon:NAR_REW_PROMOTION] Promotions in Exploration Advanced Starts, and begins with 3 [icon:NAR_REW_PROMOTION] Promtions in Modern Advanced Starts.</Text>
+		<Row Tag="LOC_UNIT_ARMINIUS_JEC_DESCRIPTION">
+			<Text>Germania's Unique Army Commander. Ageless. He has a [icon:NAR_REW_PROMOTION] Unique Promotion Tree that replaces Logistics.  Faster respawn than other [icon:UNIT_ARMY_COMMANDER] Commanders if defeated. Appears after activating Sigimer of the Cherusci Folc Great person. Persists across Age Transition.</Text>
 		</Row>
 		<!-- Unique -->
 		<Row Tag="LOC_DISCIPLINE_ARMY_ARMINIUS_NAME">
 			<Text>Arminius</Text>
 		</Row>
-		<!-- Army PromotionDiscipline Trung Nhi -->
+		<!-- Army PromotionDiscipline Arminius -->
 		<!-- ____________________________________________________________________________________________________ -->
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_ATTACK_DAMAGE_DESCRIPTION">
-			<Text>+3 Damage for Heroic Assault.</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_NAME">
+			<Text>Frozen Warfare</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_ATTACK_DAMAGE_FINAL_DESCRIPTION">
-			<Text>+10 Damage for Heroic Assault.</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_PREVIEW">
+			<Text>+{1_Amount} Frozen Warfare</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_JUNGLE_WARFARE_NAME">
-			<Text>Jungle Warfare</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_DESCRIPTION">
+			<Text>+3 Combat Strength for Land Units in Tundra Terrain in the Command Radius.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_JUNGLE_WARFARE_PREVIEW">
-			<Text>+{1_Amount} Jungle Warfare</Text>
+
+<!-- ____________________________________________________________________________________________________ -->
+		<Row Tag="LOC_PROMOTION_ARMY_INCANTATIONS_NAME">
+			<Text>Incantations</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_JUNGLE_WARFARE_DESCRIPTION">
-			<Text>+5 Combat Strength for Land Units in Tropical Terrain in the Command Radius. [n]{LOC_PROMOTION_ARMY_ARMINIUS_ATTACK_DAMAGE_DESCRIPTION}</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_INCANTATIONS_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness for each Unit packed in this Commander.</Text>
 		</Row>
+
 		<!-- ____________________________________________________________________________________________________ -->
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_METTLE_COURAGE_NAME">
-			<Text>Mettle and Courage</Text>
+
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_CLADES_VARIANA_NAME">
+			<Text>Clades Variana</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_METTLE_COURAGE_DESCRIPTION">
-			<Text>+5 Combat Strength for Land Units in the Command Radius when in friendly territory. [n]{LOC_PROMOTION_ARMY_ARMINIUS_ATTACK_DAMAGE_DESCRIPTION}</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_CLADES_VARIANA_DESCRIPTION">
+			<Text>Units the Command Radius gain Stealth.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_METTLE_COURAGE_PREVIEW">
-			<Text>+{1_Amount} Mettle and Courage</Text>
-		</Row>
-		<!-- ____________________________________________________________________________________________________ -->
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_LAC_REBELLION_NAME">
-			<Text>Lạc Rebellion</Text>
-		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_LAC_REBELLION_DESCRIPTION">
-			<Text>+3 Combat Strength for Land Units in the Command Radius when there are at least 2 enemy Units adjacent to Trung Nhi. [n]{LOC_PROMOTION_ARMY_ARMINIUS_ATTACK_DAMAGE_DESCRIPTION}</Text>
-		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_LAC_REBELLION_PREVIEW">
-			<Text>+{1_Amount} Lạc Rebellion</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_CLADES_VARIANA_PREVIEW">
+			<Text>Units the Command Radius gain Stealth.</Text>
 		</Row>
 		<!-- ____________________________________________________________________________________________________ -->
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_ONE_SINGLE_CRY_NAME">
-			<Text>One Single Cry</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_REGIMENTS_CAPACITY_NAME">
+			<Text>Regiments</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_ONE_SINGLE_CRY_DESCRIPTION">
-			<Text>+5 Combat Strength with Coordinated Attack and Focus Fire. [n]{LOC_PROMOTION_ARMY_ARMINIUS_ATTACK_DAMAGE_FINAL_DESCRIPTION}</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_REGIMENTS_CAPACITY_DESCRIPTION">
+			<Text>+2 Unit Slots and faster reinforcement for this Commander.</Text>
 		</Row>
+
 		<!-- ____________________________________________________________________________________________________ -->
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_65_STRONGHOLDS_NAME">
-			<Text>65 Strongholds</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FRAMEA_NAME">
+			<Text>Framea</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_65_STRONGHOLDS_DESCRIPTION">
-			<Text>+5 Combat Strength against Fortified Districts for Land Units in the Command Radius. [n]{LOC_PROMOTION_ARMY_ARMINIUS_ATTACK_DAMAGE_DESCRIPTION}</Text>
+
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FRAMEA_DESCRIPTION">
+			<Text>+1 [icon:NAR_REW_COMBAT] Combat Strength for every unique [icon:RADIAL_RESOURCES] Empire Resource for Infantry Units within the Command Radius</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_65_STRONGHOLDS_PREVIEW">
-			<Text>+{Amount} 65 Strongholds</Text>
+
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_FRAMEA_DESCRIPTION">
+			<Text>+{1_Amount} for unique Empire Resources for Infantry Units within the Command Radius</Text>
 		</Row>
+
+
 		<!-- ____________________________________________________________________________________________________ -->
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_HAI_BA_TRUNG_NAME">
-			<Text>Hai Bà Trung</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_HERMANN_NAME">
+			<Text>Hermann (Man of War)</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_HAI_BA_TRUNG_DESCRIPTION">
-			<Text>+15 Combat Strength for this Commander when defending. [n]{LOC_PROMOTION_ARMY_ARMINIUS_ATTACK_DAMAGE_DESCRIPTION}</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_HERMANN_DESCRIPTION">
+			<Text>Infantry Units the Command Radius Defeating captures that Unit under your control.</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_HAI_BA_TRUNG_PREVIEW">
-			<Text>+{Amount} Hai Bà Trung</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_HERMANN_PREVIEW">
+			<Text>Defeating captures that Unit under your control.</Text>
 		</Row>
+
+
 		<!-- ____________________________________________________________________________________________________ -->
 	</EnglishText>
 </Database>

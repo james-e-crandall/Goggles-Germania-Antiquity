@@ -61,12 +61,12 @@
 	<Constructible_Plunders>
 		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" PlunderType="PLUNDER_HEAL" Amount="30" />
 	</Constructible_Plunders>
+	<ConstructibleModifiers>
+		<!-- Modifiers for generic buildings do NOT carry into next Age.  Place them in constructible-modifiers.xml -->
+		<!-- Buildings -->
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" ModifierId="HERRENHOFE_GOLD_ON_WAREHOUSE_JEC"/>
+	</ConstructibleModifiers>
 	<Warehouse_YieldChanges>
-		<Row ID="BrickyardHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE_JEC"/>
-		<Row ID="FishingQuayHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE_JEC"/>
-		<Row ID="GranaryHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE_JEC"/>
-		<Row ID="SawPitHerrenhofeGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" ConstructibleInCity="BUILDING_HERRENHOFE_JEC"/>
-
 		<Row ID="GermaniaAllMenFarmHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FARM"/>
 		<Row ID="GermaniaAllMenFishingBoatHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT"/>
 		<Row ID="GermaniaAllMenFishingBoatResourceHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
@@ -76,10 +76,6 @@
 	<Constructible_WildcardAdjacencies>
 	</Constructible_WildcardAdjacencies>
 	<Constructible_WarehouseYields>
-		<Row ConstructibleType="BUILDING_BRICKYARD" YieldChangeId="BrickyardHerrenhofeGold"/>
-		<Row ConstructibleType="BUILDING_FISHING_QUAY" YieldChangeId="FishingQuayHerrenhofeGold"/>
-		<Row ConstructibleType="BUILDING_GRANARY" YieldChangeId="GranaryHerrenhofeGold"/>
-		<Row ConstructibleType="BUILDING_SAW_PIT" YieldChangeId="SawPitHerrenhofeGold"/>
 	</Constructible_WarehouseYields>
 	<!-- Worker Base Yields -->
 	<WorkerYields>

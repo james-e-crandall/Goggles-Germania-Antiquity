@@ -3,7 +3,7 @@
 	<!-- Commander abilities -->
 	<!-- SIGIMER -->
 	<Modifier id="GREAT_PERSON_GRANT_UNIT_ARMINIUS" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
-		<Argument name="UnitType">UNIT_ARMINIUS</Argument>
+		<Argument name="UnitType">UNIT_ARMINIUS_JEC</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 	<!-- TEUTOBOD -->
@@ -22,18 +22,34 @@
 		<Argument name="Amount">4</Argument>
 		<String context="Summary">LOC_GREATPERSON_ARENA_HAPPINESS</String>
 	</Modifier>
-	<!-- Player Modifiers -->
-	<Modifier id="GREAT_PERSON_TRADITION_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
-		<Argument name="ActionType">DIPLOMACY_ACTION_ESPIONAGE_MILITARY_INFILTRATION</Argument>
-		<Argument name="Percent">100</Argument>
+
+	<!-- VELEDA -->
+	<Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_CIVIC_STUDY" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+		<Argument name="ActionType">DIPLOMACY_ACTION_SABOTAGE_CIVIC_STUDY</Argument>
 	</Modifier>
+	<Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_SABOTAGE_MORALE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+		<Argument name="ActionType">DIPLOMACY_ACTION_SABOTAGE_MORALE</Argument>
+	</Modifier>
+	<Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_TREASURY" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+		<Argument name="ActionType">DIPLOMACY_ACTION_SABOTAGE_TREASURY</Argument>
+	</Modifier>
+	<Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_FOOD_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+		<Argument name="ActionType">DIPLOMACY_ACTION_SABOTAGE_FOOD_PRODUCTION</Argument>
+	</Modifier>
+	<Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_MILITARY_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+		<Argument name="ActionType">DIPLOMACY_ACTION_SABOTAGE_MILITARY_PRODUCTION</Argument>
+	</Modifier>
+	<Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_RESEARCH" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+		<Argument name="ActionType">DIPLOMACY_ACTION_SABOTAGE_RESEARCH</Argument>
+	</Modifier>
+
+	<!-- PIPARA -->
 	<Modifier id="GREAT_PERSON_TRADITION_PIPARA" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_YIELD_PER_RESOURCES_IN_CITY">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">2</Argument>
 		<Argument name="Imported">true</Argument>
 		<Argument name="Tooltip">LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_ABILITY_NAME</Argument>
 	</Modifier>
-
 
 	<!-- RAICUNDA -->
 	<Modifier id="GREATPERSON_ALTAR_HAPPINESS_RAICUNDA" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
@@ -42,6 +58,8 @@
 		<Argument name="Amount">4</Argument>
 		<String context="Summary">LOC_GREATPERSON_ALTAR_HAPPINESS</String>
 	</Modifier>	
+
+	
 	<!-- Units -->
 	<Modifier id="GREAT_PERSON_TRADITION_CIVILIS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_GREAT_PERSON_CIVILIS</Argument>

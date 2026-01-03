@@ -35,7 +35,7 @@
             <ID>REMAP_UNIT_ARMINIUS</ID>
             <DisplayName>LOC_UNIT_ARMINIUS_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_ARMINIUS</From>
+            <From>UNIT_ARMINIUS_JEC</From>
             <To>UNIT_ARMY_COMMANDER</To>
         </Row>
         <!-- folc -->

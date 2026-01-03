@@ -40,19 +40,14 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_DESCRIPTION">
 			<Text>Activated to have The Arena provides +4[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
 		</Row>
-		<!-- Traditions -->
+		<!-- Diplomatic -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_NAME">
 			<Text>Veleda seeress of the Bructeri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_DESCRIPTION">
-			<Text>+100% [icon:YIELD_DIPLOMACY] Influence towards initiating Military Infiltration.</Text>
+			<Text>Unlocks all sabotage Diplomatic actions.</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_GREAT_PERSON_VELEDA_NAME">
-			<Text>Successes of the rebels</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_GREAT_PERSON_VELEDA_DESCRIPTION">
-			<Text>+100% [icon:YIELD_DIPLOMACY] Influence towards initiating Military Infiltration</Text>
-		</Row>
+
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_NAME">
 			<Text>Pipara of the Marcomanni</Text> 
 		</Row>
