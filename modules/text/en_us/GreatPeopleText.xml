@@ -12,12 +12,12 @@
 			<Text>The Barracks provides +{1_Amount}[icon:YIELD_PRODUCTION] Production in this Settlement.</Text>
 		</Replace>
 
-		<InsertOrIgnore Tag="LOC_GREATPERSON_ARENA_HAPPINESS">
-			<Text>The Arena provides +{1_Amount}[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
+		<InsertOrIgnore Tag="LOC_GREATPERSON_MONUMENT_HAPPINESS">
+			<Text>The Monument provides +{1_Amount}[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
 		</InsertOrIgnore>
 
-		<InsertOrIgnore Tag="LOC_GREATPERSON_ALTER_HAPPINESS">
-			<Text>The Alter provides +{1_Amount}[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
+		<InsertOrIgnore Tag="LOC_GREATPERSON_LIBRARY_HAPPINESS">
+			<Text>The Library provides +{1_Amount}[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
 		</InsertOrIgnore>
 
 		 <!-- Commander abilities -->
@@ -38,7 +38,7 @@
 			<Text>Vibilius of the Hermunduri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_DESCRIPTION">
-			<Text>Activated to have The Arena provides +4[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
+			<Text>Activated to have The Library provides +4[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
 		</Row>
 		<!-- Diplomatic -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_NAME">
@@ -65,7 +65,7 @@
 			<Text>Raicunda of the Thuringii</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_DESCRIPTION">
-			<Text>Activated to have The Alter provides +4[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
+			<Text>Activated to have The Monument provides +4[icon:YIELD_HAPPINESS] Happiness in this Settlement.</Text>
 		</Row>
 		<!-- Units -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_NAME">

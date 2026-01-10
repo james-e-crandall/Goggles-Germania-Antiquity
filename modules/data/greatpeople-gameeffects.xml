@@ -16,11 +16,11 @@
 		<Argument name="Amount">2</Argument>
 	</Modifier>
 	<!-- VIBILIUS -->
-	<Modifier id="GREATPERSON_ARENA_HAPPINESS_VIBILIUS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
-		<Argument name="ConstructibleType">BUILDING_ARENA</Argument>
+	<Modifier id="GREATPERSON_LIBRARY_HAPPINESS_VIBILIUS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_LIBRARY</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">4</Argument>
-		<String context="Summary">LOC_GREATPERSON_ARENA_HAPPINESS</String>
+		<String context="Summary">LOC_GREATPERSON_LIBRARY_HAPPINESS</String>
 	</Modifier>
 
 	<!-- VELEDA -->
@@ -52,11 +52,11 @@
 	</Modifier>
 
 	<!-- RAICUNDA -->
-	<Modifier id="GREATPERSON_ALTAR_HAPPINESS_RAICUNDA" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
-		<Argument name="ConstructibleType">BUILDING_ALTAR</Argument>
+	<Modifier id="GREATPERSON_MONUMENT_HAPPINESS_RAICUNDA" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_MONUMENT</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">4</Argument>
-		<String context="Summary">LOC_GREATPERSON_ALTAR_HAPPINESS</String>
+		<String context="Summary">LOC_GREATPERSON_MONUMENT_HAPPINESS</String>
 	</Modifier>	
 
 	
