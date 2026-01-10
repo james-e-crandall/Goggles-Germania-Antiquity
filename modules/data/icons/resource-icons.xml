@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<Row>
+			<ID>RESOURCE_AMBER_JEC</ID>
+			<Path>fs://game/goggles_civ_germania/icons/resicon_amber.png</Path>
+		</Row>
+	</IconDefinitions>
+</Database>

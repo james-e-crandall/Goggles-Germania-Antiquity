@@ -86,10 +86,12 @@
 					<Item>icons/unitflag_suebi_jec_3.png</Item>
 					<Item>icons/cult_germania_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
+					<Item>icons/resicon_amber.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Germania.xml</Item>
 					<Item>data/icons/wonder-icons.xml</Item>
+					<Item>data/icons/resource-icons.xml</Item>
                 </UpdateIcons>
                 <ScenarioScripts>
                 </ScenarioScripts>
@@ -173,9 +175,14 @@
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/progression-trees-tech-common.xml</Item>
+
+					<Item>data/resources.xml</Item>
+					<Item>data/resources-gameeffects.xml</Item>
+
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/ResourcesText.xml</Item>
 				</UpdateText>
                 <UpdateVisualRemaps>
                     <Item>data/visual-remap.xml</Item>
@@ -214,10 +221,12 @@
 					<Item>icons/unitflag_suebi_jec_3.png</Item>
 					<Item>icons/cult_germania_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
+					<Item>icons/resicon_amber.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Germania.xml</Item>
 					<Item>data/icons/wonder-icons.xml</Item>
+					<Item>data/icons/resource-icons.xml</Item>
                 </UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/CivilizationText.xml</Item>

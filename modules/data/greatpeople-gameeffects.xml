@@ -24,7 +24,7 @@
 	</Modifier>
 
 	<!-- VELEDA -->
-	<Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_CIVIC_STUDY" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+	<!-- <Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_CIVIC_STUDY" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
 		<Argument name="ActionType">DIPLOMACY_ACTION_SABOTAGE_CIVIC_STUDY</Argument>
 	</Modifier>
 	<Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_SABOTAGE_MORALE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
@@ -41,7 +41,24 @@
 	</Modifier>
 	<Modifier id="MOD_GREAT_PERSON_TRADITION_VELEDA_SABOTAGE_RESEARCH" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
 		<Argument name="ActionType">DIPLOMACY_ACTION_SABOTAGE_RESEARCH</Argument>
+	</Modifier> -->
+
+	
+	<!-- <Modifier id="MOD_CS_LAPIS_LAZULI" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_LAPIS_LAZULI</Argument>
 	</Modifier>
+	<Modifier id="ATTACH_LAPIS_LAZULI" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADD_RESOURCE_TO_PLOT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_ELIGIBLE_CS_BONUS">
+				<Argument name="CityStateBonus">CITY_STATE_BONUS_ANTIQUITY_13</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ResourceType">RESOURCE_LAPIS_LAZULI</Argument>
+	</Modifier> -->
+
+	<Modifier id="MOD_GREAT_PERSON_VELEDA_ATTACH_AMBER_JEC" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADD_RESOURCE_TO_PLOT" permanent="true">
+		<Argument name="ResourceType">RESOURCE_AMBER_JEC</Argument>
+	</Modifier> 
 
 	<!-- PIPARA -->
 	<Modifier id="GREAT_PERSON_TRADITION_PIPARA" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_YIELD_PER_RESOURCES_IN_CITY">

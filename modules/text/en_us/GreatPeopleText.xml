@@ -45,7 +45,7 @@
 			<Text>Veleda seeress of the Bructeri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_DESCRIPTION">
-			<Text>Unlocks all sabotage Diplomatic actions.</Text>
+			<Text>Receive the Amber [icon:RADIAL_RESOURCES] Resource in the [icon:NOTIFICATION_SELECT_CAPITAL]Capital. [n]Amber provides +4[icon:YIELD_DIPLOMACY] Influence and +5%[icon:YIELD_HAPPINESS] Happiness.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_NAME">
