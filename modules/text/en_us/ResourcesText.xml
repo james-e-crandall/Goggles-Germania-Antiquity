@@ -8,7 +8,7 @@
             <Text>Amber is a precious fossilized resin used for jewelry and ornamentation in ancient times. It was highly valued for its beauty and supposed mystical properties.</Text>
         </Row> -->
 		<Row Tag="LOC_RESOURCE_AMBER_JEC_TOOLTIP">
-			<Text>+4[icon:YIELD_DIPLOMACY] Influence, +10%[icon:YIELD_HAPPINESS] Happiness</Text>
+            <Text>+3 [icon:YIELD_HAPPINESS] Happiness on all Buildings placed on Coast, a Lake tile, or a Navigable River.</Text>
 		</Row>
     </EnglishText>
 </Database>

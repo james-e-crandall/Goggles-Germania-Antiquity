@@ -8,22 +8,19 @@
 		<Row Type="RESOURCE_AMBER_JEC" Kind="KIND_RESOURCE"/>
 	</Types>
     <Resources>
-    	<Row ResourceType="RESOURCE_AMBER_JEC" Name="LOC_RESOURCE_AMBER_JEC_NAME" Tooltip="LOC_RESOURCE_AMBER_JEC_TOOLTIP" ResourceClassType="RESOURCECLASS_CITY" Weight="10" Tradeable="false"/>
+    	<Row ResourceType="RESOURCE_AMBER_JEC" Name="LOC_RESOURCE_AMBER_JEC_NAME" Tooltip="LOC_RESOURCE_AMBER_JEC_TOOLTIP" ResourceClassType="RESOURCECLASS_BONUS" Weight="10" Tradeable="true"/>
     </Resources>
 
     <Resource_ValidAges>
         <Row ResourceType="RESOURCE_AMBER_JEC" AgeType="AGE_ANTIQUITY"/>
     </Resource_ValidAges>
     <GameModifiers>
-        <Row ModifierId="MOD_AMBER_JEC_CITY_FLAT_DIPLOMACY"/>
-        <Row ModifierId="MOD_AMBER_JEC_CITY_HAPPINESS"/>
+        <Row ModifierId="MOD_AMBER_JEC_WATER_HAPPINESS"/>
     </GameModifiers>
     <ModifierMetadatas>
-		<Row ModifierId="MOD_AMBER_JEC_CITY_FLAT_DIPLOMACY" FieldName="ResourceType" String="RESOURCE_AMBER_JEC"/>
-		<Row ModifierId="MOD_AMBER_JEC_CITY_HAPPINESS" FieldName="ResourceType" String="RESOURCE_AMBER_JEC"/>
+		<Row ModifierId="MOD_AMBER_JEC_WATER_HAPPINESS" FieldName="ResourceType" String="RESOURCE_AMBER_JEC"/>
     </ModifierMetadatas>
     <TypeTags>
-		<Row Type="RESOURCE_AMBER_JEC" Tag="DIPLOMACY"/>
 		<Row Type="RESOURCE_AMBER_JEC" Tag="HAPPINESS"/>
     </TypeTags>
 </Database>

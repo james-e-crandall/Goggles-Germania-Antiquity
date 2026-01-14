@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameEffects xmlns="GameEffects">
-	<Modifier id="MOD_AMBER_JEC_CITY_FLAT_DIPLOMACY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE"/>
-		</SubjectRequirements>
-		<Argument name="Amount">4</Argument>
-		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+
+	<Modifier id="MOD_AMBER_JEC_WATER_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD_PER_RESOURCE">
 		<Argument name="ResourceType">RESOURCE_AMBER_JEC</Argument>
-		<Argument name="PercentMultiplier">false</Argument>
-	</Modifier>
-	<Modifier id="MOD_AMBER_JEC_CITY_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE"/>
-		</SubjectRequirements>
-		<Argument name="Amount">10</Argument>
+		<Argument name="Tag">WATER</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="ResourceType">RESOURCE_AMBER_JEC</Argument>
-		<Argument name="PercentMultiplier">true</Argument>
+		<Argument name="Amount">3</Argument>
 	</Modifier>
+
 </GameEffects>
