@@ -21,10 +21,10 @@
 			<Text>Furor Teutonicus</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_GERMANIA_JEC_ABILITY_DESCRIPTION">
-			<Text>[LIST][LI]Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] [B]Happiness [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[LI]Gain an [B]Folc[/B] Unit when chosing a Focus of [B]Fishing/Farming[/B] town.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Haselgebrige Salt Mine[/B].[/LIST]</Text>
+			<Text>[LIST][LI]Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] [B]Happiness [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[LI]+1 [icon:NAR_REW_GREATWORK] Codex slots in the City Hall when chosing a Focus of [B]Fishing/Farming[/B] town.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Haselgebrige Salt Mine[/B].[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GERMANIA_JEC_DESCRIPTION">
-			<Text>[LIST][LI]Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] [B]Happiness [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[LI]Gain an [B]Folc[/B] Unit when chosing a Focus of [B]Fishing/Farming[/B] town.[/LIST]</Text>
+			<Text>[LIST][LI]Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] [B]Happiness [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[LI]+1 [icon:NAR_REW_GREATWORK] Codex slots in the City Hall when chosing a Focus of [B]Fishing/Farming[/B] town.[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_JEC_CIV_WONDER_PRODUCTION_GERMANIA_DESCRIPTION">
 			<Text>+30% [icon:YIELD_PRODUCTION] Production from being Germania's associated Wonder.</Text>

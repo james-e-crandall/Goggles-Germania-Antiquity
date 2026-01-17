@@ -4,7 +4,7 @@
 	<Modifier id="HERRENHOFE_GOLD_ON_WAREHOUSE_JEC" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="Tag">WAREHOUSE</Argument>
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">1</Argument>
+		<Argument name="Amount">2</Argument>
 		<String context="Preview">LOC_BUILDING_HERRENHOFE_JEC_DESCRIPTION</String>
 	</Modifier>
 </GameEffects>
