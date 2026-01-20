@@ -40,6 +40,55 @@
 		<Argument name="Amount">2</Argument>
 		<String context="Description">LOC_MOD_JEC_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY_DESCRIPTION</String>
 	</Modifier>
+
+	<Modifier id="MOD_JEC_BARBARICUM_GRANARY_GRANT_UNIT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_GRANARY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AllowUniqueOverride">true</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_GERMANIA_GRANT_UNIT_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_JEC_BARBARICUM_FISHING_GRANT_UNIT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_FISHING</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AllowUniqueOverride">true</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<!-- MIDGARD -->
+	<!-- Level 2 -->
+	<Modifier id="MOD_JEC_MIDGARD_GRANARY_GRANT_UNIT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_GRANARY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AllowUniqueOverride">true</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_GERMANIA_GRANT_UNIT_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_JEC_MIDGARD_FISHING_GRANT_UNIT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_FISHING</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AllowUniqueOverride">true</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+
+
 	<!-- WULFAZ -->
 	<Modifier id="MOD_JEC_WULFAZ_MOD_CELEBRATION_COMMANDER_XP" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
 		<SubjectRequirements>

@@ -23,19 +23,17 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
-		<Argument name="Amount">3</Argument>
-		<String context="Description">LOC_MOD_CHAKRAVARTI_GREAT_WORKS_SLOTS_DESCRIPTION</String>
+		<Argument name="Amount">1</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_JEC_FUROR_TEUTONICUS_FISHING_GREAT_WORKS_SLOTS" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+	<Modifier id="MOD_JEC_FUROR_TEUTONICUS_FISHING_GREAT_WORKS_SLOTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
 				<Argument name="ProjectType">PROJECT_TOWN_FISHING</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
-		<Argument name="Amount">3</Argument>
-		<String context="Description">LOC_MOD_CHAKRAVARTI_GREAT_WORKS_SLOTS_DESCRIPTION</String>
+		<Argument name="Amount">1</Argument>
 	</Modifier>
 
 	<!-- ==================================================	-->

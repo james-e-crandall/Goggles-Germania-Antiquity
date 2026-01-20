@@ -43,6 +43,10 @@
 			<Text>+2 Resouce Capacity each town specialized as a Fishing/Farming town.</Text>
 		</Row>
 		
+		<Row Tag="LOC_MOD_GERMANIA_GRANT_UNIT_DESCRIPTION">
+			<Text>Gain an Folc Unit when chosing a Focus of Fishing/Farming town.</Text>
+		</Row>
+
 		<Row Tag="LOC_CIVIC_GERMANIA_MIDGARD_NAME">
 			<Text>Midgard</Text>
 		</Row>
