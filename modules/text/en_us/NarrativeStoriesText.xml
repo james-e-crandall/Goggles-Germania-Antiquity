@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEA_STORYTITLE">
+            <Text>Tribes of the fatherland.</Text>
+        </Row>
+        <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEA_COMPLETION">
+            <Text>Until all called themselves by this self-invented name of Germans, which the conquerors had first employed to inspire terror!</Text>
+        </Row>
+        <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEB_NAME">
+            <Text>Germania’s reputation fuels its growth.</Text>
+        </Row>
+        <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEB_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEC_NAME">
+            <Text>Germania’s pride lies in its military.</Text>
+        </Row>
+        <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEC_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+
+        <!-- <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEA_STORYTITLE">
+            <Text>There are still to be seen in the groves of Germany the Roman standards which I hung up to our country's gods... [O]ne thing there is which Germans will never thoroughly excuse, their having seen between the Elbe and the Rhine the Roman rods, axes, and toga... If you prefer your fatherland, your ancestors, your ancient life to tyrants and to new colonies, follow as your leader Arminius to glory and to freedom...</Text>
+        </Row> -->
+
+
+    </EnglishText>
+</Database>

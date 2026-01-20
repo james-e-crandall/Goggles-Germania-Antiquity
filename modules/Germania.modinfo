@@ -71,9 +71,11 @@
             <Actions>
                 <UpdateDatabase>
 					<Item>data/unlocks-base-standard.xml</Item>
+
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
                     <Item>icons/civ_sym_germania_jec</Item>
@@ -178,6 +180,10 @@
 
 					<Item>data/resources.xml</Item>
 					<Item>data/resources-gameeffects.xml</Item>
+
+					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
+					<Item>data/narrative-stories-antiquity.xml</Item>
+
 
 				</UpdateDatabase>
 				<UpdateText>

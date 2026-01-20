@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Requirement id="REQ_STORY_CIVILIZATION_GERMANIA" type="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES">
+        <Argument name="CivilizationType">CIVILIZATION_GERMANIA_JEC</Argument>
+    </Requirement>
+    <!-- GERMANIA_JEC_COMPLETED_PROGRESSION_TREE -->
+    <RequirementSet id="REQSET_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEA_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_GERMANIA"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEA_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_GERMANIA"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+            <Argument name="ProgressionTreeNodeType">NODE_CIVIC_AQ_GERMANIA_WULFAZ</Argument>
+            <Argument name="MinDepth">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <Modifier id="GERMANIA_JEC_COMPLETED_PROGRESSION_TREEB_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_EXPANSIONIST</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <Modifier id="GERMANIA_JEC_COMPLETED_PROGRESSION_TREEC_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_MILITARISTIC</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+
+</GameEffects>
