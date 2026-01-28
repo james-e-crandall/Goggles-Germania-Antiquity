@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- ==================================================	-->
+	<!-- Friedrich, Oblique -->
+	<!-- ==================================================	-->
+	<Modifier id="FRIEDRICH_MOD_COMMANDER_ARMINIUS_COMMENDATION" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitPromotionType">PROMOTION_COMMENDATION_ARMY_MERIT</Argument>
+		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_COMMENDATION_MERIT</Argument>
+	</Modifier>
+
+</GameEffects>

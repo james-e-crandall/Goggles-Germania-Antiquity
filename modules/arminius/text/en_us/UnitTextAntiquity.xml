@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Unique -->
+		<Row Tag="LOC_UNIT_ARMINIUS_JEC_NAME">
+			<Text>Arminius</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ARMINIUS_JEC_DESCRIPTION">
+			<Text>Germania's Unique Army Commander. Ageless. He has a [icon:NAR_REW_PROMOTION] Unique Promotion Tree that replaces Logistics.  Faster respawn than other [icon:UNIT_ARMY_COMMANDER] Commanders if defeated. Appears after activating Sigimer of the Cherusci Folc Great person. Persists across Age Transition.</Text>
+		</Row>
+		<!-- Unique -->
+		<Row Tag="LOC_DISCIPLINE_ARMY_ARMINIUS_NAME">
+			<Text>Arminius</Text>
+		</Row>
+		<!-- Level 0 -->
+
+
+		<!-- Level 1 -->
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_ROUT_NAME">
+			<Text>Rout</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_ROUT_DESCRIPTION">
+			<Text>+3 Combat Strength for Infantry Units within the Command Radius when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_ROUT_NAME">
+			<Text>Rout</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_ROUT_DESCRIPTION">
+			<Text>+{Amount} Combat Strength for Infantry Units when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_ROUT_PREVIEW">
+			<Text>+{Amount} Rout</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_STEADFAST_NAME">
+			<Text>Steadfast</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_STEADFAST_DESCRIPTION">
+			<Text>+3 Combat Strength for Infantry Units within the Command Radius when defending.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_STEADFAST_NAME">
+			<Text>Steadfast</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_STEADFAST_DESCRIPTION">
+			<Text>+{Amount} Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_STEADFAST_PREVIEW">
+			<Text>+{Amount} Steadfast</Text>
+		</Row>
+
+		<!-- Level 2 -->
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_NAME">
+			<Text>Frozen Warfare</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_PREVIEW">
+			<Text>+{1_Amount} Frozen Warfare</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_DESCRIPTION">
+			<Text>+3 Combat Strength for Infantry Units in Tundra Terrain in the Command Radius.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_INCANTATIONS_NAME">
+			<Text>Incantations</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_INCANTATIONS_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness for each Unit packed in this Commander.</Text>
+		</Row>
+
+		<!-- Level 3 -->
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_AMPHIBIOUS_NAME">
+			<Text>Amphibious</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_AMPHIBIOUS_DESCRIPTION">
+			<Text>Infantry Units within the Command Radius suffer no Combat penalties when attacking while embarked. It costs 1 Movement to Embark and Disembark.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_AMPHIBIOUS_NAME">
+			<Text>Amphibious</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_AMPHIBIOUS_DESCRIPTION">
+			<Text>Infantry Units within the Command Radius suffer no Combat penalties when attacking while embarked. It costs 1 Movement to Embark and Disembark.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_SURVIVAL_TRAINING_NAME">
+			<Text>Survival Training</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_SURVIVAL_TRAINING_DESCRIPTION">
+			<Text>Infantry Units within the Command Radius gain the Commando ability. Terrain combat bonuses are doubled, and Infantry Units can move and attack through cliffs.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_ARMINIUS_COMMANDO_NAME">
+			<Text>Commando</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMINIUS_COMMANDO_DESCRIPTION">
+			<Text>Infantry Units within the Command Radius gain the Commando ability. Terrain combat bonuses are doubled, and Infantry Units can move and attack through cliffs.</Text>
+		</Row>
+
+		<!-- Level 4 -->
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_LOOTING_NAME">
+			<Text>Looting</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_LOOTING_DESCRIPTION">
+			<Text>+50% Yield and HP from Infantry Units pillaging within the Command Radius.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_LOOTING_NAME">
+			<Text>Looting</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_LOOTING_DESCRIPTION">
+			<Text>+50% Yield and HP from Infantry Units pillaging.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FIELD_MEDIC_NAME">
+			<Text>Field Medic</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FIELD_MEDIC_DESCRIPTION">
+			<Text>Infantry Units within the Command Radius gain +10 Healing in enemy and neutral territory.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_FIELD_MEDIC_NAME">
+			<Text>Field Medic</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_FIELD_ARMINIUS_MEDIC_DESCRIPTION">
+			<Text>Infantry Units within the Command Radius gain +10 Healing in enemy and neutral territory.</Text>
+		</Row>
+
+		<!-- Level 5 -->
+		<Row Tag="LOC_PROMOTION_ARMY_AREA_ARMINIUS_DENIAL_NAME">
+			<Text>Area Denial</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_AREA_ARMINIUS_DENIAL_DESCRIPTION">
+			<Text>The Command Radius applies Zone of Control to enemy Land Units.</Text>
+		</Row>
+
+		<!-- Level Comendation -->
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_FRAMEA_NAME">
+			<Text>Framea</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_FRAMEA_DESCRIPTION">
+			<Text>+1 [icon:NAR_REW_COMBAT] Combat Strength for every unique [icon:RADIAL_RESOURCES] Empire Resource for Infantry Units within the Command Radius</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_FRAMEA_DESCRIPTION">
+			<Text>+{1_Amount} for unique Empire Resources for Infantry Units within the Command Radius</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_NAME">
+			<Text>Haftaz (captive, bound)</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_DESCRIPTION">
+			<Text>Infantry Units the Command Radius capture defeaded land Units and places under your control.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_PREVIEW">
+			<Text>Infantry Unit defeating  Units captures that Unit under your control.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

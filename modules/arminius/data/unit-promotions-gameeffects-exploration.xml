@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- ____________________________________________________________________________________________________ -->
-	<!-- Army PromotionDiscipline Arminius -->
+	<!-- Army PromotionDiscipline OTTO -->
 	<!-- ____________________________________________________________________________________________________ -->
 
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_PROMOTION_ARMY_OTTO_FROZEN_WARFARE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
 			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
@@ -14,74 +14,73 @@
 				<Argument name="BiomeType">BIOME_TUNDRA</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">MOD_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_ATTACH</Argument>
+		<Argument name="ModifierId">MOD_PROMOTION_ARMY_OTTO_FROZEN_WARFARE_ATTACH</Argument>
 	</Modifier>
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_ATTACH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<Modifier id="MOD_PROMOTION_ARMY_OTTO_FROZEN_WARFARE_ATTACH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_PREVIEW</String>
+		<String context="Preview">LOC_PROMOTION_ARMY_OTTO_FROZEN_WARFARE_PREVIEW</String>
 	</Modifier>
 
 	<!-- ____________________________________________________________________________________________________ -->
-	<Modifier id="MOD_PROMOTION_ARMY_INCANTATIONS" collection="COLLECTION_COMMANDER_PACKED_UNITS" effect="EFFECT_UNIT_ADJUST_PLAYER_YIELD">
+	<Modifier id="MOD_PROMOTION_ARMY_OTTO_INCANTATIONS" collection="COLLECTION_COMMANDER_PACKED_UNITS" effect="EFFECT_UNIT_ADJUST_PLAYER_YIELD">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 
 	<!-- ____________________________________________________________________________________________________ -->
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_CLADES_VARIANA" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_PROMOTION_ARMY_OTTO_CLADES_VARIANA" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
 			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
 				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">MOD_PROMOTION_ARMY_ARMINIUS_CLADES_VARIANA_ATTACH</Argument>
+		<Argument name="ModifierId">MOD_PROMOTION_ARMY_OTTO_CLADES_VARIANA_ATTACH</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_CLADES_VARIANA_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_HIDDEN_VISIBILITY">
+	<Modifier id="MOD_PROMOTION_ARMY_OTTO_CLADES_VARIANA_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_HIDDEN_VISIBILITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_ON_FEATURE">
 				<Argument name="FeatureType">FEATURE_FOREST</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Hidden">true</Argument>
-		<String context="Preview">LOC_PROMOTION_ARMY_ARMINIUS_CLADES_VARIANA_PREVIEW</String>
+		<String context="Preview">LOC_PROMOTION_ARMY_OTTO_CLADES_VARIANA_PREVIEW</String>
 	</Modifier>
 
 <!-- ____________________________________________________________________________________________________ -->
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_REGIMENTS_CAPACITY" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_UNIT_CAPACITY">
+	<Modifier id="MOD_PROMOTION_ARMY_OTTO_REGIMENTS_CAPACITY" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_UNIT_CAPACITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_ARMINIUS</Argument>
+				<Argument name="Tag">UNIT_CLASS_OTTO</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">2</Argument>
 	</Modifier>
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_REGIMENTS_REINFORCE_SPEED" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_UNIT_REINFORCE_SPEED">
+	<Modifier id="MOD_PROMOTION_ARMY_OTTO_REGIMENTS_REINFORCE_SPEED" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_UNIT_REINFORCE_SPEED">
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 
 
 	<!-- ____________________________________________________________________________________________________ -->
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_FRAMEA" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<Modifier id="MOD_PROMOTION_ARMY_OTTO_FRAMEA" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_ARMY_ARMINIUS_FRAMEA</Argument>
+		<Argument name="AbilityType">ABILITY_ARMY_OTTO_FRAMEA</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_ABILITY_ARMY_ARMINIUS_FRAMEA" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_RESOURCE_DAMAGE">
+	<Modifier id="MOD_ABILITY_ARMY_OTTO_FRAMEA" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_RESOURCE_DAMAGE">
 		<Argument name="Amount">1</Argument>
 		<Argument name="ResourceClassType">RESOURCECLASS_EMPIRE</Argument>
-		<String context="Preview">LOC_ABILITY_ARMY_ARMINIUS_FRAMEA_DESCRIPTION</String>
+		<String context="Preview">LOC_ABILITY_ARMY_OTTO_FRAMEA_DESCRIPTION</String>
 	</Modifier>
 
 
-	<!-- ____________________________________________________________________________________________________ -->
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_HERMANN" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_PROMOTION_COMMENDATION_OTTO_COMMENDATION_HAFTAZ_CAPTURE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
 			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
@@ -91,18 +90,17 @@
 				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">MOD_PROMOTION_ARMY_ARMINIUS_HERMANN_ATTACH</Argument>
+		<Argument name="ModifierId">MOD_PROMOTION_COMMENDATION_OTTO_COMMENDATION_HAFTAZ_CAPTURE_ATTACH</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_HERMANN_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_COMBAT_CAPTURE">
+	<Modifier id="MOD_PROMOTION_COMMENDATION_OTTO_COMMENDATION_HAFTAZ_CAPTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_COMBAT_CAPTURE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
 				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="CanCapture">true</Argument>
-		<String context="Preview">LOC_PROMOTION_ARMY_ARMINIUS_HERMANN_PREVIEW</String>
+		<String context="Preview">LOC_PROMOTION_COMMENDATION_OTTO_COMMENDATION_HAFTAZ_PREVIEW</String>
 	</Modifier>
-
 
 </GameEffects>

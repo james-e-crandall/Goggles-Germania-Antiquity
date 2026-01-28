@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_FRIEDRICH_ABILITY" ModifierId="FRIEDRICH_MOD_COMMANDER_ARMINIUS_COMMENDATION"/>
+    </TraitModifiers>
+
+</Database>

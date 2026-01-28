@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_REGIMENTS_CAPACITY_NAME">
+			<Text>Regiments</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_REGIMENTS_CAPACITY_DESCRIPTION">
+			<Text>+2 Unit Slots and faster reinforcement for this Commander.</Text>
+		</Row>
+	</EnglishText>
+</Database>

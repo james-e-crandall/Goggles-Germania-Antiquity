@@ -107,11 +107,17 @@
 				<UpdateDatabase>
 					<Item>arminius/data/units.xml</Item>
 					<Item>arminius/data/units-gameeffects.xml</Item>
-					<Item>arminius/data/unit-promotions.xml</Item>
-					<Item>arminius/data/unit-promotions-gameeffects.xml</Item>
+					<Item>arminius/data/unit-promotions-antiquity.xml</Item>
+					<Item>arminius/data/unit-promotions-gameeffects-antiquity.xml</Item>
+
+					<!-- <Item>arminius/data/unit-promotions-exploration.xml</Item>
+					<Item>arminius/data/unit-promotions-gameeffects-exploration.xml</Item> -->
+
+					<Item>arminius/data/leaders.xml</Item>
+					<Item>arminius/data/leaders-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>arminius/text/en_us/UnitText.xml</Item>
+					<Item>arminius/text/en_us/UnitTextAntiquity.xml</Item>
 				</UpdateText>
 				<UIScripts>
 					<Item>arminius/ui/unit-promotion/model-unit-promotion.chunk.js</Item>
