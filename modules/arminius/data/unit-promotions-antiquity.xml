@@ -9,7 +9,6 @@
 		<!-- DISCIPLINE_CLASS -->
 		<Row Type="DISCIPLINE_ARMY_ARMINIUS" Kind="KIND_PROMOITON_DISCIPLINE_CLASS"/>
 		<!-- PROMOTION_CLASS -->
-		<Row Type="PROMOTION_CLASS_ARMINIUS_COMMANDER" Kind="KIND_PROMOTION_CLASS"/>
 		<!-- PROMOTION -->
 
 		<!-- COMMENDATION -->
@@ -54,7 +53,6 @@
 		
 	</Types>
 	<UnitPromotionClasses>
-		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" Name="LOC_PROMOTION_CLASS_LAND_COMMANDER_NAME"/>
 	</UnitPromotionClasses>
 	<UnitPromotionDisciplines>
 		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS" Name="LOC_DISCIPLINE_ARMY_ARMINIUS_NAME" BackgroundImage="cPromo_bg_army_assault.png"/>	

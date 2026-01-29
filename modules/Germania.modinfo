@@ -107,6 +107,7 @@
 				<UpdateDatabase>
 					<Item>arminius/data/units.xml</Item>
 					<Item>arminius/data/units-gameeffects.xml</Item>
+					<Item>arminius/data/unit-promotions.xml</Item>
 					<Item>arminius/data/unit-promotions-antiquity.xml</Item>
 					<Item>arminius/data/unit-promotions-gameeffects-antiquity.xml</Item>
 					<Item>arminius/data/leaders.xml</Item>

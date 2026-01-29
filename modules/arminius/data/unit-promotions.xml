@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_PROMOTION"/>
+		<InsertOrIgnore Kind="KIND_PROMOTION_CLASS"/>
+		<InsertOrIgnore Kind="KIND_PROMOITON_DISCIPLINE_CLASS"/>
+	</Kinds>
+	<Types>
+		<!-- DISCIPLINE_CLASS -->
+		<!-- PROMOTION_CLASS -->
+		<Row Type="PROMOTION_CLASS_ARMINIUS_COMMANDER" Kind="KIND_PROMOTION_CLASS"/>
+		<!-- PROMOTION -->
+
+		<!-- COMMENDATION -->
+
+		
+	</Types>
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" Name="LOC_PROMOTION_CLASS_LAND_COMMANDER_NAME"/>
+	</UnitPromotionClasses>
+	<UnitPromotionDisciplines>
+
+	</UnitPromotionDisciplines>
+	<UnitPromotionClassSets>
+
+	</UnitPromotionClassSets>
+	<UnitPromotionDisciplineDetails>
+		<!-- ARMY ARMINIUS COMMENDATIONS -->
+
+		<!-- ARMY ARMINIUS PROMOTION -->
+		<!-- Level 0 -->
+
+		<!-- Level 1 -->
+
+		<!-- Level 2 -->
+
+		<!-- Level 3 -->
+
+		<!-- Level 4 -->
+
+		<!-- Level 5 -->
+
+	</UnitPromotionDisciplineDetails>
+	<UnitPromotions>
+		<!-- ARMY ARMINIUS COMMENDATIONS -->
+
+		<!-- ARMY ARMINIUS PROMOTION -->
+		<!-- Level 0 -->
+
+		<!-- Level 1 -->
+
+		<!-- Level 2 -->
+
+		<!-- Level 3 -->
+
+		<!-- Level 4 -->
+
+		<!-- Level 5 -->
+
+	</UnitPromotions>
+	<UnitPromotionModifiers>
+		<!-- ARMY ARMINIUS COMMENDATIONS -->
+
+		<!-- ARMY ARMINIUS PROMOTION -->
+		<!-- Level 0 -->
+
+		<!-- Level 1 -->
+
+		<!-- Level 2 -->
+
+		<!-- Level 3 -->
+
+		<!-- Level 4 -->
+
+		<!-- Level 5 -->
+
+	</UnitPromotionModifiers>
+	<UnitAbilities>
+		<!-- ARMY ARMINIUS COMMENDATIONS -->
+
+
+
+		<!-- ARMY ARMINIUS PROMOTION -->
+
+
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<!-- ARMY ARMINIUS COMMENDATIONS -->
+
+		<!-- ARMY ARMINIUS PROMOTION -->
+
+
+	</UnitAbilityModifiers>
+</Database>
+
