@@ -164,8 +164,9 @@
 
 	<Modifier id="MOD_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_CAPTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_COMBAT_CAPTURE">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
-				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="CanCapture">true</Argument>

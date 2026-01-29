@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_DISCIPLINE_SQUADRON_RICHTHOFEN_NAME">
+			<Text>Richthofen</Text>
+		</Row>
+
+		<!-- Level 0 -->
+
+
+		<!-- Level 1 -->
+
+
+
+
+
+		<!-- Level 2 -->
+
+		<!-- Level 3 -->
+		<Row Tag="LOC_PROMOTION_SQUADRON_RICHTHOFEN_DICTA_BOELCKE_NAME">
+			<Text>Dicta Boelcke</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SQUADRON_RICHTHOFEN_DICTA_BOELCKE_DESCRIPTION">
+			<Text>+3 Combat Strength for Modern Fighter Air Units within the Command Radius when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SQUADRON_RICHTHOFEN_DICTA_BOELCKE_NAME">
+			<Text>Dicta Boelcke</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SQUADRON_RICHTHOFEN_DICTA_BOELCKE_DESCRIPTION">
+			<Text>+{Amount} Combat Strength for Modern Fighter Air Units when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SQUADRON_RICHTHOFEN_DICTA_BOELCKE_PREVIEW">
+			<Text>+{Amount} Dicta Boelcke</Text>
+		</Row>
+		
+		<!-- Level 4 -->
+		<Row Tag="LOC_PROMOTION_SQUADRON_RICHTHOFEN_DER_ROTE_KAMPFFLIEGER_NAME">
+			<Text>Der Rote Kampfflieger</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SQUADRON_RICHTHOFEN_DER_ROTE_KAMPFFLIEGER_DESCRIPTION">
+			<Text>+3 Combat Strength for Modern Fighter Air Units within the Command Radius when defending.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SQUADRON_RICHTHOFEN_DER_ROTE_KAMPFFLIEGER_NAME">
+			<Text>Der Rote Kampfflieger</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SQUADRON_RICHTHOFEN_DER_ROTE_KAMPFFLIEGER_DESCRIPTION">
+			<Text>+{Amount} Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SQUADRON_RICHTHOFEN_DER_ROTE_KAMPFFLIEGER_PREVIEW">
+			<Text>+{Amount} Der Rote Kampfflieger</Text>
+		</Row>
+
+		<!-- Level 5 -->
+		<Row Tag="LOC_PROMOTION_SQUADRON_RICHTHOFEN_FLYING_CIRCUS_NAME">
+			<Text>Flying Circus</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SQUADRON_RICHTHOFEN_FLYING_CIRCUS_DESCRIPTION">
+			<Text>Modern Fighter Air Units within the Command Radius gain +10 Healing in enemy and neutral territory.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SQUADRON_RICHTHOFEN_FLYING_CIRCUS_NAME">
+			<Text>Flying Circus</Text>
+		</Row>
+
+		<!-- Level Comendation -->
+
+	</EnglishText>
+</Database>

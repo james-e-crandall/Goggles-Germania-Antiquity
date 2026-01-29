@@ -99,7 +99,7 @@
                 </ScenarioScripts>
             </Actions>
         </ActionGroup>
-		<ActionGroup id="base-game-main-arminius" scope="game" criteria="always">
+		<ActionGroup id="age-antiquity-persist-arminius" scope="game" criteria="antiquity-age-persist">
 			<Actions>
 				<UpdateIcons>
 					<Item>arminius/data/icons/unit-icons.xml</Item>
@@ -109,10 +109,6 @@
 					<Item>arminius/data/units-gameeffects.xml</Item>
 					<Item>arminius/data/unit-promotions-antiquity.xml</Item>
 					<Item>arminius/data/unit-promotions-gameeffects-antiquity.xml</Item>
-
-					<!-- <Item>arminius/data/unit-promotions-exploration.xml</Item>
-					<Item>arminius/data/unit-promotions-gameeffects-exploration.xml</Item> -->
-
 					<Item>arminius/data/leaders.xml</Item>
 					<Item>arminius/data/leaders-gameeffects.xml</Item>
 				</UpdateDatabase>
@@ -121,6 +117,35 @@
 				</UpdateText>
 				<UIScripts>
 					<Item>arminius/ui/unit-promotion/model-unit-promotion.chunk.js</Item>
+				</UIScripts>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-persist-arminius" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateIcons>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>arminius/data/unit-promotions-exploration.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>arminius/text/en_us/UnitTextExploration.xml</Item>
+				</UpdateText>
+				<UIScripts>
+				</UIScripts>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-persist-arminius" scope="game" criteria="modern-age-persist">
+			<Actions>
+				<UpdateIcons>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>arminius/data/unit-promotions-modern.xml</Item>
+					<Item>arminius/data/unit-promotions-gameeffects-modern.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>arminius/text/en_us/UnitTextModern.xml</Item>
+				</UpdateText>
+				<UIScripts>
 				</UIScripts>
 			</Actions>
 		</ActionGroup>

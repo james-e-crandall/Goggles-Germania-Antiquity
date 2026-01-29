@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Level 0 -->
+
+	<!-- Level 1 -->
+	<Modifier id="MOD_PROMOTION_SQUADRON_RICHTHOFEN_DICTA_BOELCKE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_AIR_FIGHTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_SQUADRON_RICHTHOFEN_DICTA_BOELCKE</Argument>
+	</Modifier>
+	<Modifier id="MOD_ABILITY_SQUADRON_RICHTHOFEN_DICTA_BOELCKE" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING"/>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">LOC_ABILITY_SQUADRON_RICHTHOFEN_DICTA_BOELCKE_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="MOD_PROMOTION_SQUADRON_RICHTHOFEN_DER_ROTE_KAMPFFLIEGER" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_AIR_FIGHTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_SQUADRON_RICHTHOFEN_DER_ROTE_KAMPFFLIEGER</Argument>
+	</Modifier>
+	<Modifier id="MOD_ABILITY_SQUADRON_RICHTHOFEN_DER_ROTE_KAMPFFLIEGER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING">
+				<Argument name="Inverse">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_ABILITY_SQUADRON_RICHTHOFEN_DER_ROTE_KAMPFFLIEGER_PREVIEW</String>
+	</Modifier>
+
+	<!-- Level 2 -->
+
+	<!-- Level 3 -->
+
+	<!-- Level 4 -->
+
+	<Modifier id="MOD_PROMOTION_SQUADRON_RICHTHOFEN_FLYING_CIRCUS" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_AIR_FIGHTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_SQUADRON_RICHTHOFEN_FLYING_CIRCUS</Argument>
+	</Modifier>
+
+	<!-- Level 5 -->
+
+	<!-- Level commendation -->
+
+
+</GameEffects>
