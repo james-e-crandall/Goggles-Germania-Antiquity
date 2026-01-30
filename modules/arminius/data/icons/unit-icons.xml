@@ -2,8 +2,8 @@
 <Database>
 	<IconDefinitions>
         <Row>
-            <ID>UNIT_ARMINIUS_JEC</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_arminius.png</Path>
+            <ID>UNIT_HERMANN_JEC</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_hermann.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 	</IconDefinitions>

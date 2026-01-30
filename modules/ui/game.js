@@ -48,7 +48,7 @@ window.UnitPortraitVisualRemaps = {
         unitType: 'UNIT_TJATY_RAMOSE',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },  
-     'UNIT_ARMINIUS_JEC': { //your unit type
+     'UNIT_HERMANN_JEC': { //your unit type
         unitType: 'UNIT_ARMY_COMMANDER',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },

@@ -38,7 +38,7 @@
 
 	</UnitPromotionDisciplines>
 	<UnitPromotionClassSets>
-		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_SQUADRON_RICHTHOFEN"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_SQUADRON_RICHTHOFEN"/>
 	</UnitPromotionClassSets>
 	<UnitPromotionDisciplineDetails>
 		<!-- ARMY RICHTHOFEN COMMENDATIONS -->

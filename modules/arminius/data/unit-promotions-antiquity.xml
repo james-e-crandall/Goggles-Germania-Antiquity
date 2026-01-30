@@ -61,10 +61,10 @@
 
 	</UnitPromotionDisciplines>
 	<UnitPromotionClassSets>
-		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS_COMMENDATION_HAFTAZ"/>
-		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS_COMMENDATION_FRAMEA"/>
-		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_COMMENDATION_MERIT"/>
-		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS_COMMENDATION_HAFTAZ"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS_COMMENDATION_FRAMEA"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_COMMENDATION_MERIT"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_ARMINIUS"/>
 	</UnitPromotionClassSets>
 	<UnitPromotionDisciplineDetails>
 		<!-- ARMY ARMINIUS COMMENDATIONS -->

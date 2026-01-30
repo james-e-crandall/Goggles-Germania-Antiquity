@@ -46,7 +46,7 @@
 	</GreatPersonIndividuals>
 	<GreatPersonIndividualActionModifiers>
 		<!-- Commander abilities -->
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_SIGIMER" ModifierId="GREAT_PERSON_GRANT_UNIT_ARMINIUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_SIGIMER" ModifierId="GREAT_PERSON_GRANT_UNIT_HERMANN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
 		<!-- Commander promotions -->
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD" ModifierId="GREATPERSON_GRANT_UNIT_PROMOTION_TEUTOBOD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_COMMANDER_IN_TILE"/>
 		<!-- Library -->

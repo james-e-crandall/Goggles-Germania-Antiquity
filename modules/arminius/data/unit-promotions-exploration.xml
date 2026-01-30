@@ -19,8 +19,8 @@
 
 	</UnitPromotionDisciplines>
 	<UnitPromotionClassSets>
-		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO"/>
-		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_COMMENDATION_SERVICE"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_COMMENDATION_SERVICE"/>
 	</UnitPromotionClassSets>
 	<UnitPromotionDisciplineDetails>
 		<!-- ARMY OTTO COMMENDATIONS -->

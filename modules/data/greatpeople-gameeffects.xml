@@ -2,8 +2,8 @@
 <GameEffects xmlns="GameEffects">
 	<!-- Commander abilities -->
 	<!-- SIGIMER -->
-	<Modifier id="GREAT_PERSON_GRANT_UNIT_ARMINIUS" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
-		<Argument name="UnitType">UNIT_ARMINIUS_JEC</Argument>
+	<Modifier id="GREAT_PERSON_GRANT_UNIT_HERMANN" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="UnitType">UNIT_HERMANN_JEC</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 	<!-- TEUTOBOD -->

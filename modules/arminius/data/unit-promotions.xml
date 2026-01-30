@@ -8,7 +8,7 @@
 	<Types>
 		<!-- DISCIPLINE_CLASS -->
 		<!-- PROMOTION_CLASS -->
-		<Row Type="PROMOTION_CLASS_ARMINIUS_COMMANDER" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_CLASS_HERMANN_COMMANDER" Kind="KIND_PROMOTION_CLASS"/>
 		<!-- PROMOTION -->
 
 		<!-- COMMENDATION -->
@@ -16,7 +16,7 @@
 		
 	</Types>
 	<UnitPromotionClasses>
-		<Row PromotionClassType="PROMOTION_CLASS_ARMINIUS_COMMANDER" Name="LOC_PROMOTION_CLASS_LAND_COMMANDER_NAME"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" Name="LOC_PROMOTION_CLASS_LAND_COMMANDER_NAME"/>
 	</UnitPromotionClasses>
 	<UnitPromotionDisciplines>
 
