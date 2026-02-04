@@ -1,7 +1,7 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<Modifier id="HERRENHOFE_GOLD_ON_WAREHOUSE_JEC" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+	<Modifier id="HERRENHOFE_GOLD_ON_WAREHOUSE_JEC" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="Tag">WAREHOUSE</Argument>
 		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">2</Argument>
